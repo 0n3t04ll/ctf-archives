@@ -435,7 +435,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1118/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="Dawg">Dawg</a></td>
+            <td rowspan=3><a href="Dawg">Dawg</a></td>
+            <td><a href="Dawg/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1633/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="Dawg/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1319/tasks/">CTFtime</a></td>
         </tr>
@@ -1013,6 +1017,11 @@ Collection of CTF challenges.
             <td rowspan=1><a href="P.W.N">P.W.N</a></td>
             <td><a href="P.W.N/2018">2018</a></td>
             <td><a href="https://ctftime.org/event/639/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=5><a href="Patriot">Patriot</a></td>
+            <td><a href="Patriot/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1616/tasks/">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=5><a href="PlaidCTF">Plaid</a></td>
