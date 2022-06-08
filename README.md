@@ -615,6 +615,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/623/tasks/">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="GreyCatTheFlag">GreyCatTheFlag</a></td>
+            <td><a href="GreyCatTheFlag/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1643/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=2><a href="CyberGrabs">CyberGrabs</a></td>
             <td><a href="CyberGrabs/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1556/tasks/">CTFtime</a></td>
@@ -645,7 +650,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/485/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="HSCTF">HSCTF</a></td>
+            <td rowspan=4><a href="HSCTF">HSCTF</a></td>
+            <td><a href="HSCTF/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1627/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="HSCTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1264/tasks/">CTFtime</a></td>
         </tr>
