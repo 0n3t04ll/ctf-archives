@@ -612,7 +612,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1341/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="GoogleCTF">Google</a></td>
+            <td rowspan=5><a href="GoogleCTF">Google</a></td>
+            <td><a href="GoogleCTF/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1641/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="GoogleCTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1318/tasks/">CTFtime</a></td>
         </tr>
@@ -1131,6 +1135,11 @@ Collection of CTF challenges.
             <td rowspan=1><a href="PwnThyBytes">PwnThyBytes</a></td>
             <td><a href="PwnThyBytes/2019">2019</a></td>
             <td><a href="https://ctftime.org/event/756/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="Pwnme">Pwnme</a></td>
+            <td><a href="Pwnme/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1691/tasks/">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=4><a href="RCTF">RCTF</a></td>
@@ -1823,6 +1832,11 @@ Collection of CTF challenges.
         <tr>
             <td><a href="vishwa/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1286/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="vsCTF">vsCTF</a></td>
+            <td><a href="vsCTF/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1658/tasks/">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=1><a href="watevrCTF">watevr</a></td>
