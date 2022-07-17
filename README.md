@@ -383,7 +383,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/542/tasks/">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/Codegate/2018/Quals">PersianCats</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="Crypto">Crypto</a></td>
+            <td rowspan=2><a href="Crypto">Crypto</a></td>
+            <td><a href="Crypto/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1573/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="Crypto/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1258/tasks/">CTFtime</a></td>
         </tr>
@@ -836,7 +840,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/642/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="Imaginary">Imaginary</a></td>
+            <td rowspan=2><a href="Imaginary">Imaginary</a></td>
+            <td><a href="Imaginary/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1670/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="Imaginary/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1344/tasks/">CTFtime</a></td>
         </tr>
