@@ -420,6 +420,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1554/tasks/">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="BDSec">BDSec</a></td>
+            <td><a href="BDSec/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1699/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="DCTF">DCTF</a></td>
             <td><a href="DCTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1361/tasks/">CTFtime</a></td>
@@ -557,6 +562,11 @@ Collection of CTF challenges.
         <tr>
             <td><a href="Dragon/2018/Quals">2018 Quals</a></td>
             <td><a href="https://ctftime.org/event/648/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="EBCTF">EBCTF</a></td>
+            <td><a href="EBCTF/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1696/tasks/">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=1><a href="Engineer">Engineer</a></td>
@@ -928,7 +938,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1269/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="LIT">LIT</a></td>
+            <td rowspan=2><a href="LIT">LIT</a></td>
+            <td><a href="LIT/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1694/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="LIT/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1398/tasks/">CTFtime</a></td>
         </tr>
@@ -1819,7 +1833,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1121/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="redpwn">redpwn</a></td>
+            <td rowspan=3><a href="redpwn">redpwn</a></td>
+            <td><a href="redpwn/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1706/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="redpwn/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1327/tasks/">CTFtime</a></td>
         </tr>
