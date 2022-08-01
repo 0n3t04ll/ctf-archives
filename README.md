@@ -111,7 +111,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1652/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="Aero">Aero</a></td>
+            <td rowspan=3><a href="Aero">Aero</a></td>
+            <td><a href="Aero/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1659/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="Aero/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1224/tasks/">CTFtime</a></td>
         </tr>
@@ -1539,12 +1543,21 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1390/tasks/">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="UACTF">UACTF</a></td>
+            <td><a href="UACTF/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1709/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="UACWS">UACWS</a></td>
             <td><a href="UACWS/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1674/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="UIUCTF">UIUCTF</a></td>
+            <td rowspan=4><a href="UIUCTF">UIUCTF</a></td>
+            <td><a href="UIUCTF/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1600/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="UIUCTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1372/tasks/">CTFtime</a></td>
         </tr>
