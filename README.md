@@ -10,7 +10,11 @@ Collection of CTF challenges.
     </thead>
     <tbody>
         <tr>
-            <td rowspan=6><a href="0CTF">0CTF</a></td>
+            <td rowspan=7><a href="0CTF">0CTF</a></td>
+            <td><a href="0CTF/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1717/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="0CTF/2021/Quals">2021 Quals</a></td>
             <td><a href="https://ctftime.org/event/1356/tasks/">CTFtime</a></td>
         </tr>
@@ -1284,6 +1288,11 @@ Collection of CTF challenges.
         <tr>
             <td><a href="SCTF/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1068/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=4><a href="SEC-T">SEC-T</a></td>
+            <td><a href="SEC-T/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1761/tasks/">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=4><a href="SECCON">SECCON</a></td>
