@@ -262,6 +262,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1065/tasks/">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="BlackhatMEA">BlackhatMEA</a></td>
+            <td><a href="BlackhatMEA/2022/Quals">2022</a></td>
+            <td><a href="https://ctftime.org/event/1733/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=2><a href="Blaze">Blaze</a></td>
             <td><a href="Blaze/2019">2019</a></td>
             <td><a href="https://ctftime.org/event/790/tasks/">CTFtime</a></td>
@@ -568,7 +573,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1459/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="DownUnderCTF">DownUnder</a></td>
+            <td rowspan=3><a href="DownUnderCTF">DownUnder</a></td>
+            <td><a href="DownUnderCTF/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1625/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="DownUnderCTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1312/tasks/">CTFtime</a></td>
         </tr>
@@ -973,6 +982,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1398/tasks/">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="LakeCTF">LakeCTF</a></td>
+            <td><a href="LakeCTF/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1728/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=2><a href="Layer7">Layer7</a></td>
             <td><a href="Layer7/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1179/tasks/">CTFtime</a></td>
@@ -1338,6 +1352,11 @@ Collection of CTF challenges.
             <td rowspan=1><a href="SUSCTF">SUSCTF</a></td>
             <td><a href="SUSCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1566/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="Sekai">Sekai</a></td>
+            <td><a href="Sekai/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1619/tasks/">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=4><a href="Securinets">Securinets</a></td>
@@ -1710,7 +1729,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1391/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="WPICTF">WPICTF</a></td>
+            <td rowspan=5><a href="WPICTF">WPICTF</a></td>
+            <td><a href="WPICTF/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1743/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="WPICTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1208/tasks/">CTFtime</a></td>
         </tr>
