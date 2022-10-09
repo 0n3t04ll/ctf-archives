@@ -432,7 +432,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1012/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="CyberSecurityRumble">CyberSecurityRumble</a></td>
+            <td rowspan=3><a href="CyberSecurityRumble">CyberSecurityRumble</a></td>
+            <td><a href="CyberSecurityRumble/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1665/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="CyberSecurityRumble/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1429/tasks/">CTFtime</a></td>
         </tr>
@@ -654,6 +658,11 @@ Collection of CTF challenges.
             <td rowspan=1><a href="GACTF">GACTF</a></td>
             <td><a href="GACTF/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1115/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="GDGAlgiers">GDGAlgiers</a></td>
+            <td><a href="GDGAlgiers/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1745/tasks/">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=1><a href="GLSC">Great Lakes Security Conference</a></td>
@@ -1451,6 +1460,11 @@ Collection of CTF challenges.
         <tr>
             <td><a href="Sunshine/2019">2019</a></td>
             <td><a href="https://ctftime.org/event/767/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="Srdnlen">Srdnlen</a></td>
+            <td><a href="Srdnlen/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1766/tasks/">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=1><a href="SyskronSecurity">Syskron Security</a></td>
