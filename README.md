@@ -294,7 +294,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1303/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="Buckeye">Buckeye</a></td>
+            <td rowspan=2><a href="Buckeye">Buckeye</a></td>
+            <td><a href="Buckeye/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1740/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="Buckeye/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1434/tasks/">CTFtime</a></td>
         </tr>
@@ -775,7 +779,6 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1727/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="Hack.lu">Hack.lu</a></td>
             <td><a href="Hack.lu/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1452/tasks/">CTFtime</a></td>
         </tr>
@@ -830,7 +833,7 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1029/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="HackersPlayground">Hacker's Playground</a></td>
+            <td rowspan=2><a href="HackersPlayground">Hacker's Playground</a></td>
             <td><a href="HackersPlayground/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1396/tasks/">CTFtime</a></td>
         </tr>
@@ -1051,6 +1054,7 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1138/tasks/">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="MeePwn">MeePwn</a></td>
             <td><a href="MeePwn/2018/Quals">2018 Quals</a></td>
             <td><a href="https://ctftime.org/event/625/tasks/">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/MeePwn/2018/Quals">PersianCats</a></td>
         </tr>
@@ -1091,7 +1095,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/751/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="N1CTF">N1CTF</a></td>
+            <td rowspan=5><a href="N1CTF">N1CTF</a></td>
+            <td><a href="N1CTF/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1759/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="N1CTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1367/tasks/">CTFtime</a></td>
         </tr>
@@ -1188,7 +1196,7 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1719/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=5><a href="Patriot">Patriot</a></td>
+            <td rowspan=1><a href="Patriot">Patriot</a></td>
             <td><a href="Patriot/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1616/tasks/">CTFtime</a></td>
         </tr>
@@ -1341,7 +1349,7 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1068/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="SEC-T">SEC-T</a></td>
+            <td rowspan=1><a href="SEC-T">SEC-T</a></td>
             <td><a href="SEC-T/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1761/tasks/">CTFtime</a></td>
         </tr>
@@ -1960,6 +1968,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1025/tasks/">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="p4ctf">p4ctf</a></td>
+            <td><a href="p4ctf/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1793/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=2><a href="pbctf">perfect blue</a></td>
             <td><a href="pbctf/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1371/tasks/">CTFtime</a></td>
@@ -2020,8 +2033,8 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1555/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="zer0pts">zer0pts</a></td>
             <td><a href="zer0pts/2021">2021</a></td>
+            <td><a href="https://ctftime.org/event/1256/tasks/">CTFtime</a></td>
         </tr>
         <tr>
             <td><a href="zer0pts/2020">2020</a></td>
