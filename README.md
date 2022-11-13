@@ -326,7 +326,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/544/tasks/">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/C3CTF/2017">PersianCats</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="COMPFEST">COMPFEST</a></td>
+            <td rowspan=3><a href="COMPFEST">COMPFEST</a></td>
+            <td><a href="COMPFEST/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1811/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="COMPFEST/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1358/tasks/">CTFtime</a></td>
         </tr>
@@ -903,7 +907,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/763/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ISITDTU">ISITDTU</a></td>
+            <td rowspan=4><a href="ISITDTU">ISITDTU</a></td>
+            <td><a href="ISITDTU/2022/Quals">2022 Quals</a></td>
+            <td><a href="https://ctftime.org/event/1757/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ISITDTU/2021/Quals">2021 Quals</a></td>
             <td><a href="https://ctftime.org/event/1464/tasks/">CTFtime</a></td>
         </tr>
@@ -1354,7 +1362,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1761/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="SECCON">SECCON</a></td>
+            <td rowspan=5><a href="SECCON">SECCON</a></td>
+            <td><a href="SECCON/2022/Quals">2022</a></td>
+            <td><a href="https://ctftime.org/event/1764/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="SECCON/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1458/tasks/">CTFtime</a></td>
         </tr>
@@ -1951,7 +1963,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/874/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="m0leCon">m0leCon</a></td>
+            <td rowspan=5><a href="m0leCon">m0leCon</a></td>
+            <td><a href="m0leCon/2022/Beginner">2022 Beginner</a></td>
+            <td><a href="https://ctftime.org/event/1813/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="m0leCon/2022/Quals">2022 Quals</a></td>
             <td><a href="https://ctftime.org/event/1615/tasks/">CTFtime</a></td>
         </tr>
