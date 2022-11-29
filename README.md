@@ -692,6 +692,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1341/tasks/">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="Glacier">Glacier</a></td>
+            <td><a href="Glacier/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1803/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=5><a href="GoogleCTF">Google</a></td>
             <td><a href="GoogleCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1641/tasks/">CTFtime</a></td>
@@ -727,7 +732,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1353/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=5><a href="HITCON">HITCON</a></td>
+            <td rowspan=6><a href="HITCON">HITCON</a></td>
+            <td><a href="HITCON/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1772/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="HITCON/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1460/tasks/">CTFtime</a></td>
         </tr>
@@ -1081,7 +1090,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1106/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="MetaRed">MetaRed</a></td>
+            <td rowspan=2><a href="MetaRed">MetaRed</a></td>
+            <td><a href="MetaRed/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1750/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="MetaRed/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1420/tasks/">CTFtime</a></td>
         </tr>
@@ -1132,6 +1145,11 @@ Collection of CTF challenges.
             <td rowspan=1><a href="NITECTF">NITECTF</a></td>
             <td><a href="NITECTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1449/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="NOESCAPE">NOESCAPE</a></td>
+            <td><a href="NOESCAPE/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1822/tasks/">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=3><a href="NahamCon">NahamCon</a></td>
