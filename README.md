@@ -185,6 +185,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/700/tasks/">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/BSidesDelhi/2018">PersianCats</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="BSidesMumbai">BSides Mumbai</a></td>
+            <td><a href="BSidesMumbai/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1800/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="BSidesNoida">BSides Noida</a></td>
             <td><a href="BSidesNoida/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1397/tasks/">CTFtime</a></td>
@@ -225,7 +230,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1660/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="Backdoor">Backdoor</a></td>
+            <td rowspan=2><a href="Backdoor">Backdoor</a></td>
+            <td><a href="Backdoor/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1796/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="Backdoor/2019">2019</a></td>
             <td><a href="https://ctftime.org/event/850/tasks/">CTFtime</a></td>
         </tr>
@@ -1167,7 +1176,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1822/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="NahamCon">NahamCon</a></td>
+            <td rowspan=4><a href="NahamCon">NahamCon</a></td>
+            <td><a href="NahamCon/2022-EU">2022-EU</a></td>
+            <td><a href="https://ctftime.org/event/1843/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="NahamCon/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1630/tasks/">CTFtime</a></td>
         </tr>
@@ -1304,7 +1317,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1691/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="RCTF">RCTF</a></td>
+            <td rowspan=5><a href="RCTF">RCTF</a></td>
+            <td><a href="RCTF/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1806/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="RCTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1413/tasks/">CTFtime</a></td>
         </tr>
@@ -1890,7 +1907,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1612/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="X-MAS">X-MAS</a></td>
+            <td rowspan=4><a href="X-MAS">X-MAS</a></td>
+            <td><a href="X-MAS/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1787/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="X-MAS/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1520/tasks/">CTFtime</a></td>
         </tr>
@@ -2041,6 +2062,11 @@ Collection of CTF challenges.
         <tr>
             <td><a href="pbctf/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1121/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="pingCTF">pingCTF</a></td>
+            <td><a href="pingCTF/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1769/tasks/">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=3><a href="redpwn">redpwn</a></td>
