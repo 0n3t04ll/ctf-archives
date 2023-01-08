@@ -1005,6 +1005,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1454/tasks/">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="Iris">Iris</a></td>
+            <td><a href="Iris/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1774/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="Jade">Jade</a></td>
             <td><a href="Jade/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1791/tasks/">CTFtime</a></td>
@@ -1391,12 +1396,20 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1167/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="RealWorldCTF">Real World</a></td>
-            <td><a href="RealWorldCTF/2021">2021</a></td>
+            <td rowspan=4><a href="RealWorld">Real World</a></td>
+            <td><a href="RealWorld/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1797/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="RealWorld/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1507/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="RealWorld/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1198/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td><a href="RealWorldCTF/2019/Quals">2019 Quals</a></td>
+            <td><a href="RealWorld/2019/Quals">2019 Quals</a></td>
             <td><a href="https://ctftime.org/event/841/tasks/">CTFtime</a></td>
         </tr>
         <tr>
