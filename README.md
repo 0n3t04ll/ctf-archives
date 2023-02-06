@@ -316,7 +316,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1434/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ByteBandits">Byte Bandits</a></td>
+            <td rowspan=2><a href="ByteBandits">Byte Bandits</a></td>
+            <td><a href="ByteBandits/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1877/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ByteBandits/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1022/tasks/">CTFtime</a></td>
         </tr>
@@ -593,7 +597,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1060/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="DiceCTF">Dice</a></td>
+            <td rowspan=3><a href="DiceCTF">Dice</a></td>
+            <td><a href="DiceCTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1838/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="DiceCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1541/tasks/">CTFtime</a></td>
         </tr>
