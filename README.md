@@ -520,7 +520,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/608/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="DaVinci">DaVinci</a></td>
+            <td rowspan=3><a href="DaVinci">DaVinci</a></td>
+            <td><a href="DaVinci/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1858/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="DaVinci/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1559/tasks/">CTFtime</a></td>
         </tr>
@@ -799,7 +803,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/821/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="HXP">HXP</a></td>
+            <td rowspan=4><a href="HXP">HXP</a></td>
+            <td><a href="HXP/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1845/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="HXP/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1447/tasks/">CTFtime</a></td>
         </tr>
@@ -1452,6 +1460,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/886/tasks/">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="Rush">Rush</a></td>
+            <td><a href="Rush/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1913/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="S4CTF">S4CTF</a></td>
             <td><a href="S4CTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1329/tasks/">CTFtime</a></td>
@@ -1513,6 +1526,11 @@ Collection of CTF challenges.
         <tr>
             <td><a href="SPbCTF/2020/Quals">2020 Quals</a></td>
             <td><a href="https://ctftime.org/event/1188/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="SpringForward">SpringForward</a></td>
+            <td><a href="SpringForward/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1927/tasks/">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=1><a href="SUSCTF">SUSCTF</a></td>
@@ -1775,6 +1793,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/651/tasks/">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="TrellixHAX">TrellixHAX</a></td>
+            <td><a href="TrellixHAX/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1882/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="TrollCAT">TrollCAT</a></td>
             <td><a href="TrollCAT/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1257/tasks/">CTFtime</a></td>
@@ -1843,7 +1866,11 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/1282/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="UTCTF">UTCTF</a></td>
+            <td rowspan=5><a href="UTCTF">UTCTF</a></td>
+            <td><a href="UTCTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1919/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="UTCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1582/tasks/">CTFtime</a></td>
         </tr>
