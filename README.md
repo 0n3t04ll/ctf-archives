@@ -1,4 +1,4 @@
-Collection of CTF challenges.
+"Collection of CTF challenges.
 
 <table>
     <thead>
@@ -1992,9 +1992,18 @@ Collection of CTF challenges.
             <td><a href="https://ctftime.org/event/656/tasks/">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/WhiteHat/2018/Quals">PersianCats</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="WolvSecCon">WolvSecCon</a></td>
-            <td><a href="WolvSecCon/2022">2022</a></td>
+            <td rowspan=2><a href="WolvCTF">WolvCTF</a></td>
+            <td><a href="WolvCTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1866/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="WolvCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1612/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="WxMCTF">WxMCTF</a></td>
+            <td><a href="WxMCTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1911/tasks/">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=4><a href="X-MAS">X-MAS</a></td>
