@@ -49,6 +49,11 @@
             <td><a href="https://ctftime.org/event/1248/tasks/">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="24h">24h</a></td>
+            <td><a href="24h/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1968/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="1337UP">1337UP</a></td>
             <td><a href="1337UP/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1597/tasks/">CTFtime</a></td>
@@ -865,7 +870,11 @@
             <td><a href="https://ctftime.org/event/652/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="HackPack">HackPack</a></td>
+            <td rowspan=4><a href="HackPack">HackPack</a></td>
+            <td><a href="HackPack/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1893/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="HackPack/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1620/tasks/">CTFtime</a></td>
         </tr>
@@ -1188,6 +1197,11 @@
             <td><a href="https://ctftime.org/event/1420/tasks/">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="MidnightFlag">Midnight Flag</a></td>
+            <td><a href="MidnightFlag/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1947/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=4><a href="MidnightSun">Midnight Sun</a></td>
             <td><a href="MidnightSun/2022/Quals">2022 Quals</a></td>
             <td><a href="https://ctftime.org/event/1474/tasks/">CTFtime</a></td>
@@ -1328,7 +1342,11 @@
             <td><a href="https://ctftime.org/event/1616/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=5><a href="PlaidCTF">Plaid</a></td>
+            <td rowspan=6><a href="PlaidCTF">Plaid</a></td>
+            <td><a href="PlaidCTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1770/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="PlaidCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1542/tasks/">CTFtime</a></td>
         </tr>
@@ -1800,6 +1818,11 @@
         <tr>
             <td><a href="TetCTF/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/955/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="TexSAW">TexSAW</a></td>
+            <td><a href="TexSAW/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1959/tasks/">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=3><a href="TokyoWesterns">TokyoWesterns</a></td>
