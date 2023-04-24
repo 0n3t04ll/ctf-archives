@@ -1632,7 +1632,11 @@
             <td><a href="https://ctftime.org/event/970/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="SpaceHeroes">SpaceHeroes</a></td>
+            <td rowspan=2><a href="SpaceHeroes">SpaceHeroes</a></td>
+            <td><a href="SpaceHeroes/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1856/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="SpaceHeroes/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1567/tasks/">CTFtime</a></td>
         </tr>
@@ -2082,7 +2086,11 @@
             <td><a href="https://ctftime.org/event/1285/tasks/">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=5><a href="angstrom">angstrom</a></td>
+            <td rowspan=6><a href="angstrom">angstrom</a></td>
+            <td><a href="angstrom/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1859/tasks/">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="angstrom/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1588/tasks/">CTFtime</a></td>
         </tr>
