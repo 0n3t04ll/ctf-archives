@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+import tempfile
+import re
+
+def get_challenge_name(arg):
+  chal_name = '_'.join(re.sub('[^0-9a-zA-Z_\- ]+', '', arg).strip().split())
+  print(chal_name)
+  return chal_name
+
+archive_filename = sys.argv[1]
+
+if len(sys.argv) > 2:
+  dst_dir = get_challenge_name(sys.argv[2])
+else:
+  dst_dir = re.sub('^(pwn|rev|cry|web)-', '', archive_filename)
+
+os.system('mkdir "%s"' % dst_dir)
+
+with tempfile.TemporaryDirectory() as tmp_path:
+  if archive_filename.endswith('.zip'):
+    os.system('unzip -d %s "%s"' % (tmp_path, archive_filename))
+
+  os.system('rm -rf `find %s -name __MACOSX`' % tmp_path)
+
+  final_path = tmp_path
+  while True:
+    children = os.listdir(final_path)
+    if len(children) == 0 or len(children) > 1:
+      break
+
+    child_path = os.path.join(final_path, children[0])
+
+    if not os.path.isdir(child_path):
+      break
+
+    final_path = child_path
+
+  os.system('mv %s/* %s' % (final_path, dst_dir))
+
