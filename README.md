@@ -967,7 +967,11 @@
             <td><a href="https://ctftime.org/event/1553/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="ctfs/Hero">Hero</a></td>
+            <td rowspan=3><a href="ctfs/Hero">Hero</a></td>
+            <td><a href="ctfs/Hero/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1951/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/Hero/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1663/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1055,6 +1059,11 @@
             <td rowspan=1><a href="ctfs/InfoSec">InfoSec</a></td>
             <td><a href="ctfs/InfoSec/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1823/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/IngonyamaZK">IngonyamaZK</a></td>
+            <td><a href="ctfs/IngonyamaZK/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1996/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=3><a href="ctfs/InsomniHack">Insomni'hack</a></td>
@@ -2240,7 +2249,11 @@
             <td><a href="https://ctftime.org/event/874/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=5><a href="ctfs/m0leCon">m0leCon</a></td>
+            <td rowspan=6><a href="ctfs/m0leCon">m0leCon</a></td>
+            <td><a href="ctfs/m0leCon/2023/Quals">2023 Quals</a></td>
+            <td><a href="https://ctftime.org/event/1898/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/m0leCon/2022/Beginner">2022 Beginner</a></td>
             <td><a href="https://ctftime.org/event/1813/tasks/" target="_blank">CTFtime</a></td>
         </tr>
