@@ -8,14 +8,23 @@ import time
 import tempfile
 import shutil
 
-def is_points_or_solves(line):
+def is_valid(line):
   if line.lower().startswith('points:') or line.lower().startswith('solves:'):
-    return True
+    return False
 
   if 'points' in line.lower() and 'solves' in line.lower():
-    return True
+    return False
 
-  return False
+  if line.strip().isnumeric():
+    return False
+
+  if all(not l.isalnum() for l in line.strip()):
+    return False
+
+  if line.strip().lower() in ['web', 're', 'rev', 'pwn', 'crypto']:
+    return False
+
+  return True
 
 def get_challenge_name(args):
   tokens = []
@@ -37,13 +46,10 @@ if __name__ == '__main__':
   chal_name = get_challenge_name(lines[0].strip().split('/')[-1].strip().split())
 
   lines = '\n'.join(lines[1:]).strip().split('\n')
-  lines = [l for l in lines if not is_points_or_solves(l)]
+  lines = [l for l in lines if is_valid(l)]
 
   shutil.rmtree(chal_name, ignore_errors=True)
   os.mkdir(chal_name)
-
-  with open('%s/README.md' % chal_name, 'w') as f:
-    f.write('\n'.join(lines[0:]).strip() + '\n')
 
   for f in files:
     with tempfile.TemporaryDirectory() as tmp_path:
@@ -53,6 +59,10 @@ if __name__ == '__main__':
           continue
       elif f.endswith('.tar.gz') or f.endswith('.tgz'):
         if os.system('tar xzvf "%s" -C "%s"' % (f, tmp_path)) != 0:
+          os.system('mv "%s" "%s"' % (f, chal_name))
+          continue
+      elif f.endswith('.7z'):
+        if os.system('7z x "%s" -o"%s"' % (f, tmp_path)) != 0:
           os.system('mv "%s" "%s"' % (f, chal_name))
           continue
       else:
@@ -76,6 +86,12 @@ if __name__ == '__main__':
 
       os.system('mv `find "%s" -name "*" -depth 1` "%s"' % (final_path, chal_name))
       os.remove(f)
+
+  readme = ''
+  if os.path.exists('%s/README.md' % chal_name):
+    readme = open('%s/README.md' % chal_name).read()
+  readme = '\n'.join(lines[0:]).strip() + '\n' + '\n\n' + readme
+  open('%s/README.md' % chal_name, 'w').write(readme.strip() + '\n')
 
   print('\n\n+++++++++++++++++++++++++++++++++++++++++++++++')
   print(chal_name)
