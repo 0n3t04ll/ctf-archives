@@ -62,6 +62,11 @@
             <td><a href="https://ctftime.org/event/1077/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/4N0NYM0US3">4N0NYM0US3</a></td>
+            <td><a href="ctfs/4N0NYM0US3/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2028/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/ADDA">ADDA</a></td>
             <td><a href="ctfs/ADDA/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1736/tasks/" target="_blank">CTFtime</a></td>
@@ -198,6 +203,11 @@
         <tr>
             <td><a href="ctfs/BSidesDelhi/2018">2018</a></td>
             <td><a href="https://ctftime.org/event/700/tasks/" target="_blank">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/BSidesDelhi/2018">PersianCats</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/BSidesIndore">BSides Indore</a></td>
+            <td><a href="ctfs/BSidesIndore/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2017/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=1><a href="ctfs/BSidesMumbai">BSides Mumbai</a></td>
@@ -458,7 +468,11 @@
             <td><a href="https://ctftime.org/event/636/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/Codegate">Codegate</a></td>
+            <td rowspan=4><a href="ctfs/Codegate">Codegate</a></td>
+            <td><a href="ctfs/Codegate/2023/Quals">2023 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2006/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/Codegate/2022/Quals">2022 Quals</a></td>
             <td><a href="https://ctftime.org/event/1538/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1335,7 +1349,11 @@
             <td><a href="https://ctftime.org/event/1822/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="ctfs/NahamCon">NahamCon</a></td>
+            <td rowspan=5><a href="ctfs/NahamCon">NahamCon</a></td>
+            <td><a href="ctfs/NahamCon/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2023/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/NahamCon/2022-EU">2022-EU</a></td>
             <td><a href="https://ctftime.org/event/1843/tasks/" target="_blank">CTFtime</a></td>
         </tr>
