@@ -494,7 +494,16 @@
             <td><a href="https://ctftime.org/event/542/tasks/" target="_blank">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/Codegate/2018/Quals">PersianCats</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="ctfs/Crypto">Crypto</a></td>
+            <td rowspan=1><a href="ctfs/CrewCTF">CrewCTF</a></td>
+            <td><a href="ctfs/CrewCTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2032/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=3><a href="ctfs/Crypto">Crypto</a></td>
+            <td><a href="ctfs/Crypto/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1857/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/Crypto/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1573/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -521,7 +530,11 @@
             <td><a href="https://ctftime.org/event/1012/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/CyberSecurityRumble">CyberSecurityRumble</a></td>
+            <td rowspan=4><a href="ctfs/CyberSecurityRumble">CyberSecurityRumble</a></td>
+            <td><a href="ctfs/CyberSecurityRumble/2023/Quals">2023</a></td>
+            <td><a href="https://ctftime.org/event/1942/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/CyberSecurityRumble/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1665/tasks/" target="_blank">CTFtime</a></td>
         </tr>
