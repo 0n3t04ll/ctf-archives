@@ -9,7 +9,7 @@ import tempfile
 import shutil
 
 def is_valid(line):
-  if re.search('\d+[ \t]+points', line):
+  if re.search('\d+[ \t]+points', line) or re.search('\d+[ \t]+solves', line):
     return False
 
   if re.search('\d+pt', line):
@@ -27,7 +27,7 @@ def is_valid(line):
   if all(not l.isalnum() for l in line.strip()):
     return False
 
-  if line.strip().lower() in ['web', 're', 'rev', 'pwn', 'crypto', 'misc', 'tags', 'description', 'cry']:
+  if line.strip().lower() in ['web', 're', 'rev', 'pwn', 'crypto', 'misc', 'tags', 'description', 'cry', 'pts', 'solves']:
     return False
 
   return True
