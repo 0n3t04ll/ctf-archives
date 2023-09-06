@@ -745,7 +745,11 @@
             <td><a href="https://ctftime.org/event/1459/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/DownUnderCTF">DownUnder</a></td>
+            <td rowspan=4><a href="ctfs/DownUnderCTF">DownUnder</a></td>
+            <td><a href="ctfs/DownUnderCTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1954/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/DownUnderCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1625/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1743,8 +1747,12 @@
             <td><a href="https://ctftime.org/event/1910/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/Sekai">Sekai</a></td>
-            <td><a href="ctfs/Sekai/2022">2022</a></td>
+            <td rowspan=2><a href="ctfs/SekaiCTF">SekaiCTF</a></td>
+            <td><a href="ctfs/SekaiCTF/2022">2023</a></td>
+            <td><a href="https://ctftime.org/event/1923/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/SekaiCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1619/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
@@ -2158,6 +2166,11 @@
             <td><a href="https://ctftime.org/event/1246/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/Urmia">Urmia</a></td>
+            <td><a href="ctfs/Urmia/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2067/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=2><a href="ctfs/VULNCON">VULNCON</a></td>
             <td><a href="ctfs/VULNCON/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1469/tasks/" target="_blank">CTFtime</a></td>
@@ -2192,6 +2205,11 @@
         <tr>
             <td><a href="ctfs/VolgaCTF/2018/Quals">2018 Quals</a></td>
             <td><a href="https://ctftime.org/event/539/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/WACON">WACON</a></td>
+            <td><a href="ctfs/WACON/2023/Quals">2023 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2076/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=2><a href="ctfs/WMCTF">WMCTF</a></td>
