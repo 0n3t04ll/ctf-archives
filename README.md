@@ -431,7 +431,11 @@
             <td><a href="https://ctftime.org/event/960/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=6><a href="ctfs/CSAW">CSAW</a></td>
+            <td rowspan=7><a href="ctfs/CSAW">CSAW</a></td>
+            <td><a href="ctfs/CSAW/2023/Quals">2023 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2087/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/CSAW/2022/Quals">2022 Quals</a></td>
             <td><a href="https://ctftime.org/event/1613/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1539,6 +1543,11 @@
             <td><a href="https://ctftime.org/event/617/tasks/" target="_blank">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/PlaidCTF/2018">PersianCats</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/PointerOverflow">PointerOverflow</a></td>
+            <td><a href="ctfs/PointerOverflow/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2026/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/PoseidonCTF">Poseidon</a></td>
             <td><a href="ctfs/PoseidonCTF/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1049/tasks/" target="_blank">CTFtime</a></td>
@@ -1701,8 +1710,12 @@
             <td><a href="https://ctftime.org/event/1761/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=5><a href="ctfs/SECCON">SECCON</a></td>
-            <td><a href="ctfs/SECCON/2022/Quals">2022</a></td>
+            <td rowspan=6><a href="ctfs/SECCON">SECCON</a></td>
+            <td><a href="ctfs/SECCON/2023/Quals">2023 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2003/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/SECCON/2022/Quals">2022 Quals</a></td>
             <td><a href="https://ctftime.org/event/1764/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
