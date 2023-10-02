@@ -378,12 +378,16 @@
             <td><a href="https://ctftime.org/event/1892/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="ctfs/Buckeye">Buckeye</a></td>
-            <td><a href="ctfs/Buckeye/2022">2022</a></td>
+            <td rowspan=3><a href="ctfs/BuckeyeCTF">BuckeyeCTF</a></td>
+            <td><a href="ctfs/BuckeyeCTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2074/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/BuckeyeCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1740/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td><a href="ctfs/Buckeye/2021">2021</a></td>
+            <td><a href="ctfs/BuckeyeCTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1434/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
@@ -1373,7 +1377,11 @@
             <td><a href="https://ctftime.org/event/625/tasks/" target="_blank">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/MeePwn/2018/Quals">PersianCats</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/MapleCTF">MapleCTF</a></td>
+            <td rowspan=2><a href="ctfs/MapleCTF">MapleCTF</a></td>
+            <td><a href="ctfs/MapleCTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2038/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/MapleCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1676/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2043,6 +2051,11 @@
         <tr>
             <td><a href="ctfs/Tasteless/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1124/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/TeamItaly">TeamItaly</a></td>
+            <td><a href="ctfs/TeamItaly/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2088/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=2><a href="ctfs/Tenable">Tenable</a></td>

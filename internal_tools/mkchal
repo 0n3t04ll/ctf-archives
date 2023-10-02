@@ -34,7 +34,10 @@ def is_valid(line):
   if 'points' in line.lower() and 'solves' in line.lower():
     return False
 
-  if line.strip().isnumeric():
+  is_all_numeric = True
+  for l in line.strip().split():
+    is_all_numeric = is_all_numeric and l.strip().isnumeric()
+  if is_all_numeric:
     return False
 
   if line.strip().lower() in ['welcome', 'expert', 'beginner', 'web', 're', 'rev', 'reverse', 'reversing', 'pwn', 'crypto', 'misc', 'tags', 'description', 'cry', 'pts', 'solves', 'description', 'warmup', 'easy', 'medium', 'hard', 'insane', 'forensics', 'forensic', 'score', 'cryptography', 'submit flag', 'binary', 'steganography']:
@@ -60,8 +63,15 @@ def is_valid(line):
 
   return True
 
+def replace_unicode_with_ascii(line):
+  return line.replace(u'\u1d2c', 'A').replace(u'\u1d64', 'U')
+
 def get_challenge_name(line):
-  args = re.sub('(\d+ solves|\d+ pts)', '', line.strip().split('/')[-1]).strip().split()
+  for original_name in reversed(line.strip().split('/')):
+    if original_name not in ['beginner', 'medium', 'hard', 'easy']:
+      break
+
+  args = re.sub('(\d+ solves|\d+ pts)', '', original_name.strip()).strip().split()
 
   tokens = []
   for a in args:
@@ -70,15 +80,8 @@ def get_challenge_name(line):
   return '_'.join(tokens)
 
 if __name__ == '__main__':
-  # find all the files downloaded in the past 60 seconds
-  download_dir = os.path.expanduser('~/Downloads')
-  files = set()
-  for f in os.listdir(download_dir):
-    if time.time() - os.path.getmtime(os.path.join(download_dir, f)) <= 60:
-      files.add(os.path.join(download_dir, f))
-
   # create challenge directory
-  lines = '\n'.join([re.sub(r'(\d+[ \t]+points|\d+pts)', r'\n\1', l.strip('\n')) for l in sys.stdin.readlines()]).strip().split('\n')
+  lines = '\n'.join([re.sub(r'(\d+[ \t]+points|\d+pts)', r'\n\1', replace_unicode_with_ascii(l).strip('\n')) for l in sys.stdin.readlines()]).strip().split('\n')
   chal_name = get_challenge_name(lines[0])
 
   lines = '\n'.join(lines[1:]).strip().split('\n')
@@ -86,6 +89,13 @@ if __name__ == '__main__':
 
   shutil.rmtree(chal_name, ignore_errors=True)
   os.mkdir(chal_name)
+
+  # find all the files downloaded in the past 60 seconds
+  download_dir = os.path.expanduser('~/Downloads')
+  files = set()
+  for f in os.listdir(download_dir):
+    if time.time() - os.path.getmtime(os.path.join(download_dir, f)) <= 60:
+      files.add(os.path.join(download_dir, f))
 
   for f in files:
     with tempfile.TemporaryDirectory() as tmp_path:
