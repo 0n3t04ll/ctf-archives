@@ -359,6 +359,11 @@
             <td><a href="https://ctftime.org/event/591/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/BlockHarborAutomotive">BlockHarborAutomotive</a></td>
+            <td><a href="ctfs/BlockHarborAutomotive/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2063/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/BlueHens">BlueHens</a></td>
             <td><a href="ctfs/BlueHens/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1298/tasks/" target="_blank">CTFtime</a></td>
@@ -1007,7 +1012,11 @@
             <td><a href="https://ctftime.org/event/647/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=5><a href="ctfs/Hack.lu">Hack.lu</a></td>
+            <td rowspan=6><a href="ctfs/Hack.lu">Hack.lu</a></td>
+            <td><a href="ctfs/Hack.lu/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1921/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/Hack.lu/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1727/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1157,7 +1166,11 @@
             <td><a href="https://ctftime.org/event/763/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="ctfs/ISITDTU">ISITDTU</a></td>
+            <td rowspan=5><a href="ctfs/ISITDTU">ISITDTU</a></td>
+            <td><a href="ctfs/ISITDTU/2023/Quals">2023 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2080/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/ISITDTU/2022/Quals">2022 Quals</a></td>
             <td><a href="https://ctftime.org/event/1757/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1978,6 +1991,11 @@
             <td rowspan=1><a href="ctfs/TBTL">TBTL</a></td>
             <td><a href="ctfs/TBTL/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2002/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/TCP1P-CTF">TCP1P-CTF</a></td>
+            <td><a href="ctfs/TCP1P-CTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2001/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=3><a href="ctfs/TFC">TFC</a></td>
