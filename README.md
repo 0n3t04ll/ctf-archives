@@ -638,6 +638,11 @@
             <td><a href="https://ctftime.org/event/1361/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/DEADFACE">DEADFACE</a></td>
+            <td><a href="ctfs/DEADFACE/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2031/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=5><a href="ctfs/DEFCON">DEF CON</a></td>
             <td><a href="ctfs/DEFCON/2022/Quals">2022 Quals</a></td>
             <td><a href="https://ctftime.org/event/1661/tasks/" target="_blank">CTFtime</a></td>
@@ -740,16 +745,20 @@
             <td><a href="https://ctftime.org/event/1453/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/DefCamp">Defcamp</a></td>
-            <td><a href="ctfs/DefCamp/2022">2022</a></td>
+            <td rowspan=4><a href="ctfs/Defcamp">Defcamp</a></td>
+            <td><a href="ctfs/Defcamp/2023/Quals">2023 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2106/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/Defcamp/2022/Quals">2022 Quals</a></td>
             <td><a href="https://ctftime.org/event/1560/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td><a href="ctfs/DefCamp/2020">2020</a></td>
+            <td><a href="ctfs/Defcamp/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1182/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td><a href="ctfs/DefCamp/2018/Quals">2018 Quals</a></td>
+            <td><a href="ctfs/Defcamp/2018/Quals">2018 Quals</a></td>
             <td><a href="https://ctftime.org/event/654/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
@@ -1443,7 +1452,11 @@
             <td><a href="https://ctftime.org/event/751/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=5><a href="ctfs/N1CTF">N1CTF</a></td>
+            <td rowspan=6><a href="ctfs/N1CTF">N1CTF</a></td>
+            <td><a href="ctfs/N1CTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2062/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/N1CTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1759/tasks/" target="_blank">CTFtime</a></td>
         </tr>
