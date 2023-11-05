@@ -1375,6 +1375,10 @@
         </tr>
         <tr>
             <td rowspan=1><a href="ctfs/LakeCTF">LakeCTF</a></td>
+            <td><a href="ctfs/LakeCTF/2023/Quals">2023 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2069/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/LakeCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1728/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1397,7 +1401,11 @@
             <td><a href="https://ctftime.org/event/1173/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/MCTF">M*CTF</a></td>
+            <td rowspan=4><a href="ctfs/MCTF">M*CTF</a></td>
+            <td><a href="ctfs/MCTF/2023/Quals">2023 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2095/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/MCTF/2022/Quals">2022 Quals</a></td>
             <td><a href="https://ctftime.org/event/1784/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2091,16 +2099,20 @@
             <td><a href="https://ctftime.org/event/1427/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/TSGCTF">TSGCTF</a></td>
-            <td><a href="ctfs/TSGCTF/2021">2021</a></td>
+            <td rowspan=4><a href="ctfs/TSG">TSG</a></td>
+            <td><a href="ctfs/TSG/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2013/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/TSG/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1431/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td><a href="ctfs/TSGCTF/2020">2020</a></td>
+            <td><a href="ctfs/TSG/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1004/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td><a href="ctfs/TSGCTF/2019">2019</a></td>
+            <td><a href="ctfs/TSG/2019">2019</a></td>
             <td><a href="https://ctftime.org/event/758/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
