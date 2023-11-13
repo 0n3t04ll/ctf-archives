@@ -504,8 +504,12 @@
             <td><a href="https://ctftime.org/event/632/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/Cake">Cake</a></td>
-            <td><a href="ctfs/Cake/2022">2022</a></td>
+            <td rowspan=2><a href="ctfs/CakeCTF">CakeCTF</a></td>
+            <td><a href="ctfs/CakeCTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1973/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/CakeCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1683/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
@@ -621,6 +625,11 @@
             <td rowspan=1><a href="ctfs/CyberYoddha">CyberYoddha</a></td>
             <td><a href="ctfs/CyberYoddha/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1169/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/Cybercoliseum">Cybercoliseum</a></td>
+            <td><a href="ctfs/Cybercoliseum/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2100/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=2><a href="ctfs/D3CTF">D^3CTF</a></td>
@@ -1401,8 +1410,12 @@
             <td><a href="https://ctftime.org/event/1173/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="ctfs/MCTF">M*CTF</a></td>
+            <td rowspan=5><a href="ctfs/MCTF">M*CTF</a></td>
             <td><a href="ctfs/MCTF/2023/Quals">2023 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2096/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/MCTF/2023-Junior/Quals">2023-Junior Quals</a></td>
             <td><a href="https://ctftime.org/event/2095/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
