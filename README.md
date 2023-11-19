@@ -52,7 +52,11 @@
             <td><a href="https://ctftime.org/event/1968/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/1337UP">1337UP</a></td>
+            <td rowspan=2><a href="ctfs/1337UP">1337UP</a></td>
+            <td><a href="ctfs/1337UP/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2134/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/1337UP/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1597/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1431,6 +1435,11 @@
             <td><a href="https://ctftime.org/event/1138/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/MUST">MUST</a></td>
+            <td><a href="ctfs/MUST/2023/Quals">2023 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2175/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/MeePwn">MeePwn</a></td>
             <td><a href="ctfs/MeePwn/2018/Quals">2018 Quals</a></td>
             <td><a href="https://ctftime.org/event/625/tasks/" target="_blank">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/MeePwn/2018/Quals">PersianCats</a></td>
@@ -1948,7 +1957,11 @@
             <td><a href="https://ctftime.org/event/2137/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/Square">Square</a></td>
+            <td rowspan=4><a href="ctfs/Square">Square</a></td>
+            <td><a href="ctfs/Square/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2111/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/Square/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1756/tasks/" target="_blank">CTFtime</a></td>
         </tr>
