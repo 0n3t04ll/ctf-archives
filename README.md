@@ -358,6 +358,11 @@
             <td><a href="https://ctftime.org/event/1733/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/BlazCTF">BlazCTF</a></td>
+            <td><a href="ctfs/BlazCTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2145/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=2><a href="ctfs/Blaze">Blaze</a></td>
             <td><a href="ctfs/Blaze/2019">2019</a></td>
             <td><a href="https://ctftime.org/event/790/tasks/" target="_blank">CTFtime</a></td>
@@ -1528,6 +1533,11 @@
             <td><a href="https://ctftime.org/event/1157/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/NewportBlakeCTF">NewportBlakeCTF</a></td>
+            <td><a href="ctfs/NewportBlakeCTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2072/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=2><a href="ctfs/nite">nite</a></td>
             <td><a href="ctfs/nite/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1758/tasks/" target="_blank">CTFtime</a></td>
@@ -2151,12 +2161,16 @@
             <td><a href="https://ctftime.org/event/758/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="ctfs/TUCTF">TUCTF</a></td>
-            <td><a href="ctfs/TUCTF/2022">2022</a></td>
+            <td rowspan=3><a href="ctfs/TU">TU</a></td>
+            <td><a href="ctfs/TU/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2173/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/TU/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1830/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td><a href="ctfs/TUCTF/2018">2018</a></td>
+            <td><a href="ctfs/TU/2018">2018</a></td>
             <td><a href="https://ctftime.org/event/650/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
@@ -2433,6 +2447,11 @@
             <td rowspan=1><a href="ctfs/Wani">Wani</a></td>
             <td><a href="ctfs/Wani/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1988/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/WannaGameChampionship">WannaGameChampionship</a></td>
+            <td><a href="ctfs/WannaGameChampionship/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2146/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=2><a href="ctfs/WeCTF">WeCTF</a></td>
