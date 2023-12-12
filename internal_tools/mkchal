@@ -13,6 +13,12 @@ def is_valid(line):
   if len(line.strip()) == 0:
     return True
 
+  if line.strip().lower().startswith('flag format:'):
+    return False
+
+  if line.strip().lower() == 'attachment':
+    return False
+
   if line.strip().lower().startswith('download link') or  line.strip().lower().startswith('challenge author'):
     return False
 
@@ -70,10 +76,13 @@ def is_valid(line):
   if re.fullmatch(r"(http|https)://\d+\.\d+\.\d+\.\d+/", line.strip().lower()):
     return False
 
+  if re.fullmatch(r"\d+\.\d+\.\d+\.\d+:\d+", line.strip().lower()):
+    return False
+
   if re.fullmatch(r"nc \d+\.\d+\.\d+\.\d+ \d+", line.strip().lower()):
     return False
 
-  if re.fullmatch(r"nc [a-z0-9]{1,63}(\.[a-z0-9-]{1,63})+ \d+", line.strip().lower()):
+  if re.fullmatch(r"nc [a-z0-9\-]{1,63}(\.[a-z0-9-]{1,63})+ \d+", line.strip().lower()):
     return False
 
   if re.fullmatch(r"\d{1,2}/\d{1,2}/\d{4}", line.strip().lower()):
@@ -82,14 +91,14 @@ def is_valid(line):
   return True
 
 def replace_special_characters(line):
-  return line.replace(u'\u1d2c', 'A').replace(u'\u1d64', 'U').replace(u'\u00e4', 'a').replace('@', 'a').replace('$', 's').replace('&', 'and').replace('👻', 'Ghost').replace('?', 'q').replace('è', 'e')
+  return line.replace(u'\u1d2c', 'A').replace(u'\u1d64', 'U').replace(u'\u00e4', 'a').replace('@', 'a').replace('$', 's').replace('&', 'and').replace('👻', 'Ghost').replace('?', 'q').replace('è', 'e').replace('🏃', 'Ran')
 
 def get_challenge_name(line):
   for original_name in reversed(line.strip().split('/')):
     if original_name not in ['beginner', 'medium', 'hard', 'easy']:
       break
 
-  args = re.sub('(\d+ solves|\d+ pts|- \d+$)', '', original_name.strip()).strip().split()
+  args = re.sub('(\d+ solves|\d+ pts$)', '', original_name.strip()).strip().split()
 
   tokens = []
   for a in args:
@@ -115,13 +124,13 @@ if __name__ == '__main__':
     if time.time() - os.path.getmtime(os.path.join(download_dir, f)) <= 60:
       files.add(os.path.join(download_dir, f))
 
-  for f in files:
-    with tempfile.TemporaryDirectory() as tmp_path:
+  with tempfile.TemporaryDirectory() as tmp_path:
+    for f in files:
       if f.endswith('.zip') or re.match(r'.*\.zip\.[0-9a-f]+$', f):
         if subprocess.run(['unzip', '-d', tmp_path, f], shell=False).returncode != 0:
           subprocess.run(['mv', f, chal_name])
           continue
-      elif f.endswith('.tar.gz') or f.endswith('.tgz') or f.endswith('.txz') or f.endswith('.tar.xz'):
+      elif f.endswith('.tar.gz') or f.endswith('.tgz') or f.endswith('.txz') or f.endswith('.tar.xz') or f.endswith('.tzst'):
         if subprocess.run(['tar', 'xzvf', f, '-C', tmp_path], shell=False).returncode != 0:
           subprocess.run(['mv', f, chal_name])
           continue
@@ -141,23 +150,27 @@ if __name__ == '__main__':
         subprocess.run(['mv', f, chal_name])
         continue
 
-      os.system('rm -rf `find "%s" -name __MACOSX`' % tmp_path)
-
-      final_path = tmp_path
-      while True:
-        children = os.listdir(final_path)
-        if len(children) == 0 or len(children) > 1:
-          break
-
-        child_path = os.path.join(final_path, children[0])
-
-        if not os.path.isdir(child_path):
-          break
-
-        final_path = child_path
-
-      os.system('find "%s" -name "*" -depth 1 | while read line; do mv "$line" "%s"; done' % (final_path, chal_name))
       os.remove(f)
+
+    os.system('rm -rf `find "%s" -name __MACOSX`' % tmp_path)
+
+    final_path = tmp_path
+    while True:
+      children = os.listdir(final_path)
+      if len(children) == 0 or len(children) > 1:
+        break
+
+      child_path = os.path.join(final_path, children[0])
+
+      if not os.path.isdir(child_path):
+        break
+
+      final_path = child_path
+
+    os.system('find "%s" -name "*" -depth 1 | while read line; do mv "$line" "%s"; done' % (final_path, chal_name))
+
+  # compress any pcap or pcapng file
+  os.system("find \"%s\" -type f -name \"*.pcap*\" | grep -E -e '.*\.pcap(ng){0,1}$' | xargs -n 1 xz" % (chal_name))
 
   readme = ''
   if os.path.exists('%s/README.md' % chal_name):
