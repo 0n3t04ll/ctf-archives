@@ -89,7 +89,11 @@
             <td><a href="https://ctftime.org/event/1091/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=12><a href="ctfs/ASIS">ASIS</a></td>
+            <td rowspan=13><a href="ctfs/ASIS">ASIS</a></td>
+            <td><a href="ctfs/ASIS/2023/Finals">2023 Finals</a></td>
+            <td><a href="https://ctftime.org/event/1953/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/ASIS/2023/Quals">2023 Quals</a></td>
             <td><a href="https://ctftime.org/event/1952/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -303,12 +307,16 @@
             <td><a href="https://ctftime.org/event/1660/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="ctfs/Backdoor">Backdoor</a></td>
-            <td><a href="ctfs/Backdoor/2022">2022</a></td>
+            <td rowspan=3><a href="ctfs/BackdoorCTF">BackdoorCTF</a></td>
+            <td><a href="ctfs/BackdoorCTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2153/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/BackdoorCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1796/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td><a href="ctfs/Backdoor/2019">2019</a></td>
+            <td><a href="ctfs/BackdoorCTF/2019">2019</a></td>
             <td><a href="https://ctftime.org/event/850/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
@@ -1546,12 +1554,16 @@
             <td><a href="https://ctftime.org/event/2072/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="ctfs/nite">nite</a></td>
-            <td><a href="ctfs/nite/2022">2022</a></td>
+            <td rowspan=3><a href="ctfs/niteCTF">niteCTF</a></td>
+            <td><a href="ctfs/niteCTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2207/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/niteCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1758/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td><a href="ctfs/nite/2021">2021</a></td>
+            <td><a href="ctfs/niteCTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1449/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
@@ -1676,6 +1688,11 @@
             <td rowspan=1><a href="ctfs/PoseidonCTF">Poseidon</a></td>
             <td><a href="ctfs/PoseidonCTF/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1049/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/Potluck">Potluck</a></td>
+            <td><a href="ctfs/Potluck/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2199/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=3><a href="ctfs/Pragyan">Pragyan</a></td>
