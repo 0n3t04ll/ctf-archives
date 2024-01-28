@@ -26,10 +26,19 @@ def is_valid(line):
   if line.strip().lower().startswith('fastest solvers'):
     return False
 
+  if re.search('solves\s+\d+', line.lower()):
+    return False
+
+  if re.search('score:\s*\d+', line.lower()):
+    return False
+
   if re.search('\d+[ \t]+points', line.lower()) or re.search('\d+[ \t]*solves', line.lower()) or re.search('\d+[ \t]+solve', line.lower()) or re.search('\d+[ \t]+score', line.lower()):
     return False
 
   if re.fullmatch("[0-9a-z-]+\.zip", line.strip().lower()):
+    return False
+
+  if re.fullmatch("attachment:\s*[\w\.]+", line.strip().lower()):
     return False
 
   if re.search('\d+[ \t]*pt', line):
@@ -89,7 +98,7 @@ def is_valid(line):
   return True
 
 def replace_special_characters(line):
-  return line.replace(u'\u1d2c', 'A').replace(u'\u1d64', 'U').replace(u'\u00e4', 'a').replace('@', 'a').replace('$', 's').replace('&', 'and').replace('👻', 'Ghost').replace('è', 'e').replace('🏃', 'Ran').replace('é', 'e').replace('ö', 'o')
+  return line.replace(u'\u1d2c', 'A').replace(u'\u1d64', 'U').replace(u'\u00e4', 'a').replace('@', 'a').replace('$', 's').replace('&', 'and').replace('👻', 'Ghost').replace('è', 'e').replace('🏃', 'Ran').replace('é', 'e').replace('ö', 'o').replace('É', 'E')
 
 def get_challenge_name(line):
   for original_name in reversed(line.strip().split('/')):
@@ -109,12 +118,12 @@ def unpack_file(fname):
 
   if fname.endswith('.zip') or re.match(r'.*\.zip\.[0-9a-f]+$', fname):
     return subprocess.run(['unzip', fname, '-d', dname], shell=False).returncode == 0
-  elif not fname.endswith('.cpio.gz') and (fname.endswith('.tar.gz') or fname.endswith('.tgz') or fname.endswith('.txz') or fname.endswith('.tar.xz') or fname.endswith('.tzst') or fname.endswith('.gz')):
+  elif not fname.endswith('.cpio.gz') and (fname.endswith('.tar.gz') or fname.endswith('.tgz') or fname.endswith('.txz') or fname.endswith('.tar.xz') or fname.endswith('.tzst') or fname.endswith('.gz') or fname.endswith('.tar.zst')):
     return subprocess.run(['tar', 'xzvf', fname, '-C', dname], shell=False).returncode == 0
   elif fname.endswith('.tar'):
     return subprocess.run(['tar', 'xvf', fname, '-C', dname], shell=False).returncode == 0
   elif fname.endswith('.7z'):
-    return subprocess.run(['7z', 'x', fname], shell=False).returncode == 0
+    return subprocess.run(['7z', 'x', fname, '-o' + dname], shell=False).returncode == 0
   elif fname.endswith('.rar'):
     return subprocess.run(['unrar', 'x', fname, dname], shell=False).returncode == 0
 
@@ -122,7 +131,8 @@ def unpack_file(fname):
 
 if __name__ == '__main__':
   # create challenge directory
-  lines = '\n'.join([re.sub(r'(\d+[ \t]+points|\d+pts)', r'\n\1', l.rstrip()) for l in sys.stdin.readlines()]).strip().split('\n')
+  lines = '\n'.join([re.sub(r'(\d+[ \t]+points|\d+pts)', r'\n\1', l.rstrip()) for l in sys.stdin.readlines()])
+  lines = re.sub('Author:\s*[\w,\- ]+', '', lines).strip().split('\n')
   chal_name = get_challenge_name(replace_special_characters(lines[0]))
 
   lines = '\n'.join(lines[1:]).strip().split('\n')

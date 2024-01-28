@@ -1029,6 +1029,11 @@
             <td><a href="https://ctftime.org/event/485/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/HKUSTFirebird">HKUSTFirebird</a></td>
+            <td><a href="ctfs/HKUSTFirebird/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2225/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=5><a href="ctfs/HSCTF">HSCTF</a></td>
             <td><a href="ctfs/HSCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1984/tasks/" target="_blank">CTFtime</a></td>
@@ -1828,7 +1833,11 @@
             <td><a href="https://ctftime.org/event/1167/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="ctfs/RealWorld">Real World</a></td>
+            <td rowspan=5><a href="ctfs/RealWorld">Real World</a></td>
+            <td><a href="ctfs/RealWorld/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2172/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/RealWorld/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1797/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2254,7 +2263,11 @@
             <td><a href="https://ctftime.org/event/1266/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="ctfs/TetCTF">TetCTF</a></td>
+            <td rowspan=5><a href="ctfs/TetCTF">TetCTF</a></td>
+            <td><a href="ctfs/TetCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2212/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/TetCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1842/tasks/" target="_blank">CTFtime</a></td>
         </tr>
