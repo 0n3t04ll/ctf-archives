@@ -46,7 +46,11 @@
             <td><a href="https://ctftime.org/event/1249/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/0xL4ugh">0xL4ugh</a></td>
+            <td rowspan=2><a href="ctfs/0xL4ugh">0xL4ugh</a></td>
+            <td><a href="ctfs/0xL4ugh/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2216/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/0xL4ugh/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1248/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2433,6 +2437,11 @@
             <td rowspan=1><a href="ctfs/UUTCTF">UUTCTF</a></td>
             <td><a href="ctfs/UUTCTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1471/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/Ugra">Ugra</a></td>
+            <td><a href="ctfs/Ugra/2241/Quals">2024 Quals</a></td>
+            <td><a href="https://ctftime.org/event/1246/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=1><a href="ctfs/Union">Union</a></td>
