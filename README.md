@@ -412,6 +412,11 @@
             <td><a href="https://ctftime.org/event/1298/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/BraekerCTF">BraekerCTF</a></td>
+            <td><a href="ctfs/BraekerCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2181/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=3><a href="ctfs/BreakTheSyntax">Break the Syntax</a></td>
             <td><a href="ctfs/BreakTheSyntax/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1940/tasks/" target="_blank">CTFtime</a></td>
@@ -949,6 +954,11 @@
             <td rowspan=1><a href="ctfs/GACTF">GACTF</a></td>
             <td><a href="ctfs/GACTF/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1115/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/GCC">GCC</a></td>
+            <td><a href="ctfs/GCC/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2251/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=1><a href="ctfs/GDGAlgiers">GDGAlgiers</a></td>
@@ -2674,6 +2684,11 @@
             <td><a href="https://ctftime.org/event/974/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/bi0sCTF">bi0sCTF</a></td>
+            <td><a href="ctfs/bi0sCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2117/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/boot2root">b00t2root</a></td>
             <td><a href="ctfs/boot2root/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1202/tasks/" target="_blank">CTFtime</a></td>
@@ -2801,6 +2816,11 @@
         <tr>
             <td><a href="ctfs/nullconHackIM/2018">2018</a></td>
             <td><a href="https://ctftime.org/event/566/tasks/" target="_blank">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/NullconHackIM/2018">PersianCats</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/osugaming">osugaming</a></td>
+            <td><a href="ctfs/osugaming/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/998/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=2><a href="ctfs/p4ctf">p4ctf</a></td>
