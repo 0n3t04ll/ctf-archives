@@ -1374,8 +1374,12 @@
             <td><a href="https://ctftime.org/event/1791/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/Jersey">Jersey</a></td>
-            <td><a href="ctfs/Jersey/2022">2022</a></td>
+            <td rowspan=2><a href="ctfs/JerseyCTF">JerseyCTF</a></td>
+            <td><a href="ctfs/JerseyCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2230/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/JerseyCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1590/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
@@ -1448,7 +1452,11 @@
             <td><a href="https://ctftime.org/event/1732/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/LINE">LINE</a></td>
+            <td rowspan=4><a href="ctfs/LINE">LINE</a></td>
+            <td><a href="ctfs/LINE/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2119/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/LINE/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1716/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2334,7 +2342,11 @@
             <td><a href="https://ctftime.org/event/955/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/TexSAW">TexSAW</a></td>
+            <td rowspan=2><a href="ctfs/TexSAW">TexSAW</a></td>
+            <td><a href="ctfs/TexSAW/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2281/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/TexSAW/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1959/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2475,6 +2487,11 @@
             <td rowspan=1><a href="ctfs/Ugra">Ugra</a></td>
             <td><a href="ctfs/Ugra/2241/Quals">2024 Quals</a></td>
             <td><a href="https://ctftime.org/event/1246/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/Undutmaning">Undutmaning</a></td>
+            <td><a href="ctfs/Undutmaning/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2283/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=1><a href="ctfs/Union">Union</a></td>
@@ -2635,6 +2652,11 @@
             <td rowspan=1><a href="ctfs/BxMCTF">BxMCTF</a></td>
             <td><a href="ctfs/BxMCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2004/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/XCTF-DubheCTF">XCTF-DubheCTF</a></td>
+            <td><a href="ctfs/XCTF-DubheCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2279/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=4><a href="ctfs/X-MAS">X-MAS</a></td>
