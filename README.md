@@ -291,7 +291,11 @@
             <td><a href="https://ctftime.org/event/1397/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=5><a href="ctfs/BSidesSF">BSidesSF</a></td>
+            <td rowspan=6><a href="ctfs/BSidesSF">BSidesSF</a></td>
+            <td><a href="ctfs/BSidesSF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2357/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/BSidesSF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1932/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -746,7 +750,11 @@
             <td><a href="https://ctftime.org/event/2031/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=5><a href="ctfs/DEFCON">DEF CON</a></td>
+            <td rowspan=6><a href="ctfs/DEFCON">DEF CON</a></td>
+            <td><a href="ctfs/DEFCON/2024/Quals">2024 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2229/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/DEFCON/2022/Quals">2022 Quals</a></td>
             <td><a href="https://ctftime.org/event/1661/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -3015,8 +3023,12 @@
             <td><a href="https://ctftime.org/event/566/tasks/" target="_blank">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/NullconHackIM/2018">PersianCats</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/openECSC">openECSC</a></td>
-            <td><a href="ctfs/openECSC/2024">2024</a></td>
+            <td rowspan=2><a href="ctfs/openECSC">openECSC</a></td>
+            <td><a href="ctfs/openECSC/2024-round2">2024-round2</a></td>
+            <td><a href="https://ctftime.org/event/2354/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/openECSC/2024-round1">2024-round1</a></td>
             <td><a href="https://ctftime.org/event/2305/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
@@ -3077,6 +3089,11 @@
             <td rowspan=1><a href="ctfs/snakeCTF">snakeCTF</a></td>
             <td><a href="ctfs/snakeCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2158/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/squ1rrel">squ1rrel</a></td>
+            <td><a href="ctfs/squ1rrel/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2370/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=1><a href="ctfs/vikeCTF">vikeCTF</a></td>
