@@ -636,7 +636,11 @@
             <td><a href="https://ctftime.org/event/636/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="ctfs/Codegate">Codegate</a></td>
+            <td rowspan=5><a href="ctfs/Codegate">Codegate</a></td>
+            <td><a href="ctfs/Codegate/2024/Quals">2024 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2346/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/Codegate/2023/Quals">2023 Quals</a></td>
             <td><a href="https://ctftime.org/event/2006/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1053,6 +1057,11 @@
             <td rowspan=1><a href="ctfs/GLSC">Great Lakes Security Conference</a></td>
             <td><a href="ctfs/GLSC/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1341/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/GPN">GPN</a></td>
+            <td><a href="ctfs/GPN/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2257/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=2><a href="ctfs/Glacier">Glacier</a></td>
@@ -1701,6 +1710,11 @@
         <tr>
             <td><a href="ctfs/MidnightSun/2019/Quals">2019 Quals</a></td>
             <td><a href="https://ctftime.org/event/751/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=6><a href="ctfs/N0PSctf">N0PSctf</a></td>
+            <td><a href="ctfs/N0PSctf/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2358/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=6><a href="ctfs/N1CTF">N1CTF</a></td>
