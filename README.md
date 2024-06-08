@@ -188,6 +188,11 @@
             <td><a href="https://ctftime.org/event/2360/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/Akasec">Akasec</a></td>
+            <td><a href="ctfs/Akasec/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2222/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=2><a href="ctfs/AmateursCTF">AmateursCTF</a></td>
             <td><a href="ctfs/AmateursCTF/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2226/tasks/" target="_blank">CTFtime</a></td>
@@ -799,6 +804,11 @@
         <tr>
             <td><a href="ctfs/DEFCON/2018/Quals">2018 Quals</a></td>
             <td><a href="https://ctftime.org/event/608/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/DIVEROSINT">DIVEROSINT</a></td>
+            <td><a href="ctfs/DIVEROSINT/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2365/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=3><a href="ctfs/DaVinci">DaVinci</a></td>
