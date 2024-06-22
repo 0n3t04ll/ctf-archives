@@ -1091,7 +1091,11 @@
             <td><a href="https://ctftime.org/event/1803/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=6><a href="ctfs/GoogleCTF">Google</a></td>
+            <td rowspan=7><a href="ctfs/GoogleCTF">Google</a></td>
+            <td><a href="ctfs/GoogleCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2296/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/GoogleCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1929/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2842,8 +2846,12 @@
             <td><a href="https://ctftime.org/event/1775/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/Wani">Wani</a></td>
-            <td><a href="ctfs/Wani/2023">2023</a></td>
+            <td rowspan=2><a href="ctfs/WaniCTF">WaniCTF</a></td>
+            <td><a href="ctfs/WaniCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2377/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/WaniCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1988/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
