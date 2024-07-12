@@ -956,7 +956,11 @@
             <td><a href="https://ctftime.org/event/1459/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="ctfs/DownUnderCTF">DownUnder</a></td>
+            <td rowspan=5><a href="ctfs/DownUnderCTF">DownUnderCTF</a></td>
+            <td><a href="ctfs/DownUnderCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2284/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/DownUnderCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1954/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1482,6 +1486,11 @@
             <td><a href="https://ctftime.org/event/1454/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/InterlogicaCTFs">InterlogicaCTFs</a></td>
+            <td><a href="ctfs/InterlogicaCTFs/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2301/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/InternetFestival">InternetFestival</a></td>
             <td><a href="ctfs/InternetFestival/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1855/tasks/" target="_blank">CTFtime</a></td>
@@ -1508,6 +1517,11 @@
         <tr>
             <td><a href="ctfs/JerseyCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1590/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/Junior.Crypt">Junior.Crypt</a></td>
+            <td><a href="ctfs/Junior.Crypt/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2259/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=2><a href="ctfs/KalmarCTF">KalmarCTF</a></td>
