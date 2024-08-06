@@ -676,7 +676,11 @@
             <td><a href="https://ctftime.org/event/542/tasks/" target="_blank">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/Codegate/2018/Quals">PersianCats</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/CrewCTF">CrewCTF</a></td>
+            <td rowspan=2><a href="ctfs/CrewCTF">CrewCTF</a></td>
+            <td><a href="ctfs/CrewCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2223/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/CrewCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2032/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2466,7 +2470,11 @@
             <td><a href="https://ctftime.org/event/2001/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/TFC">TFC</a></td>
+            <td rowspan=4><a href="ctfs/TFC">TFC</a></td>
+            <td><a href="ctfs/TFC/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2423/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/TFC/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2034/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -3154,6 +3162,10 @@
         </tr>
         <tr>
             <td rowspan=1><a href="ctfs/n00bzCTF">n00bzCTF</a></td>
+            <td><a href="ctfs/n00bzCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2378/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/n00bzCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1895/tasks/" target="_blank">CTFtime</a></td>
         </tr>
