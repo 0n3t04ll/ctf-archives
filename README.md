@@ -568,7 +568,11 @@
             <td><a href="https://ctftime.org/event/960/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=7><a href="ctfs/CSAW">CSAW</a></td>
+            <td rowspan=8><a href="ctfs/CSAW">CSAW</a></td>
+            <td><a href="ctfs/CSAW/2024/Quals">2024 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2398/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/CSAW/2023/Quals">2023 Quals</a></td>
             <td><a href="https://ctftime.org/event/2087/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -765,6 +769,11 @@
             <td><a href="https://ctftime.org/event/1057/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/CyberSpace">CyberSpace</a></td>
+            <td><a href="ctfs/CyberSpace/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2428/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/CyberYoddha">CyberYoddha</a></td>
             <td><a href="ctfs/CyberYoddha/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1169/tasks/" target="_blank">CTFtime</a></td>
@@ -777,6 +786,11 @@
         <tr>
             <td><a href="ctfs/Cybercoliseum/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2100/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/Cygenix">Cygenix</a></td>
+            <td><a href="ctfs/Cygenix/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2468/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=3><a href="ctfs/D3CTF">D^3CTF</a></td>
