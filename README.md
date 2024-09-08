@@ -537,7 +537,11 @@
             <td><a href="https://ctftime.org/event/544/tasks/" target="_blank">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/C3CTF/2017">PersianCats</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="ctfs/COMPFEST">COMPFEST</a></td>
+            <td rowspan=5><a href="ctfs/COMPFEST">COMPFEST</a></td>
+            <td><a href="ctfs/COMPFEST/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2463/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/COMPFEST/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2060/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2834,8 +2838,12 @@
             <td><a href="https://ctftime.org/event/2327/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/Urmia">Urmia</a></td>
-            <td><a href="ctfs/Urmia/2023">2023</a></td>
+            <td rowspan=2><a href="ctfs/UCTF">UCTF</a></td>
+            <td><a href="ctfs/UCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2460/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/UCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2067/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
@@ -2889,7 +2897,11 @@
             <td><a href="https://ctftime.org/event/2076/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="ctfs/WMCTF">WMCTF</a></td>
+            <td rowspan=3><a href="ctfs/WMCTF">WMCTF</a></td>
+            <td><a href="ctfs/WMCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2457/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/WMCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2061/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -3292,7 +3304,11 @@
             <td><a href="https://ctftime.org/event/1042/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/snakeCTF">snakeCTF</a></td>
+            <td rowspan=2><a href="ctfs/snakeCTF">snakeCTF</a></td>
+            <td><a href="ctfs/snakeCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2418/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/snakeCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2158/tasks/" target="_blank">CTFtime</a></td>
         </tr>
