@@ -102,7 +102,11 @@
             <td><a href="https://ctftime.org/event/1091/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=13><a href="ctfs/ASIS">ASIS</a></td>
+            <td rowspan=14><a href="ctfs/ASIS">ASIS</a></td>
+            <td><a href="ctfs/ASIS/2024/Quals">2024 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2211/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/ASIS/2023/Finals">2023 Finals</a></td>
             <td><a href="https://ctftime.org/event/1953/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -433,7 +437,11 @@
             <td><a href="https://ctftime.org/event/1733/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/BlazCTF">BlazCTF</a></td>
+            <td rowspan=2><a href="ctfs/BlazCTF">BlazCTF</a></td>
+            <td><a href="ctfs/BlazCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2492/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/BlazCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2145/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1424,6 +1432,11 @@
             <td><a href="https://ctftime.org/event/1359/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/IERAE">IERAE</a></td>
+            <td><a href="ctfs/IERAE/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2441/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=2><a href="ctfs/IJCTF">IJCTF</a></td>
             <td><a href="ctfs/IJCTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1382/tasks/" target="_blank">CTFtime</a></td>
@@ -1950,7 +1963,11 @@
             <td><a href="https://ctftime.org/event/1719/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="ctfs/PatriotCTF">PatriotCTF</a></td>
+            <td rowspan=3><a href="ctfs/PatriotCTF">PatriotCTF</a></td>
+            <td><a href="ctfs/PatriotCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2426/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/PatriotCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2030/tasks/" target="_blank">CTFtime</a></td>
         </tr>
