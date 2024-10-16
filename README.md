@@ -482,6 +482,11 @@
             <td><a href="https://ctftime.org/event/1298/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/BlueWater">BlueWater</a></td>
+            <td><a href="ctfs/BlueWater/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2479/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/BraekerCTF">BraekerCTF</a></td>
             <td><a href="ctfs/BraekerCTF/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2181/tasks/" target="_blank">CTFtime</a></td>
@@ -2335,7 +2340,11 @@
             <td><a href="https://ctftime.org/event/1619/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=5><a href="ctfs/Securinets">Securinets</a></td>
+            <td rowspan=6><a href="ctfs/Securinets">Securinets</a></td>
+            <td><a href="ctfs/Securinets/2024/Quals">2024 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2520/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/Securinets/2023/Quals">2023 Quals</a></td>
             <td><a href="https://ctftime.org/event/1874/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2548,8 +2557,12 @@
             <td><a href="https://ctftime.org/event/2002/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/TCP1P-CTF">TCP1P-CTF</a></td>
-            <td><a href="ctfs/TCP1P-CTF/2023">2023</a></td>
+            <td rowspan=2><a href="ctfs/TCP1P">TCP1P</a></td>
+            <td><a href="ctfs/TCP1P/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2256/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/TCP1P/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2001/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
