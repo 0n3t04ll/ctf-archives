@@ -2242,6 +2242,11 @@
             <td><a href="https://ctftime.org/event/841/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/RedShift.Eclipse2">RedShift.Eclipse2</a></td>
+            <td><a href="ctfs/RedShift.Eclipse2/2024/Quals">2024 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2541/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/Ricerca">Ricerca</a></td>
             <td><a href="ctfs/Ricerca/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1920/tasks/" target="_blank">CTFtime</a></td>
@@ -2890,6 +2895,11 @@
             <td rowspan=1><a href="ctfs/UNbreakableInternational">UNbreakableInternational</a></td>
             <td><a href="ctfs/UNbreakableInternational/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2297/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/USC">USC</a></td>
+            <td><a href="ctfs/USC/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2543/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=6><a href="ctfs/UTCTF">UTCTF</a></td>
