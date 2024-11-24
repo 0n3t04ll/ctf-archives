@@ -1196,7 +1196,11 @@
             <td><a href="https://ctftime.org/event/2257/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="ctfs/Glacier">Glacier</a></td>
+            <td rowspan=3><a href="ctfs/Glacier">Glacier</a></td>
+            <td><a href="ctfs/Glacier/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2402/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/Glacier/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1992/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2341,7 +2345,11 @@
             <td><a href="https://ctftime.org/event/1761/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=6><a href="ctfs/SECCON">SECCON</a></td>
+            <td rowspan=7><a href="ctfs/SECCON">SECCON</a></td>
+            <td><a href="ctfs/SECCON/2024/Quals">2024 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2478/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/SECCON/2023/Quals">2023 Quals</a></td>
             <td><a href="https://ctftime.org/event/2003/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2825,6 +2833,11 @@
             <td rowspan=1><a href="ctfs/TheCyberJawaraInternational">TheCyberJawaraInternational</a></td>
             <td><a href="ctfs/TheCyberJawaraInternational/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2552/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/TheHackerConclave">TheHackerConclave</a></td>
+            <td><a href="ctfs/TheHackerConclave/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2575/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=1><a href="ctfs/TheOdyssey">TheOdyssey</a></td>
