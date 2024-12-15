@@ -1977,7 +1977,11 @@
             <td><a href="https://ctftime.org/event/2331/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/niteCTF">niteCTF</a></td>
+            <td rowspan=4><a href="ctfs/niteCTF">niteCTF</a></td>
+            <td><a href="ctfs/niteCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2461/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/niteCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2207/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1993,6 +1997,11 @@
             <td rowspan=1><a href="ctfs/NOESCAPE">NOESCAPE</a></td>
             <td><a href="ctfs/NOESCAPE/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1822/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/NTUA_H4CK">NOESCAPE</a></td>
+            <td><a href="ctfs/NTUA_H4CK/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2571/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=6><a href="ctfs/NahamCon">NahamCon</a></td>
@@ -2750,7 +2759,11 @@
             <td><a href="https://ctftime.org/event/1427/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="ctfs/TSG">TSG</a></td>
+            <td rowspan=5><a href="ctfs/TSG">TSG</a></td>
+            <td><a href="ctfs/TSG/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2424/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/TSG/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2013/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -3396,7 +3409,11 @@
             <td><a href="https://ctftime.org/event/874/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=7><a href="ctfs/m0leCon">m0leCon</a></td>
+            <td rowspan=8><a href="ctfs/m0leCon">m0leCon</a></td>
+            <td><a href="ctfs/m0leCon/2025/Beginner">2025 Beginner</a></td>
+            <td><a href="https://ctftime.org/event/2578/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/m0leCon/2024/Quals">2024 Quals</a></td>
             <td><a href="https://ctftime.org/event/2440/tasks/" target="_blank">CTFtime</a></td>
         </tr>
