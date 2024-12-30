@@ -21,6 +21,9 @@ def is_valid(line):
   if line.strip().lower() == 'click':
     return False
 
+  if re.search(r'https?://', line.lower()) and 'drive.google.com' not in line.lower():
+    return False
+
   if line.strip().lower() == 'ja / en':
     return False
 
@@ -39,40 +42,40 @@ def is_valid(line):
   if line.strip().lower().startswith('fastest solvers'):
     return False
 
-  if re.search('^url\s+:', line.lower()):
+  if re.search(r'^url\s+:', line.lower()):
     return False
 
-  if re.search('^bot\s+:', line.lower()):
+  if re.search(r'^bot\s+:', line.lower()):
     return False
 
   if line.strip().lower().startswith('> deploy on'):
     return False
 
-  if re.search('solves\s+\d+', line.lower()):
+  if re.search(r'solves\s+\d+', line.lower()):
     return False
 
-  if re.search('score:\s*\d+', line.lower()):
+  if re.search(r'score:\s*\d+', line.lower()):
     return False
 
   if re.search(r'download (image|file|pcap) \([\d\.]+(kb|mb|b)\)', line.lower()):
     return False
 
-  if re.search('\d+[ \t]+points', line.lower()) or re.search('\d+[ \t]*solves', line.lower()) or re.search('\d+[ \t]+solve', line.lower()) or re.search('\d+[ \t]+score', line.lower()):
+  if re.search(r'\d+[ \t]+points', line.lower()) or re.search(r'\d+[ \t]*solves', line.lower()) or re.search(r'\d+[ \t]+solve', line.lower()) or re.search(r'\d+[ \t]+score', line.lower()):
     return False
 
-  if re.fullmatch("[0-9a-z-]+\.zip", line.strip().lower()):
+  if re.fullmatch(r"[0-9a-z-]+\.zip", line.strip().lower()):
     return False
 
-  if re.fullmatch("attachment:\s*[\w\.]+", line.strip().lower()):
+  if re.fullmatch(r"attachment:\s*[\w\.]+", line.strip().lower()):
     return False
 
-  if re.search('\d+[ \t]*pt', line):
+  if re.search(r'\d+[ \t]*pt', line):
     return False
 
   if re.search(r'\d{2}/\d{2}, \d{2}:\d{2}:\d{2}', line):
     return False
 
-  if line.lower().startswith('points:') or line.lower().startswith('solves:') or line.lower().startswith('topics:') or line.lower().startswith('task points') or line.lower().startswith('my score'):
+  if line.lower().startswith('points:') or line.lower().startswith('solves:') or line.lower().startswith('topics:') or line.lower().startswith('task points') or line.lower().startswith('my score') or line.lower().startswith('difficulty estimate:'):
     return False
 
   if 'points' in line.lower() and 'solves' in line.lower():
@@ -126,7 +129,7 @@ def is_valid(line):
   return True
 
 def replace_special_characters(line):
-  return line.replace(u'\u1d2c', 'A').replace(u'\u1d64', 'U').replace(u'\u00e4', 'a').replace('@', 'a').replace('$', 's').replace('&', 'and').replace('👻', 'Ghost').replace('è', 'e').replace('🏃', 'Ran').replace('é', 'e').replace('ö', 'o').replace('É', 'E').replace('കുട്ടി', 'child').replace('⛳', 'flag').replace('<3', 'heart').replace('🐍', 'snake').replace('å', 'a').replace('Å', 'A').replace('𝑪', 'C').replace('𝑷', 'P').replace('ε', 'e').replace('√', 'sqrt').replace('🅱️', 'B')
+  return line.replace(u'\u1d2c', 'A').replace(u'\u1d64', 'U').replace(u'\u00e4', 'a').replace('@', 'a').replace('$', 's').replace('&', 'and').replace('👻', 'Ghost').replace('è', 'e').replace('🏃', 'Ran').replace('é', 'e').replace('ö', 'o').replace('É', 'E').replace('കുട്ടി', 'child').replace('⛳', 'flag').replace('<3', 'heart').replace('🐍', 'snake').replace('å', 'a').replace('Å', 'A').replace('𝑪', 'C').replace('𝑷', 'P').replace('ε', 'e').replace('√', 'sqrt').replace('🅱️', 'B').replace('ś', 's').replace('ę', 'e')
 
 def get_challenge_name(line):
   for original_name in reversed(line.strip('|').strip().split('/')):
