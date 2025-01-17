@@ -816,6 +816,11 @@
             <td><a href="https://ctftime.org/event/2054/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/CyberLeague">CyberLeague</a></td>
+            <td><a href="ctfs/CyberLeague/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2530/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=4><a href="ctfs/CyberSecurityRumble">CyberSecurityRumble</a></td>
             <td><a href="ctfs/CyberSecurityRumble/2023/Quals">2023</a></td>
             <td><a href="https://ctftime.org/event/1942/tasks/" target="_blank">CTFtime</a></td>
@@ -2451,7 +2456,11 @@
             <td><a href="https://ctftime.org/event/1927/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/SUSCTF">SUSCTF</a></td>
+            <td rowspan=2><a href="ctfs/SUSCTF">SUSCTF</a></td>
+            <td><a href="ctfs/SUSCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2620/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/SUSCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1566/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2781,6 +2790,11 @@
             <td rowspan=1><a href="ctfs/TMUCTF">TMUCTF</a></td>
             <td><a href="ctfs/TMUCTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1427/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/TSCCTF">TSCCTF</a></td>
+            <td><a href="ctfs/TSCCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2598/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=5><a href="ctfs/TSG">TSG</a></td>
