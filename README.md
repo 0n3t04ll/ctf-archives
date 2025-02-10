@@ -282,7 +282,11 @@
             <td><a href="https://ctftime.org/event/708/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/BITSCTF">BITSCTF</a></td>
+            <td rowspan=2><a href="ctfs/BITSCTF">BITSCTF</a></td>
+            <td><a href="ctfs/BITSCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2607/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/BITSCTF/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2235/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1125,7 +1129,11 @@
             <td><a href="https://ctftime.org/event/2622/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/DreamhackInvitational">DreamhackInvitational</a></td>
+            <td rowspan=2><a href="ctfs/DreamhackInvitational">DreamhackInvitational</a></td>
+            <td><a href="ctfs/DreamhackInvitational/2025/Quals">2025 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2627/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/DreamhackInvitational/2024/Quals">2024 Quals</a></td>
             <td><a href="https://ctftime.org/event/2308/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1795,7 +1803,11 @@
             <td><a href="https://ctftime.org/event/1545/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="ctfs/LA">LA</a></td>
+            <td rowspan=3><a href="ctfs/LA">LA</a></td>
+            <td><a href="ctfs/LA/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2592/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/LA/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2102/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2209,7 +2221,11 @@
             <td><a href="https://ctftime.org/event/2199/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/Pragyan">Pragyan</a></td>
+            <td rowspan=4><a href="ctfs/Pragyan">Pragyan</a></td>
+            <td><a href="ctfs/Pragyan/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2608/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/Pragyan/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1931/tasks/" target="_blank">CTFtime</a></td>
         </tr>
