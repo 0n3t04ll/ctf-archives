@@ -27,13 +27,13 @@ def is_valid(line):
   if line.strip().lower() == 'ja / en':
     return False
 
-  if line.lower() in ['source dockerfile', 'files', 'challenge', 'challenge.py', 'download image', 'download file', 'challenge description']:
+  if line.lower() in ['source dockerfile', 'files', 'challenge', 'challenge.py', 'download image', 'download file', 'challenge description', 'feed my friend.']:
     return False
 
   if len(line.strip()) == 0:
     return True
 
-  if line.strip().lower() in ['attachment', 'handouts', 'show tags']:
+  if line.strip().lower() in ['attachment', 'handouts', 'show tags', 'download attachments']:
     return False
 
   if line.strip().lower().startswith('download link'):
@@ -132,7 +132,7 @@ def is_valid(line):
   return True
 
 def replace_special_characters(line):
-  return line.replace(u'\u1d2c', 'A').replace(u'\u1d64', 'U').replace(u'\u00e4', 'a').replace('@', 'a').replace('$', 's').replace('&', 'and').replace('👻', 'Ghost').replace('è', 'e').replace('🏃', 'Ran').replace('é', 'e').replace('ö', 'o').replace('É', 'E').replace('കുട്ടി', 'child').replace('⛳', 'flag').replace('<3', 'heart').replace('🐍', 'snake').replace('å', 'a').replace('Å', 'A').replace('𝑪', 'C').replace('𝑷', 'P').replace('ε', 'e').replace('√', 'sqrt').replace('🅱️', 'B').replace('ś', 's').replace('ę', 'e').replace('Δ', 'A').replace('ς', 'C').replace('!', 'i')
+  return line.replace(u'\u1d2c', 'A').replace(u'\u1d64', 'U').replace(u'\u00e4', 'a').replace('@', 'a').replace('$', 's').replace('&', 'and').replace('👻', 'Ghost').replace('è', 'e').replace('🏃', 'Ran').replace('é', 'e').replace('ö', 'o').replace('É', 'E').replace('കുട്ടി', 'child').replace('⛳', 'flag').replace('<3', 'heart').replace('🐍', 'snake').replace('å', 'a').replace('Å', 'A').replace('𝑪', 'C').replace('𝑷', 'P').replace('ε', 'e').replace('√', 'sqrt').replace('🅱️', 'B').replace('ś', 's').replace('ę', 'e').replace('Δ', 'A').replace('ς', 'C').replace('!', 'i').replace('²', '2')
 
 def get_challenge_name(line):
   for original_name in reversed(line.strip('|').strip().split('/')):
@@ -141,6 +141,7 @@ def get_challenge_name(line):
 
   args = re.sub(r'(\d+\s+solves|\d+\s+pts)', '', original_name.strip(), flags=re.IGNORECASE).strip()
   args = re.sub(r'\(\d+ pts\)', '', args, flags=re.IGNORECASE).strip()
+  args = re.sub(r'\(\d+\)$', '', args, flags=re.IGNORECASE).strip()
   args = re.sub(r'\(solved by \d+ team(s)?\)$', '', args, flags=re.IGNORECASE).strip()
   args = re.sub('^(misc|crypto|rev|web|pwn)$', '', args).strip()
   args = args.split()
