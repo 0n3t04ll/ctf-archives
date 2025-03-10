@@ -1749,7 +1749,11 @@
             <td><a href="https://ctftime.org/event/2259/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="ctfs/KalmarCTF">KalmarCTF</a></td>
+            <td rowspan=3><a href="ctfs/KalmarCTF">KalmarCTF</a></td>
+            <td><a href="ctfs/KalmarCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2599/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/KalmarCTF/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2227/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2854,7 +2858,11 @@
             <td><a href="https://ctftime.org/event/928/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/TPCTF">TPCTF</a></td>
+            <td rowspan=2><a href="ctfs/TPCTF">TPCTF</a></td>
+            <td><a href="ctfs/TPCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2645/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/TPCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2161/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -3139,7 +3147,11 @@
             <td><a href="https://ctftime.org/event/1471/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/Ugra">Ugra</a></td>
+            <td rowspan=2><a href="ctfs/Ugra">Ugra</a></td>
+            <td><a href="ctfs/Ugra/2025/Quals">2025 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2693/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/Ugra/2024/Quals">2024 Quals</a></td>
             <td><a href="https://ctftime.org/event/1246/tasks/" target="_blank">CTFtime</a></td>
         </tr>
