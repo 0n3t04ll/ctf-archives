@@ -1772,6 +1772,11 @@
             <td><a href="https://ctftime.org/event/701/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/Kind4SUS">Kind4SUS</a></td>
+            <td><a href="ctfs/Kind4SUS/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2703/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=2><a href="ctfs/KITCTFCTF">KITCTFCTF</a></td>
             <td><a href="ctfs/KITCTFCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1965/tasks/" target="_blank">CTFtime</a></td>
@@ -2120,6 +2125,11 @@
             <td rowspan=1><a href="ctfs/Norzh">Norzh</a></td>
             <td><a href="ctfs/Norzh/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1301/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/Nowruz">Nowruz</a></td>
+            <td><a href="ctfs/Nowruz/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2601/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=1><a href="ctfs/NuitduHack">Nuit du Hack</a></td>
@@ -3117,7 +3127,11 @@
             <td><a href="https://ctftime.org/event/2543/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=6><a href="ctfs/UTCTF">UTCTF</a></td>
+            <td rowspan=7><a href="ctfs/UTCTF">UTCTF</a></td>
+            <td><a href="ctfs/UTCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2641/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/UTCTF/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2302/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -3242,6 +3256,11 @@
             <td rowspan=1><a href="ctfs/WACON">WACON</a></td>
             <td><a href="ctfs/WACON/2023/Quals">2023 Quals</a></td>
             <td><a href="https://ctftime.org/event/2076/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/WATCTF">WATCTF</a></td>
+            <td><a href="ctfs/WATCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2727/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=3><a href="ctfs/WMCTF">WMCTF</a></td>
