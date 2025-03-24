@@ -838,6 +838,11 @@
             <td><a href="https://ctftime.org/event/2344/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/CyberApocalypse">CyberApocalypse</a></td>
+            <td><a href="ctfs/CyberApocalypse/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2674/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/CyberHeroines">CyberHeroines</a></td>
             <td><a href="ctfs/CyberHeroines/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/2054/tasks/" target="_blank">CTFtime</a></td>
@@ -1206,12 +1211,16 @@
             <td><a href="https://ctftime.org/event/727/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="ctfs/FooBar">FooBar</a></td>
-            <td><a href="ctfs/FooBar/2022">2022</a></td>
+            <td rowspan=3><a href="ctfs/FooBarCTF">FooBarCTF</a></td>
+            <td><a href="ctfs/FooBarCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2720/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/FooBarCTF/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1579/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td><a href="ctfs/FooBar/2021">2021</a></td>
+            <td><a href="ctfs/FooBarCTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1322/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
@@ -2353,7 +2362,11 @@
             <td><a href="https://ctftime.org/event/624/tasks/" target="_blank">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/RCTF/2018">PersianCats</a></td>
         </tr>
         <tr>
-            <td rowspan=6><a href="ctfs/RITSEC">RITSEC</a></td>
+            <td rowspan=7><a href="ctfs/RITSEC">RITSEC</a></td>
+            <td><a href="ctfs/RITSEC/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2673/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/RITSEC/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2291/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -3276,6 +3289,11 @@
             <td><a href="https://ctftime.org/event/1094/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/WHY">WHY</a></td>
+            <td><a href="ctfs/WHY/2025/Quals">2025 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2679/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/WORMCON">WORMCON</a></td>
             <td><a href="ctfs/WORMCON/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1391/tasks/" target="_blank">CTFtime</a></td>
@@ -3357,7 +3375,11 @@
             <td><a href="https://ctftime.org/event/656/tasks/" target="_blank">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/WhiteHat/2018/Quals">PersianCats</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/WolvCTF">WolvCTF</a></td>
+            <td rowspan=4><a href="ctfs/WolvCTF">WolvCTF</a></td>
+            <td><a href="ctfs/WolvCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2579/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/WolvCTF/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2240/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -3675,7 +3697,11 @@
             <td><a href="https://ctftime.org/event/1121/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="ctfs/pingCTF">pingCTF</a></td>
+            <td rowspan=3><a href="ctfs/pingCTF">pingCTF</a></td>
+            <td><a href="ctfs/pingCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2670/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/pingCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1987/tasks/" target="_blank">CTFtime</a></td>
         </tr>
