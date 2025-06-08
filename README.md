@@ -995,7 +995,11 @@
             <td><a href="https://ctftime.org/event/608/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/DIVEROSINT">DIVEROSINT</a></td>
+            <td rowspan=2><a href="ctfs/DIVEROSINT">DIVEROSINT</a></td>
+            <td><a href="ctfs/DIVEROSINT/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2751/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/DIVEROSINT/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2365/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2952,7 +2956,11 @@
             <td><a href="https://ctftime.org/event/2361/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="ctfs/TJCTF">TJCTF</a></td>
+            <td rowspan=5><a href="ctfs/TJCTF">TJCTF</a></td>
+            <td><a href="ctfs/TJCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2809/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/TJCTF/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2321/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -3597,7 +3605,11 @@
             <td><a href="https://ctftime.org/event/974/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/bi0sCTF">bi0sCTF</a></td>
+            <td rowspan=2><a href="ctfs/bi0sCTF">bi0sCTF</a></td>
+            <td><a href="ctfs/bi0sCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2672/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/bi0sCTF/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2117/tasks/" target="_blank">CTFtime</a></td>
         </tr>
