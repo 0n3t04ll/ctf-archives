@@ -21,7 +21,7 @@ def is_valid(line):
   if line.strip().lower() == 'click':
     return False
 
-  if re.search(r'^https?://', line.lower()) and 'renater.fr' not in line.lower() and 'drive.google.com' not in line.lower() and 'amazonaws.com' not in line.lower() and 'youtube.com' not in line.lower() and 'docs.google.com' not in line.lower() and 'mega.nz' not in line.lower():
+  if re.search(r'^https?://', line.lower()) and 'renater.fr' not in line.lower() and 'drive.google.com' not in line.lower() and 'amazonaws.com' not in line.lower() and 'youtube.com' not in line.lower() and 'docs.google.com' not in line.lower() and 'mega.nz' not in line.lower() and 'googleapis.com' not in line.lower():
     return False
 
   if line.strip().lower() == 'ja / en':
@@ -34,6 +34,12 @@ def is_valid(line):
     return True
 
   if line.strip().lower() in ['attachment', 'handouts', 'show tags', 'download attachments']:
+    return False
+
+  if 'Dear PersianCats' in line.strip():
+    return False
+
+  if line.strip().startswith('To: PersianCats'):
     return False
 
   if line.strip().lower().startswith('reward:'):
