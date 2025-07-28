@@ -21,19 +21,19 @@ def is_valid(line):
   if line.strip().lower() == 'click':
     return False
 
-  if re.search(r'^https?://', line.lower()) and 'renater.fr' not in line.lower() and 'drive.google.com' not in line.lower() and 'amazonaws.com' not in line.lower() and 'youtube.com' not in line.lower() and 'docs.google.com' not in line.lower() and 'mega.nz' not in line.lower() and 'googleapis.com' not in line.lower():
+  if re.search(r'^https?://', line.lower()) and 'renater.fr' not in line.lower() and 'drive.google.com' not in line.lower() and 'amazonaws.com' not in line.lower() and 'youtube.com' not in line.lower() and 'docs.google.com' not in line.lower() and 'mega.nz' not in line.lower() and 'googleapis.com' not in line.lower() and 'github.com' not in line.lower():
     return False
 
   if line.strip().lower() == 'ja / en':
     return False
 
-  if line.lower() in ['source dockerfile', 'files', 'challenge', 'challenge.py', 'download image', 'download file', 'challenge description', 'feed my friend.', 'this challenge has online instance', 'attachments:']:
+  if line.lower() in ['source dockerfile', 'files', 'challenge', 'challenge.py', 'download image', 'download file', 'challenge description', 'feed my friend.', 'this challenge has online instance', 'attachments:', 'category:']:
     return False
 
   if len(line.strip()) == 0:
     return True
 
-  if line.strip().lower() in ['attachment', 'handouts', 'show tags', 'download attachments']:
+  if line.strip().lower() in ['attachment', 'handouts', 'show tags', 'download attachments', 'link to open instance']:
     return False
 
   if 'Dear PersianCats' in line.strip():
@@ -46,6 +46,12 @@ def is_valid(line):
     return False
 
   if line.strip().lower().startswith('download link'):
+    return False
+
+  if line.strip().lower().startswith('$ socat '):
+    return False
+
+  if line.strip().lower().startswith('instancer url:') or line.strip().lower().startswith('challenge url:'):
     return False
 
   if line.strip().lower().startswith('fastest solvers'):
@@ -130,6 +136,9 @@ def is_valid(line):
     return False
 
   if re.fullmatch(r"nc [a-z0-9\-_]{1,63}(\.[a-z0-9-_]{1,63})+ \d+", line.strip().lower()):
+    return False
+
+  if re.fullmatch(r"ncat --ssl [a-z0-9\-_]{1,63}(\.[a-z0-9-_]{1,63})+ \d+", line.strip().lower()):
     return False
 
   if re.fullmatch(r"\d{1,2}/\d{1,2}/\d{4}", line.strip().lower()):
