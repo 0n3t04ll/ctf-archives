@@ -2725,7 +2725,11 @@
             <td><a href="https://ctftime.org/event/1910/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/SekaiCTF">SekaiCTF</a></td>
+            <td rowspan=4><a href="ctfs/SekaiCTF">SekaiCTF</a></td>
+            <td><a href="ctfs/SekaiCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2683/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/SekaiCTF/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2243/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -3502,6 +3506,10 @@
         </tr>
         <tr>
             <td rowspan=1><a href="ctfs/WHY">WHY</a></td>
+            <td><a href="ctfs/WHY/2025/Finals">2025 Finals</a></td>
+            <td><a href="https://ctftime.org/event/2680/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/WHY/2025/Quals">2025 Quals</a></td>
             <td><a href="https://ctftime.org/event/2679/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -3775,7 +3783,11 @@
             <td><a href="https://ctftime.org/event/567/tasks/" target="_blank">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/iCTF/2018">PersianCats</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/idekCTF">idekCTF</a></td>
+            <td rowspan=4><a href="ctfs/idekCTF">idekCTF</a></td>
+            <td><a href="ctfs/idekCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2746/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/idekCTF/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2304/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -3793,7 +3805,11 @@
             <td><a href="https://ctftime.org/event/2450/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=5><a href="ctfs/justCTF">justCTF</a></td>
+            <td rowspan=6><a href="ctfs/justCTF">justCTF</a></td>
+            <td><a href="ctfs/justCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2711/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/justCTF/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2342/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -3955,6 +3971,11 @@
             <td rowspan=1><a href="ctfs/rgbCTF">rgbCTF</a></td>
             <td><a href="ctfs/rgbCTF/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1042/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/scriptCTF">scriptCTF</a></td>
+            <td><a href="ctfs/scriptCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2792/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=1><a href="ctfs/smileyCTF">smileyCTF</a></td>
