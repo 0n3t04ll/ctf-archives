@@ -542,6 +542,11 @@
             <td><a href="https://ctftime.org/event/2063/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/BlueArena">BlueArena</a></td>
+            <td><a href="ctfs/BlueArena/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2684/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=3><a href="ctfs/BlueHens">BlueHens</a></td>
             <td><a href="ctfs/BlueHens/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2512/tasks/" target="_blank">CTFtime</a></td>
@@ -1333,6 +1338,11 @@
             <td><a href="https://ctftime.org/event/1375/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/FullWeakEngineer">FullWeakEngineer</a></td>
+            <td><a href="ctfs/FullWeakEngineer/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2864/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=2><a href="ctfs/FwordCTF">Fword</a></td>
             <td><a href="ctfs/FwordCTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1405/tasks/" target="_blank">CTFtime</a></td>
@@ -1524,6 +1534,11 @@
         <tr>
             <td><a href="ctfs/HSCTF/2019">2019</a></td>
             <td><a href="https://ctftime.org/event/821/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/h4ckc0n">h4ckc0n</a></td>
+            <td><a href="ctfs/h4ckc0n/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2905/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=5><a href="ctfs/hxp">hxp</a></td>
@@ -2217,6 +2232,11 @@
             <td><a href="https://ctftime.org/event/584/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/NNS">NNS</a></td>
+            <td><a href="ctfs/NNS/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2684/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/NACTF">NACTF</a></td>
             <td><a href="ctfs/NACTF/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1157/tasks/" target="_blank">CTFtime</a></td>
@@ -2235,23 +2255,6 @@
             <td rowspan=1><a href="ctfs/Nexus">Nexus</a></td>
             <td><a href="ctfs/Nexus/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2331/tasks/" target="_blank">CTFtime</a></td>
-        </tr>
-        <tr>
-            <td rowspan=4><a href="ctfs/niteCTF">niteCTF</a></td>
-            <td><a href="ctfs/niteCTF/2024">2024</a></td>
-            <td><a href="https://ctftime.org/event/2461/tasks/" target="_blank">CTFtime</a></td>
-        </tr>
-        <tr>
-            <td><a href="ctfs/niteCTF/2023">2023</a></td>
-            <td><a href="https://ctftime.org/event/2207/tasks/" target="_blank">CTFtime</a></td>
-        </tr>
-        <tr>
-            <td><a href="ctfs/niteCTF/2022">2022</a></td>
-            <td><a href="https://ctftime.org/event/1758/tasks/" target="_blank">CTFtime</a></td>
-        </tr>
-        <tr>
-            <td><a href="ctfs/niteCTF/2021">2021</a></td>
-            <td><a href="https://ctftime.org/event/1449/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=1><a href="ctfs/NOESCAPE">NOESCAPE</a></td>
@@ -2315,6 +2318,23 @@
             <td rowspan=1><a href="ctfs/NuitduHack">Nuit du Hack</a></td>
             <td><a href="ctfs/NuitduHack/2018/Quals">2018 Quals</a></td>
             <td><a href="https://ctftime.org/event/583/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=4><a href="ctfs/niteCTF">niteCTF</a></td>
+            <td><a href="ctfs/niteCTF/2024">2024</a></td>
+            <td><a href="https://ctftime.org/event/2461/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/niteCTF/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/2207/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/niteCTF/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1758/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/niteCTF/2021">2021</a></td>
+            <td><a href="https://ctftime.org/event/1449/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=1><a href="ctfs/OFPPT">OFPPT</a></td>
@@ -3028,7 +3048,11 @@
             <td><a href="https://ctftime.org/event/2001/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="ctfs/TFC">TFC</a></td>
+            <td rowspan=5><a href="ctfs/TFC">TFC</a></td>
+            <td><a href="ctfs/TFC/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2822/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/TFC/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2423/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -3762,7 +3786,11 @@
             <td><a href="https://ctftime.org/event/2762/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/corCTF">corCTF</a></td>
+            <td rowspan=4><a href="ctfs/corCTF">corCTF</a></td>
+            <td><a href="ctfs/corCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2763/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/corCTF/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1928/tasks/" target="_blank">CTFtime</a></td>
         </tr>
