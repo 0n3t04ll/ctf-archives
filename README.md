@@ -611,7 +611,11 @@
             <td><a href="https://ctftime.org/event/1892/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="ctfs/BuckeyeCTF">BuckeyeCTF</a></td>
+            <td rowspan=5><a href="ctfs/BuckeyeCTF">BuckeyeCTF</a></td>
+            <td><a href="ctfs/BuckeyeCTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2883/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/BuckeyeCTF/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2449/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1882,6 +1886,11 @@
             <td><a href="https://ctftime.org/event/1823/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/Infobahn">Infobahn</a></td>
+            <td><a href="ctfs/Infobahn/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2878/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/IngonyamaZK">IngonyamaZK</a></td>
             <td><a href="ctfs/IngonyamaZK/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1996/tasks/" target="_blank">CTFtime</a></td>
@@ -2146,7 +2155,11 @@
             <td><a href="https://ctftime.org/event/1173/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=6><a href="ctfs/MCTF">MCTF</a></td>
+            <td rowspan=7><a href="ctfs/MCTF">MCTF</a></td>
+            <td><a href="ctfs/MCTF/2025/Quals">2025 Quals</a></td>
+            <td><a href="https://ctftime.org/event/2995/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/MCTF/2024/Quals">2024 Quals</a></td>
             <td><a href="https://ctftime.org/event/2534/tasks/" target="_blank">CTFtime</a></td>
         </tr>
