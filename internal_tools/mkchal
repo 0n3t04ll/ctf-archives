@@ -20,6 +20,9 @@ def is_valid(line):
   except:
     pass
 
+  if line.strip().lower().startswith('connection: ncat'):
+    return False
+
   if line.strip().lower() == 'click':
     return False
 
@@ -126,6 +129,12 @@ def is_valid(line):
     return False
 
   if line.lower().startswith('solved by'):
+    return False
+
+  if 'download challenge files here' in line.lower():
+    return False
+
+  if line.lower().startswith('connection info:'):
     return False
 
   is_all_numeric = True
