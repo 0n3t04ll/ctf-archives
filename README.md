@@ -8,7 +8,11 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=9><a href="ctfs/0CTF">0CTF</a></td>
+            <td rowspan=10><a href="ctfs/0CTF">0CTF</a></td>
+            <td><a href="ctfs/0CTF/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2997/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/0CTF/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2448/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -336,7 +340,11 @@
             <td><a href="https://ctftime.org/event/1065/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="ctfs/BSidesAlgiers">BSides Algiers</a></td>
+            <td rowspan=3><a href="ctfs/BSidesAlgiers">BSidesAlgiers</a></td>
+            <td><a href="ctfs/BSidesAlgiers/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2962/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/BSidesAlgiers/2023">2023</a></td>
             <td><a href="https://ctftime.org/event/1950/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -3306,7 +3314,11 @@
             <td><a href="https://ctftime.org/event/2598/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=5><a href="ctfs/TSG">TSG</a></td>
+            <td rowspan=6><a href="ctfs/TSG">TSG</a></td>
+            <td><a href="ctfs/TSG/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2867/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/TSG/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2424/tasks/" target="_blank">CTFtime</a></td>
         </tr>
