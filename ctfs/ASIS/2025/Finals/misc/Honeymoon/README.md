@@ -1,0 +1,1 @@
+During a honeymoon, everyone hopes for boundless time and infinite joy. Yet, it seems to fly by in a rush, doesn't it? Why is that?
