@@ -124,7 +124,11 @@
             <td><a href="https://ctftime.org/event/1091/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=16><a href="ctfs/ASIS">ASIS</a></td>
+            <td rowspan=17><a href="ctfs/ASIS">ASIS</a></td>
+            <td><a href="ctfs/ASIS/2025/Finals">2025 Finals</a></td>
+            <td><a href="https://ctftime.org/event/2613/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/ASIS/2025/Quals">2025 Quals</a></td>
             <td><a href="https://ctftime.org/event/2612/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1609,7 +1613,11 @@
             <td><a href="https://ctftime.org/event/2905/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=5><a href="ctfs/hxp">hxp</a></td>
+            <td rowspan=6><a href="ctfs/hxp">hxp</a></td>
+            <td><a href="ctfs/hxp/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2924/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/hxp/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2437/tasks/" target="_blank">CTFtime</a></td>
         </tr>
