@@ -2844,6 +2844,11 @@
             <td><a href="https://ctftime.org/event/1068/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/Scarlet">Scarlet</a></td>
+            <td><a href="ctfs/Scarlet/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/2981/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/SEC-T">SEC-T</a></td>
             <td><a href="ctfs/SEC-T/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1761/tasks/" target="_blank">CTFtime</a></td>
