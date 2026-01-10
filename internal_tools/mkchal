@@ -180,6 +180,9 @@ def is_valid(line):
   if re.fullmatch(r"link:\s+(http|https)://\d+\.\d+\.\d+\.\d+(:\d+){0,1}/", line.strip().lower()):
     return False
 
+  if re.fullmatch(r"curl\s+(http|https)://\d+\.\d+\.\d+\.\d+(:\d+){0,1}", line.strip().lower()):
+    return False
+
   if re.search(r"^(bot:|remote:|admin bot at)\s*(http|https)://", line.strip().lower()):
     return False
 

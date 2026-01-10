@@ -3641,7 +3641,11 @@
             <td><a href="https://ctftime.org/event/1246/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=2><a href="ctfs/UofTCTF">UofTCTF</a></td>
+            <td rowspan=3><a href="ctfs/UofTCTF">UofTCTF</a></td>
+            <td><a href="ctfs/UofTCTF/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/2969/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/UofTCTF/2025">2025</a></td>
             <td><a href="https://ctftime.org/event/2570/tasks/" target="_blank">CTFtime</a></td>
         </tr>
