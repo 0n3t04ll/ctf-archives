@@ -180,6 +180,9 @@ def is_valid(line):
   if re.fullmatch(r"link:\s+(http|https)://\d+\.\d+\.\d+\.\d+(:\d+){0,1}/", line.strip().lower()):
     return False
 
+  if re.fullmatch(r"curl\s+(http|https)://\d+\.\d+\.\d+\.\d+(:\d+){0,1}", line.strip().lower()):
+    return False
+
   if re.search(r"^(bot:|remote:|admin bot at)\s*(http|https)://", line.strip().lower()):
     return False
 
@@ -214,7 +217,7 @@ def replace_special_characters(line):
 
 def get_challenge_name(line):
   args = re.sub(r'(score:|solves:)\s+\d+', '', emoji.demojize(line.strip()), flags=re.IGNORECASE).strip()
-  args = re.sub(r'^(crypto|jail|misc|pwn|rev|web)/', '', args, flags=re.IGNORECASE).strip()
+  args = re.sub(r'^(osint|forensics|binex|crypto|jail|misc|pwn|rev|web)/', '', args, flags=re.IGNORECASE).strip()
   args = re.sub(r'\(solved by \d+ team(s?)\)\d+', '', args, flags=re.IGNORECASE).strip()
   args = re.sub(r'(\d+\s+solves|\d+\s+pts)', '', args.strip(), flags=re.IGNORECASE).strip()
   args = re.sub(r'\(\d+ pts\)', '', args, flags=re.IGNORECASE).strip()
