@@ -1,0 +1,523 @@
+{
+  "dataset": [
+    {
+      "message": "note_0:1d7b4557164378a4",
+      "mac": "ceaedcf7"
+    },
+    {
+      "message": "note_1:b1b33844da973317",
+      "mac": "9a97016b"
+    },
+    {
+      "message": "note_2:191eba3b56ed0839",
+      "mac": "6d590b3a"
+    },
+    {
+      "message": "note_3:9dce046ed38aca0e",
+      "mac": "308a46cc"
+    },
+    {
+      "message": "note_4:ee65ecd56ddc9552",
+      "mac": "82def9df"
+    },
+    {
+      "message": "note_5:7fe23fa92ff2e6ac",
+      "mac": "cee74da2"
+    },
+    {
+      "message": "note_6:b2bd5ce4f481f0eb",
+      "mac": "f3f7845a"
+    },
+    {
+      "message": "note_7:09532a0958de2d6a",
+      "mac": "2b8c44e4"
+    },
+    {
+      "message": "note_8:d43189805adbd249",
+      "mac": "2c573a8c"
+    },
+    {
+      "message": "note_9:9f79625391e648e3",
+      "mac": "a033fefa"
+    },
+    {
+      "message": "note_10:0380a9f5a3c8d435",
+      "mac": "02738a8c"
+    },
+    {
+      "message": "note_11:68942dd225be6735",
+      "mac": "7ba92bde"
+    },
+    {
+      "message": "note_12:4225bab8a94e98e9",
+      "mac": "0c835ad3"
+    },
+    {
+      "message": "note_13:89f6c2998057396a",
+      "mac": "7d871b89"
+    },
+    {
+      "message": "note_14:c70331941cdda465",
+      "mac": "210453dc"
+    },
+    {
+      "message": "note_15:cd6ed64b89bdb29a",
+      "mac": "74e82a4a"
+    },
+    {
+      "message": "note_16:0c7f14543baa22c5",
+      "mac": "05a85001"
+    },
+    {
+      "message": "note_17:ba9880eaa7d57c09",
+      "mac": "ca55ec66"
+    },
+    {
+      "message": "note_18:0ea7d5be4f64106b",
+      "mac": "41cb0f4c"
+    },
+    {
+      "message": "note_19:cc41d7110185aa49",
+      "mac": "3f9a3a75"
+    },
+    {
+      "message": "note_20:5d977fb8fc75d707",
+      "mac": "05510938"
+    },
+    {
+      "message": "note_21:9df10e67b2f00a25",
+      "mac": "cdbf4714"
+    },
+    {
+      "message": "note_22:8d18f45224b44af7",
+      "mac": "6c3a537d"
+    },
+    {
+      "message": "note_23:9bf61bf27204f949",
+      "mac": "3433ef45"
+    },
+    {
+      "message": "note_24:cfd8eefc41cf1fd2",
+      "mac": "037f7b4c"
+    },
+    {
+      "message": "note_25:05b162041e5cc7a9",
+      "mac": "d856529c"
+    },
+    {
+      "message": "note_26:b046a2c33344bb90",
+      "mac": "fba01062"
+    },
+    {
+      "message": "note_27:050bcaaf4ee6eda0",
+      "mac": "6cd7fad6"
+    },
+    {
+      "message": "note_28:55e289a889473d42",
+      "mac": "d5b42f87"
+    },
+    {
+      "message": "note_29:495ef10672ed6efa",
+      "mac": "1f052baf"
+    },
+    {
+      "message": "note_30:f5660ae8f933f9ce",
+      "mac": "d41e325d"
+    },
+    {
+      "message": "note_31:60d2b4c615dfbe4b",
+      "mac": "0c4335f0"
+    },
+    {
+      "message": "note_32:b3d19d55a06c5258",
+      "mac": "c3906c57"
+    },
+    {
+      "message": "note_33:6d2b63ad24b783c5",
+      "mac": "85397f0f"
+    },
+    {
+      "message": "note_34:9766204c3f1fcfd7",
+      "mac": "1ac91f03"
+    },
+    {
+      "message": "note_35:682f35ae79319f37",
+      "mac": "17b9b679"
+    },
+    {
+      "message": "note_36:63e4f5f01e298d44",
+      "mac": "6996c10e"
+    },
+    {
+      "message": "note_37:9e002726d4b21523",
+      "mac": "ee20a631"
+    },
+    {
+      "message": "note_38:26d1104e57375dfb",
+      "mac": "2ef357c7"
+    },
+    {
+      "message": "note_39:d0a0dd12c1f35da5",
+      "mac": "760e74fd"
+    },
+    {
+      "message": "note_40:88aa6d67519a1574",
+      "mac": "215b19f7"
+    },
+    {
+      "message": "note_41:cb2396ce6273f0a4",
+      "mac": "20cf3b30"
+    },
+    {
+      "message": "note_42:7024d4aead068595",
+      "mac": "a61248e9"
+    },
+    {
+      "message": "note_43:358638f04323ed6e",
+      "mac": "d219fe93"
+    },
+    {
+      "message": "note_44:9c9888eb842ef005",
+      "mac": "ba2e52a6"
+    },
+    {
+      "message": "note_45:f8ad132288aea161",
+      "mac": "a5af9fae"
+    },
+    {
+      "message": "note_46:6ba3290aa6064e6e",
+      "mac": "936991bf"
+    },
+    {
+      "message": "note_47:73a9adc4fa778cfb",
+      "mac": "7237a8ac"
+    },
+    {
+      "message": "note_48:ee99342974fdda0b",
+      "mac": "570db1d4"
+    },
+    {
+      "message": "note_49:443e25093dd0994e",
+      "mac": "7b5241bd"
+    },
+    {
+      "message": "note_50:781e62b034dcd73d",
+      "mac": "2a9e2afa"
+    },
+    {
+      "message": "note_51:9abbcba1b314d7a9",
+      "mac": "cb3e058e"
+    },
+    {
+      "message": "note_52:a9c4becad803f232",
+      "mac": "88d71216"
+    },
+    {
+      "message": "note_53:79c3546a0c1a8139",
+      "mac": "1dd998fe"
+    },
+    {
+      "message": "note_54:b797de4b4031e7a3",
+      "mac": "e8032553"
+    },
+    {
+      "message": "note_55:0c52733c0e4bc2cc",
+      "mac": "70afa56a"
+    },
+    {
+      "message": "note_56:b049a04d16696efe",
+      "mac": "6e529105"
+    },
+    {
+      "message": "note_57:2b67cd51a2b6ecaf",
+      "mac": "ff735925"
+    },
+    {
+      "message": "note_58:06d8d583e15c288d",
+      "mac": "ddecb772"
+    },
+    {
+      "message": "note_59:8485df1939931020",
+      "mac": "89b1f951"
+    },
+    {
+      "message": "note_60:0824108ebd0bdb76",
+      "mac": "94f1905e"
+    },
+    {
+      "message": "note_61:86beabcfb4f53f5d",
+      "mac": "b94ffff2"
+    },
+    {
+      "message": "note_62:05cca6d67b6046d0",
+      "mac": "f6127740"
+    },
+    {
+      "message": "note_63:c56a2be597052062",
+      "mac": "5002bbcd"
+    },
+    {
+      "message": "note_64:4da73912607b1504",
+      "mac": "3a24863e"
+    },
+    {
+      "message": "note_65:291ca654af8f623c",
+      "mac": "c712d5da"
+    },
+    {
+      "message": "note_66:01321a090a9ad9b0",
+      "mac": "932ae9c2"
+    },
+    {
+      "message": "note_67:c017caf79c36e403",
+      "mac": "39112d6d"
+    },
+    {
+      "message": "note_68:71dc47c1d8d24d03",
+      "mac": "f8e3f6a2"
+    },
+    {
+      "message": "note_69:a0aa67344d8c1fea",
+      "mac": "e9fae796"
+    },
+    {
+      "message": "note_70:b382459c0d00e569",
+      "mac": "e13ab170"
+    },
+    {
+      "message": "note_71:8977b352c75acbf4",
+      "mac": "b36861b8"
+    },
+    {
+      "message": "note_72:79fb02444ba34494",
+      "mac": "ced5ebe1"
+    },
+    {
+      "message": "note_73:18c810cf6fcbaf46",
+      "mac": "14cb6a40"
+    },
+    {
+      "message": "note_74:0a112da897650e5c",
+      "mac": "63245c02"
+    },
+    {
+      "message": "note_75:adb296eea83fe2a7",
+      "mac": "b0505750"
+    },
+    {
+      "message": "note_76:a7d2652c90198393",
+      "mac": "35f0ace2"
+    },
+    {
+      "message": "note_77:fd043e94cc108748",
+      "mac": "006230f9"
+    },
+    {
+      "message": "note_78:bdad95776fb67c56",
+      "mac": "c8cc3c20"
+    },
+    {
+      "message": "note_79:256d9f5ca3d25b16",
+      "mac": "f2c58c72"
+    },
+    {
+      "message": "note_80:b3bb32ef2927ae37",
+      "mac": "12457c91"
+    },
+    {
+      "message": "note_81:9676c3ec36227b71",
+      "mac": "39843690"
+    },
+    {
+      "message": "note_82:4bdb5ef3f0ac0f02",
+      "mac": "5f2a1130"
+    },
+    {
+      "message": "note_83:2285d23d9b3e1a38",
+      "mac": "b07c2be9"
+    },
+    {
+      "message": "note_84:2e6660b878c01dd5",
+      "mac": "a3fce998"
+    },
+    {
+      "message": "note_85:b5455651c496d4b0",
+      "mac": "8fe3d1a3"
+    },
+    {
+      "message": "note_86:35483bf25d56920c",
+      "mac": "5c1799d5"
+    },
+    {
+      "message": "note_87:93d2895cda2d9e9b",
+      "mac": "892628b3"
+    },
+    {
+      "message": "note_88:406ff2e6edf27e88",
+      "mac": "58bf6ca9"
+    },
+    {
+      "message": "note_89:e0c757c390d76555",
+      "mac": "1751a6ac"
+    },
+    {
+      "message": "note_90:101be3572b7eaab9",
+      "mac": "d1ad4c8e"
+    },
+    {
+      "message": "note_91:d7b82d62a3052caa",
+      "mac": "b88bc0da"
+    },
+    {
+      "message": "note_92:822f7d3ab54f340b",
+      "mac": "7c1665ca"
+    },
+    {
+      "message": "note_93:5740f0ff34b2658f",
+      "mac": "ac98d45c"
+    },
+    {
+      "message": "note_94:88f89a4395bbcd90",
+      "mac": "557ba555"
+    },
+    {
+      "message": "note_95:7b183f99fb8ab6e8",
+      "mac": "92aa945c"
+    },
+    {
+      "message": "note_96:c7d4637b4fb4b1b5",
+      "mac": "650090e6"
+    },
+    {
+      "message": "note_97:ae51c1eff161fb27",
+      "mac": "2b71a9ff"
+    },
+    {
+      "message": "note_98:b29cd82788ad7afe",
+      "mac": "1563a51a"
+    },
+    {
+      "message": "note_99:5d3364af29b110a1",
+      "mac": "3d7657e5"
+    },
+    {
+      "message": "note_100:c4d9e2927c790e24",
+      "mac": "7e533809"
+    },
+    {
+      "message": "note_101:d5d552d564a10d35",
+      "mac": "4bc69eec"
+    },
+    {
+      "message": "note_102:acaaf9c2c2051935",
+      "mac": "67aaffa7"
+    },
+    {
+      "message": "note_103:ef1e3d54462658e0",
+      "mac": "44110232"
+    },
+    {
+      "message": "note_104:aaa237516a654247",
+      "mac": "43e59553"
+    },
+    {
+      "message": "note_105:ea3d23a4e0f66175",
+      "mac": "fe7763b2"
+    },
+    {
+      "message": "note_106:16b23eab6971664b",
+      "mac": "bd35f0ed"
+    },
+    {
+      "message": "note_107:6b973c9ab6e39167",
+      "mac": "4d7c9a63"
+    },
+    {
+      "message": "note_108:0b17a76cf2d390fe",
+      "mac": "9f7e260c"
+    },
+    {
+      "message": "note_109:ac8a7cdaaddd31e7",
+      "mac": "b58f8298"
+    },
+    {
+      "message": "note_110:1f0762a4cf023a75",
+      "mac": "f21eff98"
+    },
+    {
+      "message": "note_111:91f167c298d14a00",
+      "mac": "1d09295c"
+    },
+    {
+      "message": "note_112:24e5b6146adf1097",
+      "mac": "27be4560"
+    },
+    {
+      "message": "note_113:8249c7cba0b2123a",
+      "mac": "b9243d25"
+    },
+    {
+      "message": "note_114:c932fdcaf5c1802d",
+      "mac": "5d1aeb27"
+    },
+    {
+      "message": "note_115:68608bb4d327de29",
+      "mac": "8064f355"
+    },
+    {
+      "message": "note_116:08d268cd38aba2e5",
+      "mac": "b8c8a48e"
+    },
+    {
+      "message": "note_117:51c91453c07b95bc",
+      "mac": "639f8985"
+    },
+    {
+      "message": "note_118:dfda0447c108cb42",
+      "mac": "bff82db9"
+    },
+    {
+      "message": "note_119:7475214f4a0c4551",
+      "mac": "f135d1d8"
+    },
+    {
+      "message": "note_120:9fde8f17c40425cc",
+      "mac": "777d9b50"
+    },
+    {
+      "message": "note_121:61e0f740e611c9f2",
+      "mac": "0d11ba73"
+    },
+    {
+      "message": "note_122:44de2de1e305984d",
+      "mac": "ac6a4628"
+    },
+    {
+      "message": "note_123:ad6cd06a79bdff25",
+      "mac": "0cb5c160"
+    },
+    {
+      "message": "note_124:73650022a43b2203",
+      "mac": "831c7b4a"
+    },
+    {
+      "message": "note_125:6e17cc21165e07c2",
+      "mac": "06fb10b5"
+    },
+    {
+      "message": "note_126:f987bbd4cede87b8",
+      "mac": "5e0d9b3b"
+    },
+    {
+      "message": "note_127:c77053d483fa3dfb",
+      "mac": "cc8ab886"
+    }
+  ],
+  "flag_enc": "641ca46700a47839aa6f1aae7131bb761a947a01be7131b86202bf5c0fbc621794540fa7770bb97e",
+  "params": {
+    "hmac": "HMAC-SHA256",
+    "trunc_bytes": 4,
+    "salt_len_bytes": 3,
+    "note": "salt is secret and same for all messages; flag_enc is XOR(flag, salt repeated)"
+  }
+}

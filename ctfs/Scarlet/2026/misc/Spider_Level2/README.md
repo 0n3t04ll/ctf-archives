@@ -1,0 +1,6 @@
+mel
+OMG!!! This is big!!! I don't know how u are so smart at dis...
+
+Can u dig even deeper? I'm sure something in dat server has some vulnerability...
+
+She mentioned something about a graph that looked like a V?

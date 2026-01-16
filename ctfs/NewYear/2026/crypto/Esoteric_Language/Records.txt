@@ -1,0 +1,29 @@
+Record1:
+Code = "ARC-01"
+Ref (masked) = "aa11bb22-33cc-44dd-55ee-66ff778899***"
+Created (full) = "20251007122345"
+NoteEncrypted = "8yR1aju+AAAX"
+
+Record2:
+Code = "ARC-02"
+Ref (masked) = "bb22cc33-44dd-55ee-66ff-778899aabb***"
+Created (truncated to hour) = "2025100712"
+NoteEncrypted = "RM5bcxPzAABi"
+
+Record3:
+Code = "ARC-03"
+Ref (masked) = "cc33dd44-55ee-66ff-7788-99aabbccdd***"
+Created (truncated to day) = "20251007"
+NoteEncrypted = "R1YQdzaRAABI"
+
+Record4:
+Code = "ARC-04"
+Ref (masked) = "dd44ee55-66ff-7788-99aa-bbccddeeff***"
+Created (truncated to day) = "20251007"
+NoteEncrypted = "jULmZg0V"
+
+Record5:
+Code = "ARC-05"
+Ref (masked) = "ee55ff66-7788-99aa-bbcc-ddeeff0011***"
+Created (truncated to hour) = "2025100714"
+NoteEncrypted = "FPZTlS0L"

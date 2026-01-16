@@ -1,0 +1,65 @@
+&НаКлиенте
+Процедура ПоказатьАлгоритм(Команда)
+    Code = "REDACTED";
+    RefFull = "REDACTED";
+    CreatedFull = "REDACTED";
+    Flag = "REDACTED";
+    Функция RotateLeftByte(Байт, Сдвиг)
+        Если Сдвиг = 0 Тогда
+            Возврат Байт;
+        КонецЕсли;
+        Возврат ((Байт * (2 ** Сдвиг)) % 256) + (Байт / (2 ** (8 - Сдвиг)));
+    КонецФункции
+    Функция RotateRightByte(Байт, Сдвиг)
+        Если Сдвиг = 0 Тогда
+            Возврат Байт;
+        КонецЕсли;
+        Возврат ((Байт & 255) >> Сдвиг) + ((Байт * (2 ** (8 - Сдвиг))) % 256);
+    КонецФункции
+    Функция SeedFromKeyMaterial(Code, Ref, Created)
+        KeyMat = СтрTrim(Code) + "|" + Ref + "|" + Created;
+        Сумма = 0;
+        Для i = 1 По СтрДлина(KeyMat) Цикл
+            Сумма = Сумма + КодСимвола(Сред(KeyMat, i, 1));
+        КонецЦикла;
+        Возврат (Сумма * 2654435761) % (2 ** 31);
+    КонецФункции
+    Функция EncryptNote(Code, Ref, Created, PlainText)
+        Seed = SeedFromKeyMaterial(Code, Ref, Created);
+        a = 1103515245;
+        c = 12345;
+        m = 2 ** 31;
+        prev_plain = 0;
+        Для i = 1 По СтрДлина(Ref) Цикл
+            prev_plain = prev_plain + КодСимвола(Сред(Ref, i, 1));
+        КонецЦикла;
+        prev_plain = prev_plain % 256;
+        bytesPlain = СтрокаВБайтов(PlainText, "UTF-8");
+        bytesTemp = Новый Массив;
+        Для i = 0 По bytesPlain.Количество() - 1 Цикл
+            Seed = (a * Seed + c) % m;
+            ks = (Seed >> 17) & 16#FF;
+            shift = (СтрДлина(Code) * 3 + (prev_plain & 7) + i) % 8;
+            x = bytesPlain[i] XOR ks;
+            cb = RotateLeftByte(x, shift);
+            bytesTemp.Добавить(cb);
+            prev_plain = bytesPlain[i];
+        КонецЦикла;
+        blk = Новый Массив;
+        j = 0;
+        Пока j < bytesTemp.Количество() Цикл
+            b1 = bytesTemp[j];
+            b2 = 0;
+            b3 = 0;
+            Если j+1 < bytesTemp.Количество() Тогда b2 = bytesTemp[j+1]; КонецЕсли;
+            Если j+2 < bytesTemp.Количество() Тогда b3 = bytesTemp[j+2]; КонецЕсли;
+            blk.Добавить(b3);
+            blk.Добавить(b2);
+            blk.Добавить(b1);
+            j = j + 3;
+        КонецЦикла;
+        bin = Новый БинарныеДанные(blk);
+        Возврат bin.ПолучитьСтрокуBase64();
+    КонецФункции
+    Сообщить("Алгоритм показан. Секреты REDACTED.")
+КонецПроцедуры
