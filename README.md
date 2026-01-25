@@ -2196,6 +2196,11 @@
             <td><a href="https://ctftime.org/event/895/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/LilacCTF">LilacCTF</a></td>
+            <td><a href="ctfs/LilacCTF/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/3071/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=2><a href="ctfs/LedgerDonjon">Ledger Donjon</a></td>
             <td><a href="ctfs/LedgerDonjon/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1516/tasks/" target="_blank">CTFtime</a></td>
