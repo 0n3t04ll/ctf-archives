@@ -137,6 +137,9 @@ def is_valid(line):
   if line.lower().startswith('connection info:'):
     return False
 
+  if line.lower().startswith('download:'):
+    return False
+
   is_all_numeric = True
   for l in line.strip().split():
     is_all_numeric = is_all_numeric and l.strip().isnumeric()
