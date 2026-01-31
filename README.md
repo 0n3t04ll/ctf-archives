@@ -193,6 +193,11 @@
             <td><a href="https://ctftime.org/event/364/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/ATCWinterVibesCommunity">AUCTF</a></td>
+            <td><a href="ctfs/ATCWinterVibesCommunity/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/3068/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/AUCTF">AUCTF</a></td>
             <td><a href="ctfs/AUCTF/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1020/tasks/" target="_blank">CTFtime</a></td>
