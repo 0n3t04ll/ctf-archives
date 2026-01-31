@@ -193,6 +193,11 @@
             <td><a href="https://ctftime.org/event/364/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/ATCWinterVibesCommunity">AUCTF</a></td>
+            <td><a href="ctfs/ATCWinterVibesCommunity/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/3068/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=1><a href="ctfs/AUCTF">AUCTF</a></td>
             <td><a href="ctfs/AUCTF/2020">2020</a></td>
             <td><a href="https://ctftime.org/event/1020/tasks/" target="_blank">CTFtime</a></td>
@@ -2102,7 +2107,11 @@
             <td><a href="https://ctftime.org/event/2322/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/KnightCTF">KnightCTF</a></td>
+            <td rowspan=4><a href="ctfs/KnightCTF">KnightCTF</a></td>
+            <td><a href="ctfs/KnightCTF/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/3053/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/KnightCTF/2025">2025</a></td>
             <td><a href="https://ctftime.org/event/2610/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2194,6 +2203,11 @@
         <tr>
             <td><a href="ctfs/Layer7/2019">2019</a></td>
             <td><a href="https://ctftime.org/event/895/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/LilacCTF">LilacCTF</a></td>
+            <td><a href="ctfs/LilacCTF/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/3071/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=2><a href="ctfs/LedgerDonjon">Ledger Donjon</a></td>

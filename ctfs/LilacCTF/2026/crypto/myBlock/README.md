@@ -1,0 +1,4 @@
+Ever since I was young
+I had a dream that I will be encrypted in a block
+Made out of Feistelatte and cake
+What a sweet sweet dream it was
