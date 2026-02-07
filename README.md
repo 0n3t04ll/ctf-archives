@@ -322,6 +322,19 @@
             <td><a href="https://ctftime.org/event/708/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=3><a href="ctfs/BDSec">BDSec</a></td>
+            <td><a href="ctfs/BDSec/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/2784/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/BDSec/2023">2023</a></td>
+            <td><a href="https://ctftime.org/event/1946/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td><a href="ctfs/BDSec/2022">2022</a></td>
+            <td><a href="https://ctftime.org/event/1699/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=2><a href="ctfs/BITSCTF">BITSCTF</a></td>
             <td><a href="ctfs/BITSCTF/2025">2025</a></td>
             <td><a href="https://ctftime.org/event/2607/tasks/" target="_blank">CTFtime</a></td>
@@ -1040,19 +1053,6 @@
             <td><a href="https://ctftime.org/event/1554/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=3><a href="ctfs/BDSec">BDSec</a></td>
-            <td><a href="ctfs/BDSec/2025">2025</a></td>
-            <td><a href="https://ctftime.org/event/2784/tasks/" target="_blank">CTFtime</a></td>
-        </tr>
-        <tr>
-            <td><a href="ctfs/BDSec/2023">2023</a></td>
-            <td><a href="https://ctftime.org/event/1946/tasks/" target="_blank">CTFtime</a></td>
-        </tr>
-        <tr>
-            <td><a href="ctfs/BDSec/2022">2022</a></td>
-            <td><a href="https://ctftime.org/event/1699/tasks/" target="_blank">CTFtime</a></td>
-        </tr>
-        <tr>
             <td rowspan=1><a href="ctfs/DCTF">DCTF</a></td>
             <td><a href="ctfs/DCTF/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1361/tasks/" target="_blank">CTFtime</a></td>
@@ -1107,6 +1107,11 @@
         <tr>
             <td><a href="ctfs/DIVEROSINT/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2365/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/DUCKERZ">DUCKERZ</a></td>
+            <td><a href="ctfs/DUCKERZ/2025">2025</a></td>
+            <td><a href="https://ctftime.org/event/3067/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=4><a href="ctfs/DaVinciCTF">DaVinciCTF</a></td>
