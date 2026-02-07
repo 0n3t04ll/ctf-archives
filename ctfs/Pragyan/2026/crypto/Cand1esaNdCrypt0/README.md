@@ -1,0 +1,6 @@
+5.0      2 ratings
+Your friend's birthday is in one hour now It is 11 PM sharp! You try to order a cake from CandlesCake Shop, but their online platform is completely broken. The approval system is stuck, and every transaction gets rejected unless it's properly signed. You're running out of time. Can you figure out how to get the cake delivered before midnight? The clock is ticking…
+
+Good luck! Happy Hacking!!!!
+
+flag format: p_ctf{...}

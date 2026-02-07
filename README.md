@@ -2639,7 +2639,11 @@
             <td><a href="https://ctftime.org/event/2199/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=4><a href="ctfs/Pragyan">Pragyan</a></td>
+            <td rowspan=5><a href="ctfs/Pragyan">Pragyan</a></td>
+            <td><a href="ctfs/Pragyan/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/3058/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/Pragyan/2025">2025</a></td>
             <td><a href="https://ctftime.org/event/2608/tasks/" target="_blank">CTFtime</a></td>
         </tr>
