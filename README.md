@@ -4192,7 +4192,11 @@
             <td><a href="https://ctftime.org/event/1895/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=6><a href="ctfs/nullconHackIM">nullconHackIM</a></td>
+            <td rowspan=7><a href="ctfs/nullconHackIM">nullconHackIM</a></td>
+            <td><a href="ctfs/nullconHackIM/2026-Goa">2026 Goa</a></td>
+            <td><a href="https://ctftime.org/event/3066/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/nullconHackIM/2025-Berlin">2025 Berlin</a></td>
             <td><a href="https://ctftime.org/event/2874/tasks/" target="_blank">CTFtime</a></td>
         </tr>
