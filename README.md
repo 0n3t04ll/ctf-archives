@@ -54,6 +54,11 @@
             <td><a href="https://ctftime.org/event/1249/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/0xFUN">0xFUN</a></td>
+            <td><a href="ctfs/0xFUN/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/3081/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=2><a href="ctfs/0xL4ugh">0xL4ugh</a></td>
             <td><a href="ctfs/0xL4ugh/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2216/tasks/" target="_blank">CTFtime</a></td>
