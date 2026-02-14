@@ -3415,6 +3415,11 @@
             <td><a href="https://ctftime.org/event/1440/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/TaipanByte">TaipanByte</a></td>
+            <td><a href="ctfs/TaipanByte/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/3086/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=2><a href="ctfs/Tasteless">Tasteless</a></td>
             <td><a href="ctfs/Tasteless/2021">2021</a></td>
             <td><a href="https://ctftime.org/event/1326/tasks/" target="_blank">CTFtime</a></td>

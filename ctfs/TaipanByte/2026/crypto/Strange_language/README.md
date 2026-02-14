@@ -1,0 +1,1 @@
+This is not a random set of characters. It is a structured message in a language that has clear rules for translation. The world in which it is used is full of magic, steel, and despair. Find a dictionary and grammar guide to decipher the inscription!
