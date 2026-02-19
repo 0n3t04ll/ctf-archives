@@ -1,0 +1,2 @@
+function _x($a,$b){$r='';for($i=0;$i<strlen($a);$i++)$r.=chr(ord($a[$i])^ord($b[$i]));return $r;}
+function compute_sig($d,$k){$h=hash('sha256',$d,1);$m=substr(hash('sha256',$k,1),0,24);$o='';for($i=0;$i<4;$i++){$s=$i<<3;$b=substr($h,$s,8);$p=(ord($h[$s])%3)<<3;$c=substr($m,$p,8);$o.=($i?_x(_x($b,$c),substr($o,$s-8,8)):_x($b,$c));}return $o;}
