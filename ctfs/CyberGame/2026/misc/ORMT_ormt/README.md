@@ -1,0 +1,1 @@
+A local bookstore has deployed a new online library system. The application lets users browse books, view details, and search the catalogue using a custom lookup feature. We have been retained to perform a security assessment of the application. Your objective is to gain access to the admin area and retrieve the flag.

@@ -1,0 +1,3 @@
+An employee who is also a gamer was working under significant time pressure. A client assignment had to be completed quickly, and in his haste, he did something he shouldn't have. Investigate what happened. Disk image file: https://files.cybergame.sk/gamer-ffa8a1b6-f590-4c16-9846-7015a4d3cf49/disk.7z?cb=2026-03-01
+
+SHA-256 hashes: b0dfdba0b0426a88075ef794d84ab7275c7284d0e45618ae62b71e3ed98efe40 disk.7z 15ce3abee94cd3e2fc720515ebc9e5b13d2efb1cdb2dc5f1a897dba69034b3f8 disk.ad1 bb7955fd105f7315d3d086c8566e6bf32c218d0b0a81a7993c429468db54deb1 disk.ad2 85922cf9afc4e9216017e02c3b9fc025893b7954a595034780de6319b62c0a1e disk.ad3 0217012f630e888d986907ed3b7dc610eab121c99406532335714b1bf3caf1d1 disk.ad4 8809a7cfac53d8ca749b1adbbd0474158e468c97a7beca86050715560a77d5e7 disk.ad5

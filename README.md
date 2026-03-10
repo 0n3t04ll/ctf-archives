@@ -806,7 +806,11 @@
             <td><a href="https://ctftime.org/event/488/tasks/" target="_blank">CTFtime</a> <a href="https://github.com/sajjadium/ctf-writeups/tree/master/CSAW/2017/Quals">PersianCats</a></td>
         </tr>
         <tr>
-            <td rowspan=1><a href="ctfs/CSCG">CSCG</a></td>
+            <td rowspan=2><a href="ctfs/CSCG">CSCG</a></td>
+            <td><a href="ctfs/CSCG/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/2907/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/CSCG/2025">2025</a></td>
             <td><a href="https://ctftime.org/event/2588/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -1580,6 +1584,11 @@
         <tr>
             <td><a href="ctfs/GreyCatTheFlag/2022">2022</a></td>
             <td><a href="https://ctftime.org/event/1643/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
+            <td rowspan=1><a href="ctfs/CyberGame">CyberGame</a></td>
+            <td><a href="ctfs/CyberGame/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/3142/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
             <td rowspan=2><a href="ctfs/CyberGrabs">CyberGrabs</a></td>
