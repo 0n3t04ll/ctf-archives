@@ -3700,7 +3700,11 @@
             <td><a href="https://ctftime.org/event/2543/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=7><a href="ctfs/UTCTF">UTCTF</a></td>
+            <td rowspan=8><a href="ctfs/UTCTF">UTCTF</a></td>
+            <td><a href="ctfs/UTCTF/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/3133/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/UTCTF/2025">2025</a></td>
             <td><a href="https://ctftime.org/event/2641/tasks/" target="_blank">CTFtime</a></td>
         </tr>
