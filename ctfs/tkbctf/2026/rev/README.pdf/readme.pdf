@@ -1,0 +1,315 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<</Pages 2 0 R /Type /Catalog>>
+endobj
+2 0 obj
+<</Count 1 /Kids [3 0 R] /Type /Pages>>
+endobj
+3 0 obj
+<</AA
+  <</O
+  <</JS
+  (
+var expected = [46,49,56,57,46,60,33,16,110,44,110,9,57,40,107,42,46,5,107,52,5,10,30,28,39];
+var k = 90;
+
+function get_input\(\) {
+    return globalThis.getField\("input_display"\).value;
+}
+
+function set_input\(v\) {
+    globalThis.getField\("input_display"\).value = v;
+}
+
+function append_char\(c\) {
+    set_input\(get_input\(\) + c\);
+}
+
+function delete_char\(\) {
+    var v = get_input\(\);
+    set_input\(v.slice\(0, -1\)\);
+}
+
+function clear_input\(\) {
+    set_input\(""\);
+}
+
+function check_flag\(\) {
+    var input_buf = get_input\(\);
+    var result_field = globalThis.getField\("result_display"\);
+    if \(input_buf.length !== expected.length\) {
+        result_field.value = "Wrong";
+        return;
+    }
+    for \(var i = 0; i < expected.length; i++\) {
+        if \(\(input_buf.charCodeAt\(i\) ^ k\) !== expected[i]\) {
+            result_field.value = "Wrong";
+            return;
+        }
+    }
+    result_field.value = "Correct";
+}
+)
+  /S /JavaScript>>>>
+  /Annots
+  [<</BS <</W 0>> /FT /Tx /Ff 2 /Rect [30 316 470 336] /Subtype /Widget /T
+  (input_display) /Type /Annot /V <>>>
+  <</BS <</W 0>> /FT /Tx /Ff 2 /Rect [30 280 470 300] /Subtype /Widget /T
+  (result_display) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('A'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (A)>> /Rect [30 235 60 263]
+  /Subtype /Widget /T (btn_0) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('B'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (B)>> /Rect [64 235 94 263]
+  /Subtype /Widget /T (btn_1) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('C'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (C)>> /Rect [98 235 128 263]
+  /Subtype /Widget /T (btn_2) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('D'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (D)>> /Rect [132 235 162 263]
+  /Subtype /Widget /T (btn_3) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('E'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (E)>> /Rect [166 235 196 263]
+  /Subtype /Widget /T (btn_4) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('F'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (F)>> /Rect [200 235 230 263]
+  /Subtype /Widget /T (btn_5) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('G'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (G)>> /Rect [234 235 264 263]
+  /Subtype /Widget /T (btn_6) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('H'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (H)>> /Rect [268 235 298 263]
+  /Subtype /Widget /T (btn_7) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('I'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (I)>> /Rect [302 235 332 263]
+  /Subtype /Widget /T (btn_8) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('J'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (J)>> /Rect [336 235 366 263]
+  /Subtype /Widget /T (btn_9) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('K'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (K)>> /Rect [370 235 400 263]
+  /Subtype /Widget /T (btn_10) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('L'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (L)>> /Rect [404 235 434 263]
+  /Subtype /Widget /T (btn_11) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('M'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (M)>> /Rect [438 235 468 263]
+  /Subtype /Widget /T (btn_12) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('N'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (N)>> /Rect [30 203 60 231]
+  /Subtype /Widget /T (btn_13) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('O'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (O)>> /Rect [64 203 94 231]
+  /Subtype /Widget /T (btn_14) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('P'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (P)>> /Rect [98 203 128 231]
+  /Subtype /Widget /T (btn_15) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('Q'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (Q)>> /Rect [132 203 162 231]
+  /Subtype /Widget /T (btn_16) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('R'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (R)>> /Rect [166 203 196 231]
+  /Subtype /Widget /T (btn_17) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('S'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (S)>> /Rect [200 203 230 231]
+  /Subtype /Widget /T (btn_18) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('T'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (T)>> /Rect [234 203 264 231]
+  /Subtype /Widget /T (btn_19) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('U'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (U)>> /Rect [268 203 298 231]
+  /Subtype /Widget /T (btn_20) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('V'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (V)>> /Rect [302 203 332 231]
+  /Subtype /Widget /T (btn_21) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('W'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (W)>> /Rect [336 203 366 231]
+  /Subtype /Widget /T (btn_22) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('X'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (X)>> /Rect [370 203 400 231]
+  /Subtype /Widget /T (btn_23) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('Y'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (Y)>> /Rect [404 203 434 231]
+  /Subtype /Widget /T (btn_24) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('Z'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (Z)>> /Rect [438 203 468 231]
+  /Subtype /Widget /T (btn_25) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('a'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (a)>> /Rect [30 171 60 199]
+  /Subtype /Widget /T (btn_26) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('b'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (b)>> /Rect [64 171 94 199]
+  /Subtype /Widget /T (btn_27) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('c'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (c)>> /Rect [98 171 128 199]
+  /Subtype /Widget /T (btn_28) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('d'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (d)>> /Rect [132 171 162 199]
+  /Subtype /Widget /T (btn_29) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('e'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (e)>> /Rect [166 171 196 199]
+  /Subtype /Widget /T (btn_30) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('f'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (f)>> /Rect [200 171 230 199]
+  /Subtype /Widget /T (btn_31) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('g'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (g)>> /Rect [234 171 264 199]
+  /Subtype /Widget /T (btn_32) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('h'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (h)>> /Rect [268 171 298 199]
+  /Subtype /Widget /T (btn_33) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('i'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (i)>> /Rect [302 171 332 199]
+  /Subtype /Widget /T (btn_34) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('j'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (j)>> /Rect [336 171 366 199]
+  /Subtype /Widget /T (btn_35) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('k'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (k)>> /Rect [370 171 400 199]
+  /Subtype /Widget /T (btn_36) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('l'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (l)>> /Rect [404 171 434 199]
+  /Subtype /Widget /T (btn_37) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('m'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (m)>> /Rect [438 171 468 199]
+  /Subtype /Widget /T (btn_38) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('n'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (n)>> /Rect [30 139 60 167]
+  /Subtype /Widget /T (btn_39) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('o'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (o)>> /Rect [64 139 94 167]
+  /Subtype /Widget /T (btn_40) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('p'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (p)>> /Rect [98 139 128 167]
+  /Subtype /Widget /T (btn_41) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('q'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (q)>> /Rect [132 139 162 167]
+  /Subtype /Widget /T (btn_42) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('r'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (r)>> /Rect [166 139 196 167]
+  /Subtype /Widget /T (btn_43) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('s'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (s)>> /Rect [200 139 230 167]
+  /Subtype /Widget /T (btn_44) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('t'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (t)>> /Rect [234 139 264 167]
+  /Subtype /Widget /T (btn_45) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('u'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (u)>> /Rect [268 139 298 167]
+  /Subtype /Widget /T (btn_46) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('v'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (v)>> /Rect [302 139 332 167]
+  /Subtype /Widget /T (btn_47) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('w'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (w)>> /Rect [336 139 366 167]
+  /Subtype /Widget /T (btn_48) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('x'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (x)>> /Rect [370 139 400 167]
+  /Subtype /Widget /T (btn_49) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('y'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (y)>> /Rect [404 139 434 167]
+  /Subtype /Widget /T (btn_50) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('z'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (z)>> /Rect [438 139 468 167]
+  /Subtype /Widget /T (btn_51) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('0'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (0)>> /Rect [30 107 60 135]
+  /Subtype /Widget /T (btn_52) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('1'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (1)>> /Rect [64 107 94 135]
+  /Subtype /Widget /T (btn_53) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('2'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (2)>> /Rect [98 107 128 135]
+  /Subtype /Widget /T (btn_54) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('3'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (3)>> /Rect [132 107 162 135]
+  /Subtype /Widget /T (btn_55) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('4'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (4)>> /Rect [166 107 196 135]
+  /Subtype /Widget /T (btn_56) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('5'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (5)>> /Rect [200 107 230 135]
+  /Subtype /Widget /T (btn_57) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('6'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (6)>> /Rect [234 107 264 135]
+  /Subtype /Widget /T (btn_58) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('7'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (7)>> /Rect [268 107 298 135]
+  /Subtype /Widget /T (btn_59) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('8'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (8)>> /Rect [302 107 332 135]
+  /Subtype /Widget /T (btn_60) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('9'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (9)>> /Rect [336 107 366 135]
+  /Subtype /Widget /T (btn_61) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('{'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA ({)>> /Rect [370 107 400 135]
+  /Subtype /Widget /T (btn_62) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('}'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (})>> /Rect [404 107 434 135]
+  /Subtype /Widget /T (btn_63) /Type /Annot /V <>>>
+  <</AA <</D <</JS (append_char\('_'\)) /S /JavaScript>>>> /BS <</W 0>>
+  /FT /Btn /Ff 65536 /MK <</BG [0.9] /CA (_)>> /Rect [438 107 468 135]
+  /Subtype /Widget /T (btn_64) /Type /Annot /V <>>>
+  <</AA <</D <</JS (delete_char\(\)) /S /JavaScript>>>> /BS <</W 0>> /FT
+  /Btn /Ff 65536 /MK <</BG [0.9] /CA (DEL)>> /Rect [30 75 90 103]
+  /Subtype /Widget /T (btn_del) /Type /Annot /V <>>>
+  <</AA <</D <</JS (clear_input\(\)) /S /JavaScript>>>> /BS <</W 0>> /FT
+  /Btn /Ff 65536 /MK <</BG [0.9] /CA (CLEAR)>> /Rect [95 75 165 103]
+  /Subtype /Widget /T (btn_clear) /Type /Annot /V <>>>
+  <</AA <</D <</JS (check_flag\(\)) /S /JavaScript>>>> /BS <</W 0>> /FT
+  /Btn /Ff 65536 /MK <</BG [0.9] /CA (CHECK)>> /Rect [170 75 250 103]
+  /Subtype /Widget /T (btn_check) /Type /Annot /V <>>>]
+  /Contents 4 0 R /MediaBox [0 0 500 400] /Parent 2 0 R /Resources
+  <</Font <</F1 <</BaseFont /Courier /Subtype /Type1 /Type /Font>>>>>>
+  /Type /Page>>
+endobj
+4 0 obj
+<</Length 423>>
+stream
+
+    BT
+    /F1 20 Tf
+    30 370 Td (Flag Checker) Tj
+    ET
+    
+
+    BT
+    /F1 10 Tf
+    30 348 Td (Enter the flag using the buttons below, then press CHECK.) Tj
+    ET
+    
+
+    BT
+    /F1 8 Tf
+    30 338 Td (Input:) Tj
+    ET
+    
+
+    BT
+    /F1 8 Tf
+    30 302 Td (Result:) Tj
+    ET
+    
+
+    BT
+    /F1 8 Tf
+    30 28 Td (NOTE: This PDF has been confirmed to work with Google Chrome 145.0.7632.160.) Tj
+    ET
+    
+endstream
+endobj
+xref
+0 5
+0000000000 65535 f
+0000000015 00000 n
+0000000062 00000 n
+0000000117 00000 n
+0000014752 00000 n
+trailer
+
+<</Root 1 0 R /Size 5>>
+startxref
+15224
+%%EOF

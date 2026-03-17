@@ -1,0 +1,3 @@
+You've been admitted to Ashworth Psychiatric Institute. The intake process seems... unusual. The orderlies keep asking you strange questions, and the computer system they use looks decades old.
+
+There's a door at the end of the hallway. The warden's office. If you could just get past the lock...

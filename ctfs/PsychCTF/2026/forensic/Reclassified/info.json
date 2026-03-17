@@ -1,0 +1,17 @@
+{
+  "patient_name": "Benjamin Smith",
+  "date_of_birth": "1979-03-14",
+  "case_id": "HIBH-4407",
+  "admission_date": "2003-06-02",
+  "assigned_wing": "Wing B - Isolation",
+  "primary_diagnosis": "Paranoid Delusional Disorder with Acute Persecutory Episodes",
+  "prescribed_medications": "Haloperidol 5mg twice daily; Lorazepam 2mg nightly",
+  "assigned_psychiatrist": "Dr. Maren Voss",
+  "billing_entity": "Hargrove Research and Recovery Trust",
+  "emergency_contact": "No Contact on Record",
+  "emergency_phone": "\u2014",
+  "transfer_notes": "Patient admitted by voluntary commitment; voluntary status reclassified 2003-06-21. He repeatedly insists placement is unlawful, claims fabrication. Transfer requests denied pending further psychiatric evaluation. All external correspondence suspended by institutional directive.",
+  "file_created": "2003-06-05",
+  "last_modified": "2011-09-30",
+  "confidential_stamp": "CONFIDENTIAL"
+}
