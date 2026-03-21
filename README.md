@@ -445,7 +445,11 @@
             <td><a href="https://ctftime.org/event/1397/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=6><a href="ctfs/BSidesSF">BSidesSF</a></td>
+            <td rowspan=7><a href="ctfs/BSidesSF">BSidesSF</a></td>
+            <td><a href="ctfs/BSidesSF/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/3108/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/BSidesSF/2024">2024</a></td>
             <td><a href="https://ctftime.org/event/2357/tasks/" target="_blank">CTFtime</a></td>
         </tr>
@@ -2252,6 +2256,11 @@
             <td><a href="https://ctftime.org/event/1398/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
+            <td rowspan=1><a href="ctfs/LagNCrash">LagNCrash</a></td>
+            <td><a href="ctfs/LagNCrash/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/3165/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td rowspan=4><a href="ctfs/LakeCTF">LakeCTF</a></td>
             <td><a href="ctfs/LakeCTF/2025/Quals">2025 Quals</a></td>
             <td><a href="https://ctftime.org/event/2944/tasks/" target="_blank">CTFtime</a></td>
@@ -3297,7 +3306,11 @@
             <td><a href="https://ctftime.org/event/1575/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=8><a href="ctfs/TAMUctf">TAMUctf</a></td>
+            <td rowspan=9><a href="ctfs/TAMUctf">TAMUctf</a></td>
+            <td><a href="ctfs/TAMUctf/2026">2026</a></td>
+            <td><a href="https://ctftime.org/event/3095/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/TAMUctf/2025">2025</a></td>
             <td><a href="https://ctftime.org/event/2681/tasks/" target="_blank">CTFtime</a></td>
         </tr>
