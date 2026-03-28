@@ -1,0 +1,1 @@
+You found a strange binary on your mom’s computer and you’re not sure what it is or why it’s there. It’s rumored that it was created by a former member of MasonCC who obfuscated his Python code to make it unreadable; your task is to reverse engineer the program and check whether its output contains anything interesting

@@ -1,0 +1,435 @@
+
+UNIVERSAL RULES
+All ranged attacks are always considered within normal range even when in melee range.
+
+Read attacks and spells, they have been changed from base D&D 5e.
+
+Additional attacks/spell effects are not rolled for if intended target is dead. Full damage however, is still rolled.
+
+When rolling multiple attacks it always goes attack, damage, attack, damage, etc.
+
+Only when a behavior says it moves out of melee range does a creature get an opportunity attack, moving into another creature’s melee range does not provoke an opportunity attack.
+
+When landing a critical hit, roll twice the number of damage dice
+
+
+DM
+When initiative is rolled, Players roll in order of priority (low to high) then NPCs
+In the case of multiple creatures of the same type, each is assigned a number in increasing order. The NPCs will take their turn on their initiative in order of lowest to highest.
+When calling for a 1 player skill check roll 1d20, the first one determines the target, if its (all following numbers are inclusive) between 2-7 they check is for the player with priority 1, if its between 8-13 the check is for the player with priority 2, if its between 14-19 the check is for the player with the priority 3. On a 1 or a 20 reroll this die.
+All times damage is rounded it is rounded up.	
+When checks are called for the whole party they are made in order of increasing priority.
+Damage caused by a failed skill check is rolled immediately before rolling the check for the next party member.
+In the event initiative and Dex scores are tied, players go first in initiative order.
+
+
+Players
+At the start of their turn, each player will roll 1d20 to decide their behavior this turn
+During combat, players will attack the creature with the priority from lowest to highest number.
+
+Players will always make an opportunity attack if possible.
+Remember to add the appropriate ability modifier to the damage of all weapons (NOT SPELLS)
+
+Once a player reaches 0hp, they make death saves on their turn, of they reach 3 successes they are restored to 1 hit point on their turn. If they fail 3 death saves they are dead and do not participate in the campaign.
+
+
+Rusty-JSON
+Character Name: Rusty-JSON
+Class & Level: Wizard 5
+Race: Human (Variant)
+Background: Sage
+Alignment: Neutral Good
+Experience Points: 6,500
+Priority: 1
+
+Ability Scores:
+Strength: 8 (-1)
+Dexterity: 14 (+2)
+Constitution: 14 (+2)
+Intelligence: 18 (+4)
+Wisdom: 12 (+1)
+Charisma: 10 (+0)
+Proficiency Bonus: +3
+
+Saving Throws:
+Strength: -1
+Dexterity: +2
+Constitution: +5 (Proficient)
+Intelligence: +7 (Proficient)
+Wisdom: +1
+Charisma: +0
+
+Skills:
+Arcana: +7 (Proficient)
+History: +7 (Proficient)
+Investigation: +7 (Proficient)
+Insight: +4 (Proficient)
+Perception: +1
+Armor Class (AC): 12 (Base 10 + Dexterity modifier)
+Hit Points (HP): 70
+Speed: 9999ft
+Initiative: +2
+
+Race Features:
+Ability Score Increase: +1 to two ability scores (Intelligence and Constitution)
+
+Skills: Gain proficiency in one skill of choice (Insight)
+
+Feats: Gain one feat of choice (War Caster)
+
+Background Features (Sage):
+Languages: Two of choice (Draconic, Elvish)
+Researcher: When attempting to recall or find information, if you don't know it, you often know where and from whom you can obtain it.
+
+Class Features:
+
+Spellcasting: Ability to cast wizard spells using Intelligence as the spellcasting ability.
+Arcane Recovery: Once per day during a short rest, recover expended spell slots with a combined level equal to or less than half your wizard level (rounded up).
+Arcane Tradition (Evocation):
+Evocation Savant: Halves the gold and time required to copy Evocation spells into the spellbook.
+Sculpt Spells: When casting spells, Rusty ensures that only the intended single target must save against an AOE
+
+Spellcasting:
+Spell Save DC: 15 (8 + Proficiency Bonus + Intelligence modifier)
+Spell Attack Bonus: +7 (Proficiency Bonus + Intelligence modifier)
+
+Cantrips:
+Fire Bolt: Ranged spell attack; 1d20 + 2 fire damage.
+Ray of Frost: Ranged spell attack; 1d20 cold damage and reduces target's speed by 10 feet until the start of your next turn.
+Shocking Grasp: Melee spell attack; 1d20 + 5 lightning damage and target can't take reactions until the start of its next turn.
+Mage Hand: Create a spectral hand to manipulate objects within 30 feet.
+
+Spells Prepared:
+
+1st Level (4 slots):
+Magic Missile: Create three darts of magical force; each dart hits a creature of choice within range for 1d20 + 1 force damage. +1 damage per dart.
+Chromatic Orb: Ranged spell attack; 3d8 damage of a chosen type (acid, cold, fire, lightning, poison, or thunder).
+Ray of Sickness: Ranged spell attack; 2d8 poison damage and target must make a Constitution saving throw or be poisoned until the end of your next turn.
+
+2nd Level (3 slots):
+Scorching Ray: Create three rays of fire; each ray requires a ranged spell attack and deals 2d20 fire damage.
+Misty Step: Briefly surrounded by silvery mist, teleport up to 30 feet to an unoccupied space you can see.
+Mirror Image: Create three illusory duplicates of yourself, making it harder for enemies to hit you.
+
+3rd Level (2 slots):
+Counterspell: Interrupt the casting of a spell within 60 feet; if the spell is 3rd level or lower, it fails. For higher-level spells, make an ability check using your spellcasting ability.
+Fireball: A bright streak flashes from your pointing finger to a point you choose within range then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot radius must make a Dexterity saving throw. A target takes 8d20 fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried. Rusty will always use his school of evocation magic to ensure the only creature that takes any damage from this spell is the intended single target.
+
+Combat Behavior chart:
+Die Roll | Behavior for turn
+1 | Rusty spontaneously takes 2 force damage
+2 | Rusty casts fire bolt
+3 | Rusty moves out of any melee range(s) he is currently in
+4 | Rusty Moves into melee range and casts shocking grasp
+5 | Rusty casts Ray of frost
+6 | Rusty Casts a first level spell that deals force damage if possible
+7 | Rusty Does nothing
+8 | Rusty Casts fire bolt
+9 | Rusty casts fire bolt
+10 | Rusty casts ray of frost
+11 | Rusty casts a second level spell that deals fire damage
+12 | Rusty casts magic missile at second level if possible
+13 | Rusty casts a third level spell that deals fire damage if possible
+14 | Rusty does nothing
+15 | Rusty casts a second level that deals fire damage spell if possible
+16 | Rusty casts a second level spell that deals fire damage if possible
+17 | Rusty casts a third level spell that deals fire damage if possible
+18 | Rusty moves out of melee range
+19 | Rusty moves out of melee range
+20 | Rusty casts magic missile at 3rd level if possible
+
+
+Foo
+Character Name: Foo
+Class & Level: Fighter 5 (Champion)
+Race: Half-Orc
+Background: Soldier
+Alignment: Neutral Good
+Experience Points: 6,500
+Priority: 2
+
+Ability Scores:
+Strength: 18 (+4)
+Dexterity: 14 (+2)
+Constitution: 16 (+3)
+Intelligence: 10 (+0)
+Wisdom: 12 (+1)
+Charisma: 8 (-1)
+Proficiency Bonus: +3
+
+Saving Throws:
+Strength: +7 (Proficient)
+Dexterity: +2
+Constitution: +6 (Proficient)
+Intelligence: +0
+Wisdom: +1
+Charisma: -1
+
+Skills:
+Athletics: +7 (Proficient)
+Intimidation: +2 (Proficient)
+Perception: +4 (Proficient)
+Survival: +4 (Proficient)
+Armor Class (AC): 18 (Chain Mail 16 + Shield 2)
+Hit Points (HP): 155 (5d10 Hit Dice; 10 + 4 × 4 + 15 from Constitution)
+Speed: 9999 ft.
+Initiative: +2
+
+Race Features:
+Darkvision: See in dim light within 60 feet as if it were bright light, and in darkness as if it were dim light.
+Relentless Endurance: When reduced to 0 HP but not killed outright, drop to 1 HP instead once per long rest.
+Savage Attacks: On a critical hit with a melee weapon attack, roll one additional damage die and add it to the extra damage.
+
+Background Features (Soldier):
+Skill Proficiencies: Athletics, Intimidation
+Tool Proficiencies: One type of gaming set (Dice), Vehicles (Land)
+Military Rank: Recognized authority in military circles; can exert influence and access resources within the military.
+
+Class Features:
+Fighting Style (Defense): +1 bonus to AC while wearing armor.
+Second Wind: Bonus action to regain 1d20  + 5 HP once per short or long rest up to max HP.
+Action Surge: On your turn, take one additional action on top of your regular action and possible bonus action once per short or long rest.
+Extra Attack: Attack twice whenever you take the Attack action on your turn.
+Martial Archetype (Champion):
+Improved Critical: Weapon attacks score a critical hit on a roll of 19 or 20.
+
+
+Equipment:
+Greatsword: Melee weapon; 2d20 slashing damage (Heavy, Two-Handed). (Proficient) If a critical hit is landed with this weapon, the weapon’s damage changes to 40 + StrMod. No dice are rolled
+Chain Mail Armor: AC 16.
+
+Foo Behavior Chart
+
+Die roll | Behavior
+1 | Foo makes one attack against himself with his sword
+2 | Foo moves into melee range and makes 2 greatsword attacks
+3 | Foo moves into melee range and makes 2 greatsword attacks
+4 | Foo moves into melee range and makes 2 greatsword attacks
+5 | Foo moves out of melee range and takes the dodge action
+6 | Foo moves into melee range and makes 2 greatsword attacks
+7 | Foo moves into melee range and makes 2 greatsword attacks
+8 | Foo moves into melee range and makes 2 greatsword attacks
+9 | Foo moves into melee range and makes 2 greatsword attacks
+10 | Foo moves into melee range and makes 2 greatsword attacks
+11 | Foo moves out of melee range and takes the dodge action
+12 | Foo moves into melee range and makes 2 greatsword attacks
+13 | Foo moves into melee range and makes 2 greatsword attacks
+14 | Foo moves out of melee range and takes the dodge action
+15 | Foo moves into melee range and makes 2 greatsword attacks
+16 | Foo Uses second wind and ends turn if possible
+17 | Foo moves out of melee range
+18 | Foo moves into melee range and makes 2 greatsword attacks
+19 | Foo moves into melee range and makes 2 greatsword attacks
+20 | Foo uses action surge (if possible) and moves into range and attacks twice
+
+
+
+ukoG
+Character Name: ukoG
+Class & Level: Monk 5 (Way of the Sun Soul)
+Race: Wood Elf
+Background: Hermit
+Alignment: Neutral Good
+Experience Points: 6,500
+Priority: 3
+
+Ability Scores:
+Strength: 10 (+0)
+Dexterity: 16 (+3)
+Constitution: 14 (+2)
+Intelligence: 12 (+1)
+Wisdom: 16 (+3)
+Charisma: 10 (+0)
+Proficiency Bonus: +3
+
+Saving Throws:
+Strength: +3 (Proficient)
+Dexterity: +6 (Proficient)
+Constitution: +2
+Intelligence: +1
+Wisdom: +3
+Charisma: +0
+
+Skills:
+Acrobatics: +6 (Proficient)
+Insight: +6 (Proficient)
+Medicine: +6 (Proficient)
+Perception: +6 (Proficient)
+Stealth: +6 (Proficient)
+Armor Class (AC): 16 (10 + Dexterity modifier + Wisdom modifier)
+Hit Points (HP): 100
+Speed: 9999ft
+Initiative: +3
+
+Race Features:
+Darkvision: See in dim light within 60 feet as if it were bright light, and in darkness as if it were dim light.
+Keen Senses: Proficiency in Perception.
+Fey Ancestry: Advantage on saving throws against being charmed, and immune to sleep spells.
+Trance: Meditate for 4 hours instead of sleeping for 8 hours.
+
+Background Features (Hermit):
+Tool Proficiencies: Herbalism Kit
+Discovery: Significant and powerful personal revelation.
+
+Class Features:
+Unarmored Defense: AC equals 10 + Dexterity modifier + Wisdom modifier when not wearing armor or wielding a shield.
+Martial Arts: Use Dexterity for unarmed strikes, unarmed strike damage is 1d20
+Ki: 5 points per short rest; use for Flurry of Blows, Patient Defense, Step of the Wind.
+Deflect Missiles: Automatically use your reaction whenever hit by a ranged attack and reduce damage from ranged weapon attacks by 1d20
+Extra Attack: Attack twice when taking the Attack action.
+Stunning Strike: Spend 1 ki point to attempt to stun a creature hit with a melee weapon attack; target must succeed on a Constitution saving throw or be stunned until the end of your next turn.
+Way of the Sun Soul Features:
+Radiant Sun Bolt: Use ranged spell attack (30 ft. range) dealing 1d20 radiant damage; can spend 1 ki point to make two additional attacks as a bonus action.
+
+
+
+ukoG behavior chart
+
+Die roll | Behavior
+1 | ukoG does nothing
+2 | ukoG moves into melee range and makes 2 unarmed strikes
+3 | ukoG moves out of melee range and takes the dodge action
+4 | ukoG Moves out of melee range if possible and makes 2 radiant sun bolt ranged attacks
+5 | ukoG moves out of melee range and takes the dodge action
+6 | ukoG moves into melee range and makes 1 unarmed strike
+7 | ukoG moves out of melee range and takes the dodge action
+8 | ukoG moves into melee range and makes 2 unarmed strikes, then uses flurry of blows if possible.
+9 | ukoG moves out of melee range and takes the dodge action
+10 | ukoG moves out of melee range and takes the dodge action
+11 | ukoG moves into melee range and makes 2 unarmed strikes
+12 | ukoG moves out of melee range and takes the dodge action
+13 | ukoG Moves out of melee range if possible and makes 2 radiant sun bolt ranged attacks
+14 | ukoG Moves out of melee range if possible and makes 2 radiant sun bolt ranged attacks
+15 | ukoG moves out of melee range and takes the dodge action
+16 | ukoG moves into melee range and makes 2 unarmed strikes, then uses flurry of blows if possible.
+17 | ukoG moves out of melee range and takes the dodge action
+18 | ukoG moves into melee range and uses stunning strike if possible
+19 | ukoG moves into melee range and makes 2 unarmed strikes
+20 | ukoG moves into melee range and makes 2 unarmed strikes, then uses flurry of blows if possible.
+
+
+
+
+NPCs
+At the start of an NPCs turn, they roll 2d20, the first one determines their target, if its (all following numbers are inclusive) between 2-7 they attack the player with priority 1, if its between 8-13 they attack the player with priority 2, if its between 14-19 they attack the player with the priority 3. On a 1 or a 20 or if rolling the priority of a dead player, they reroll this die before rolling the second die. The second die they roll on their behavior chart.
+
+
+NPCs will always make an opportunity attack if possible
+
+NPCs do not get death saves
+
+Ability score modifiers to damage are included in the attack descriptions if applicable
+
+
+Goblin Boss
+
+Goblin Boss
+[  ]
+Small humanoid (Goblinoid), neutral evil
+Armor Class 14 (chain shirt, shield)
+Hit Points 50
+Speed 9999 ft.
+STR
+10 (+0)
+DEX
+14 (+2)
+CON
+10 (+0)
+INT
+10 (+0)
+WIS
+8 (-1)
+CHA
+10 (+0)
+Skills Stealth +6
+Senses darkvision 60 ft., passive Perception 9
+Languages Common, Goblin
+Challenge 1 (200 XP)
+Vulnerabilities: Fire
+
+Actions
+Multiattack. The goblin makes two attacks with its scimitar. The second attack has disadvantage.
+Scimitar. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:  (1d20 + 1) slashing damage.
+Javelin. Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit:  (1d20 – 3 (min 0)) piercing damage.
+
+Goblin Boss Behavior chart
+
+Die roll | Behavior
+1 | The goblin boss makes a scimitar attack against himself
+2 | The goblin boss moves into melee range, makes 2 scimitar attacks using multiattack and then disengages and moves out of range.
+3 | The goblin boss does nothing
+4 | The goblin boss moves out of melee range if possible and makes a javelin attack
+5 | The goblin boss moves into melee range, makes 2 scimitar attacks using multiattack and then disengages and moves out of range.
+6 | The goblin boss does nothing
+7 | The goblin boss does nothing
+8 | The goblin boss moves into melee range, makes 2 scimitar attacks using multiattack and then disengages and moves out of range.
+9 | The goblin boss does nothing
+10 | The goblin boss moves out of melee range if possible and makes a javelin attack
+11 | The goblin boss does nothing
+12 | The goblin boss moves into melee range, makes 2 scimitar attacks using multiattack and then disengages and moves out of range.
+13 | The goblin boss does nothing
+14 | The goblin boss moves out of melee range if possible and makes a javelin attack
+15 | The goblin boss does nothing
+16 | The goblin boss does nothing
+17 | The goblin boss moves into melee range, makes 2 scimitar attacks using multiattack and then disengages and moves out of range.
+18 | The goblin boss does nothing
+19 | The goblin boss moves into melee range, makes 2 scimitar attacks using multiattack and then disengages and moves out of range.
+20 | The goblin boss does nothing
+
+
+
+Bulette
+
+Bulette
+[  ]
+Large monstrosity, unaligned
+Armor Class 17 (natural armor)
+Hit Points 150
+Speed 9999ft
+STR
+19 (+4)
+DEX
+11 (+0)
+CON
+21 (+5)
+INT
+2 (-4)
+WIS
+10 (+0)
+CHA
+5 (-3)
+Skills Perception +6
+Senses darkvision 60 ft., tremorsense 60 ft., passive Perception 16
+Languages —
+Challenge 5 (1800 XP)
+Standing Leap. The bulette's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start.
+
+Actions
+Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 3d20 + 4 bludgeoning damage
+Deadly Leap. The Bulette makes a melee attack against a creature in range. The creature must then make a DC 16 Strength Saving throw, on a failure they take 4d20 bludgeoning damage and lose their next turn.
+
+
+Bulette behavior chart
+
+
+Die roll | Behavior
+1 | The Bulette takes the dodge action
+2 | The bulette moves into melee range and makes a deadly leap attack
+3 | The Bulette moves into melee range and makes a bite attack
+4 | The Bulette moves into melee range and makes a bite attack
+5 | The bulette moves into melee range and makes a deadly leap attack
+6 | The Bulette takes the dodge action
+7 | The bulette moves into melee range and makes a deadly leap attack
+8 | The Bulette moves into melee range and makes a bite attack
+9 | The Bulette takes the dodge action
+10 | The Bulette moves into melee range and makes a bite attack
+11 | The Bulette moves into melee range and makes a bite attack
+12 | The Bulette moves into melee range and makes a bite attack
+13 | The Bulette takes the dodge action
+14 | The bulette moves into melee range and makes a deadly leap attack
+15 | The bulette moves into melee range and makes a deadly leap attack
+16 | The Bulette moves into melee range and makes a bite attack
+17 | The Bulette moves into melee range and makes a bite attack
+18 | The bulette moves into melee range and makes a deadly leap attack
+19 | The Bulette moves into melee range and makes a bite attack
+20 | The Bulette takes the dodge action

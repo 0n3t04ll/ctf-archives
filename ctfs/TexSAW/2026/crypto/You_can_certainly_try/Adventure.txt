@@ -1,0 +1,51 @@
+The Whispering Trail
+
+The party begins in the bustling frontier town of Briar Glen, a place of whispered rumors and wary eyes. Word has spread of a hidden cave deep within the wilderness that holds the key to a great power. However, the townsfolk are tight-lipped. Each adventurer must try their luck at charming or coaxing out the truth from suspicious innkeepers, drunken hunters, or mysterious elders. Only when one hero passes a DC 18 Persuasion check do the rumors give way to truth: a secret cave entrance, buried beneath vines and stone, somewhere beyond the western ridge.
+
+The Spiteful Path
+
+Upon finding the entrance, hidden beneath the gnarled roots of a thunderstruck tree, the cave mouth yawns wide like the jaws of some ancient beast. Inside, it is dim and oppressive. As the party advances, each adventurer must make a DC 10 Perception check to spot the crude, rusting spikes hidden just beneath a thin veil of moss and soil. On a failure, a character hears the sickening crunch of metal piercing boot or skin - taking 1d20 - 5 piercing damage. The cave welcomes them with pain.
+
+Trial by Flame
+
+As the group regathers, suddenly - a click echoes in the tunnel. A mechanism hidden beneath the soil has been triggered. The last adventurer whose priority number appears on a die must test their reflexes - a DC 14 Dexterity saving throw to dodge a burst of flame erupting from the wall! Failure means 1d20 fire damage scorches through armor and cloak alike. The ancient trap resets with a soft hiss.
+
+The River of Risk
+
+Eventually, the cave opens into a wide cavern, split by an underground river. The stone is slick, and there's no bridge - just mossy rocks and rotting logs that offer a treacherous crossing. Each party member must make a DC 10 Acrobatics check to cross without falling. A slip means a crash into the shallows and 5 bludgeoning damage from the force of the current and jagged stones.
+
+The Ascent of Bone
+
+On the other side lies a steep wall of jagged limestone, studded with the bones of past climbers. Their rusted gear clinks in the breeze. There is no other path forward. Each adventurer must make a DC 10 Athletics check to scale the cliff face. Those who fail are left breathless and drained by the effort - they suffer one level of exhaustion as the climb takes its toll.
+
+Ambush from Above
+
+Atop the cliff, the party barely has time to catch their breath when three Goblin Bosses leap from hiding spots in the shadows, bows drawn and blades gleaming, shouting war cries in guttural tones. They are outside melee range. You are not surprised.
+Roll initiative!
+
+The Scavenger’s Boon
+
+After the skirmish, the party scours the battlefield. Tucked behind rocks and fallen logs, hidden among the goblins’ crude supplies, are glinting bottles and untouched satchels. Each party member must make a DC 10 Investigation check. Those who succeed discover a potion of healing, and recover 20 HP - the faint sweet scent of elderberry signaling its potency.
+
+The Vines That Bite
+
+Further in, the cave narrows and the air thickens with spores. Vines hang like veins from the ceiling, some twitching when brushed. This passage is a trap in disguise. The party must tread carefully - a DC 12 Survival check is needed to avoid the poisonous tendrils. A single misstep results in being snared and injected with a toxic sap - 1d20 poison damage on a failed check.
+
+The Terror Below
+
+The passage widens again, the floor trembling slightly with each step. Then, from beneath the cracked stone, it erupts - a massive Bulette, armor-plated and hungry. It roars and stamps, snorting dust from its nostrils.
+It’s outside melee range.
+Roll initiative!
+
+The Secret of the Code
+
+When the Bulette is felled - or if all heroes fall in battle - the cavern trembles one final time. From beneath the Bulette’s corpse or in its grip lies a scroll, sealed with molten wax. Upon breaking it or seeing it from the afterlife, the players receive the Bulette’s secret code:
+
+Roll a d20. That number is the first element of the code.
+
+Then, roll that many d20s - the result of that last roll result is the next element.
+
+For each of those new elements, roll more d20s equal to that result - and so on, until there are exactly 20 numbers total, each written as two digits (e.g., 00, 04, 18).
+The code is complete when 20 total numbers have been recorded. Ex: 01,02,03,04,…
+
+What this code unlocks – the flag! - texsaw{code}
