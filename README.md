@@ -3876,7 +3876,11 @@
             <td><a href="https://ctftime.org/event/1032/tasks/" target="_blank">CTFtime</a></td>
         </tr>
         <tr>
-            <td rowspan=6><a href="ctfs/VolgaCTF">VolgaCTF</a></td>
+            <td rowspan=7><a href="ctfs/VolgaCTF">VolgaCTF</a></td>
+            <td><a href="ctfs/VolgaCTF/2026/Quals">2026 Quals</a></td>
+            <td><a href="https://ctftime.org/event/3045/tasks/" target="_blank">CTFtime</a></td>
+        </tr>
+        <tr>
             <td><a href="ctfs/VolgaCTF/2025/Quals">2025 Quals</a></td>
             <td><a href="https://ctftime.org/event/2676/tasks/" target="_blank">CTFtime</a></td>
         </tr>

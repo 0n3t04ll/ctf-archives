@@ -1,0 +1,3 @@
+Written by minlit
+
+There's a spy amongst us! We found one of their messages, but can't seem to crack it. For some reason, they wrote the message down twice.

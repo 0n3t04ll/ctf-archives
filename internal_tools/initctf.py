@@ -1,0 +1,78 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+import re
+import subprocess
+import time
+import tempfile
+import shutil
+import requests
+from bs4 import BeautifulSoup
+import datetime
+import argparse
+
+if __name__ == '__main__':
+  parser = argparse.ArgumentParser()
+  parser.add_argument("--url", type=str)
+  parser.add_argument('--browser', action='store_true')
+  args = parser.parse_args()
+
+  if args.url:
+    if args.browser:
+      page_content = subprocess.check_output(f'node {os.path.dirname(sys.argv[0])}/readctf.js {args.url}', shell=True)
+    else:
+      event_id = re.search(r'ctftime\.org/event/(\d+)', args.url).group(1)
+      # request the ctf event page
+      page_content = requests.get(args.url,
+                       allow_redirects=True,
+                       headers = {
+                        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+                        }).content
+  else:
+    page_content = '\n'.join([l for l in sys.stdin.readlines()])
+
+  soup = BeautifulSoup(page_content, 'html.parser')
+  for link in soup.find_all('a'):
+    if not link.get('href'):
+      continue
+
+    m = re.fullmatch(r'/ctf/(\d+)', link.get('href'))
+    if m:
+      ctf_id = m.group(1)
+      ctf_name = ''
+      for t in link.text.strip().split():
+        if t.lower() in ['ctf', 'ctfs', 'online']:
+          break
+        ctf_name += t
+
+      break
+
+  for meta in soup.find_all('meta'):
+    if meta.get('property') != 'og:url':
+      continue
+
+    event_id = re.search(r'ctftime\.org/event/(\d+)', meta.get('content')).group(1)
+
+    break
+
+
+  ctf_name = re.sub(r'[^0-9a-zA-Z_@+\.+]+', '', ctf_name.replace('Preliminary', '').replace('Qualifier', '').strip().replace('å', 'a').replace('$', 'S').replace('!', 'i'))
+  ctf_name = re.sub(r'\d+$', '', ctf_name).strip('.')
+  if not ctf_name:
+    ctf_name = 'UNKNOWN'
+  full_name = f'{ctf_name}/{datetime.date.today().year}'
+  title = soup.find_all('title')[0].text.lower()
+  if 'teaser' in title or 'qualifier' in title or 'quals' in title or 'preliminary' in title or 'prequal' in title or 'qualification' in title or 'qualifying' in title:
+    full_name += '/Quals'
+  elif 'finals' in title:
+    full_name += '/Finals'
+
+  os.system(f'mkdir -p {full_name}')
+  for category in ['crypto', 'web', 'pwn', 'rev', 'misc', 'forensic', 'osint', 'net', 'steg', 'mobile', 'blockchain', 'hw', 'ppc', 'ai']:
+    os.system(f'mkdir {full_name}/{category}')
+
+  open(f'{ctf_name}/README.md', 'w').write(f'[CTFtime Page](https://ctftime.org/ctf/{ctf_id})\n')
+  open(f'{full_name}/README.md', 'w').write(f'[CTFtime Page](https://ctftime.org/event/{event_id})\n')
+
+  print(full_name)
