@@ -1,0 +1,1 @@
+A rural clinic's patient records were encrypted before transmission to the regional health authority. The encryption was implemented by a volunteer developer who prioritized speed over security. We have the public key and one encrypted record. Recover the contents before the outbreak response window closes.

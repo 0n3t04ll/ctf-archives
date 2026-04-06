@@ -1,0 +1,1 @@
+An e-prescription system was pulled from a telehealth platform after reports that unauthorized prescriptions were being issued. Forensics recovered the authorization binary, but the validation logic is unlike anything the analysts have seen — the decompiler output is useless. Something else is running inside this binary. Figure out what it's checking.

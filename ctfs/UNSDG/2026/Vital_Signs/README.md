@@ -1,0 +1,1 @@
+A medical device manufacturer distributed a firmware validation tool to hospital IT departments. The tool checks a maintenance passphrase before granting access to ventilator diagnostics. A security researcher flagged that the authentication logic looks custom-built rather than using standard cryptographic libraries. Recover the passphrase.
