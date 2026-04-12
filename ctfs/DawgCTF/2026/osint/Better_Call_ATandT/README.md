@@ -1,0 +1,4 @@
+Author: BFE100
+I was watching my favorite show Better Call Saul recently and noticed something peculiar, can you figure out what the phone number for this parking garage is? I wanna recreate the shot...
+
+Your flag will be the number for the garage without dashes, e.g DawgCTF{2015552124}.

@@ -1,0 +1,3 @@
+By K4V1N
+
+"I am Dhurandhar. RAW agent. Deep cover in Karachi." My handler is burned. My cover is thin. But I got inside — inside the office of a Pakistani politician who's been feeding intel to the wrong side. I cloned his machine before the guards came back. One memory dump. That's all I got out. Somewhere in that dump is the identity of the other agent — the one who's been working this city longer than me to get something more precious. He left breadcrumbs. A file his machine touched. A network packet that shouldn't exist. A secret split in two — half buried in the wire, half sleeping in memory. He left his secret phrase somewhere find that.

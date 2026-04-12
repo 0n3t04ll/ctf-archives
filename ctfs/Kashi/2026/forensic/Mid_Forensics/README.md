@@ -1,0 +1,1 @@
+A packet capture was collected from an internal network segment during routine monitoring. No alerts were triggered at the time, and the traffic appears largely normal. Your task is to analyze the capture and determine whether any meaningful information can be recovered. If so, extract it.

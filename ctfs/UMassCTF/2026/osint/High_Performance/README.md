@@ -1,0 +1,4 @@
+osint medium
+Posco
+
+I've heard there's a computer shop in the area that sells a computer that isn't designed to run Windows, macOS, or Linux. What's the processor that's in their flagship, PCIe-capable system? Flag format: UMASS{Name of Processor}, i.e. UMASS{AMD Ryzen 7 9800X3D}

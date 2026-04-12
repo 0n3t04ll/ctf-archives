@@ -1,0 +1,4 @@
+Author: BFE125
+I just got another pic from the warehouse, not a lot to go on here, but could you figure out the screen size of this laptop?
+
+The flag format will look like DawgCTF{18.9IN}.

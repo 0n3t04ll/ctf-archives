@@ -1,0 +1,4 @@
+Author: BFE100
+I saw this weird lock at the escape room I work at. Can you figure out what series it is, and how tall the lock body is?
+
+The flag will be in the following format: DawgCTF{BEST500_95MM}

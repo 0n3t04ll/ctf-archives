@@ -61,18 +61,44 @@ if __name__ == '__main__':
   ctf_name = re.sub(r'\d+$', '', ctf_name).strip('.')
   if not ctf_name:
     ctf_name = 'UNKNOWN'
-  full_name = f'{ctf_name}/{datetime.date.today().year}'
+  ctf_year = datetime.date.today().year
+  full_path = f'{ctf_name}/{ctf_year}'
+  full_title = ctf_year
   title = soup.find_all('title')[0].text.lower()
   if 'teaser' in title or 'qualifier' in title or 'quals' in title or 'preliminary' in title or 'prequal' in title or 'qualification' in title or 'qualifying' in title:
-    full_name += '/Quals'
+    full_path += '/Quals'
+    full_title += ' Quals'
   elif 'finals' in title:
-    full_name += '/Finals'
+    full_path += '/Finals'
+    full_title += ' Finals'
 
-  os.system(f'mkdir -p {full_name}')
+  soup = BeautifulSoup(open('../README.md').read(), 'html.parser')
+  found = False
+  for tr in soup.tbody.find_all('tr'):
+    td = tr.find_all('td')[0]
+    if td.has_attr('rowspan'):
+      curr_ctf_name = td.a['href'].split('/')[1]
+      if ctf_name == curr_ctf_name:
+        found = True
+        new_tr = BeautifulSoup(f'''
+          <tr>
+              <td rowspan={int(td['rowspan']) + 1}><a href="ctfs/{ctf_name}">{ctf_name}</a></td>
+              <td><a href="ctfs/{full_path}">{full_title}</a></td>
+              <td><a href="https://ctftime.org/event/{event_id}/tasks/" target="_blank">CTFtime</a></td>
+          </tr>
+        ''', "html.parser")
+        tr.insert_before(new_tr.tr)
+        td.decompose()
+        open('../README.md', 'w').write(soup.prettify())
+        break
+
+  assert found
+
+  os.system(f'mkdir -p {full_path}')
   for category in ['crypto', 'web', 'pwn', 'rev', 'misc', 'forensic', 'osint', 'net', 'steg', 'mobile', 'blockchain', 'hw', 'ppc', 'ai']:
-    os.system(f'mkdir {full_name}/{category}')
+    os.system(f'mkdir {full_path}/{category}')
 
   open(f'{ctf_name}/README.md', 'w').write(f'[CTFtime Page](https://ctftime.org/ctf/{ctf_id})\n')
-  open(f'{full_name}/README.md', 'w').write(f'[CTFtime Page](https://ctftime.org/event/{event_id})\n')
+  open(f'{full_path}/README.md', 'w').write(f'[CTFtime Page](https://ctftime.org/event/{event_id})\n')
 
-  print(full_name)
+  print(full_path)

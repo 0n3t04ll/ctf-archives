@@ -1,0 +1,272 @@
+🛡️ The Chronicle of UNI6 – A CTF Tale
+
+In a realm governed not by kings, but by logic, exploits, and curiosity… there existed a battlefield known only as UNI6.
+
+Legends say that those who entered this arena were not mere participants — they were seekers of hidden truths.
+
+Some came alone. Some came in teams. Few understood the rules… fewer survived them.
+
+📜 Chapter I – The Invitation
+
+The scroll read:
+
+“Only those who can uncover fragments of truth hidden in chaos shall rise.”
+
+It mentioned something about flags — strange tokens shaped like:
+
+UNI6{...}
+
+But beware — not everything that looks like a flag is real.
+
+Some were whispers:
+
+UNI6{n0t_4_r34l_fl4g}
+UNI6{d3c0y_rul3_byt3}
+
+And one… hidden among them all:
+
+UNI6{g3n3r4l_rul3s_ch3ck}
+
+No one knew which one mattered.
+
+👥 Chapter II – The Gathering
+
+Warriors assembled — students, engineers, hackers, dreamers.
+
+Some formed alliances:
+
+Small guilds of 3 or 4
+Others walked alone
+
+But the elders warned:
+
+“Many faces, one identity.”
+
+Those who tried to cheat fate with multiple identities were erased.
+
+Some inscriptions found on old stones:
+
+UNI6{f4k3_1d3nt1ty}
+UNI6{3l1g1b1l1ty_v4l1d}
+UNI6{gh0st_4cc0unt}
+🧠 Chapter III – The Code of Honor
+
+Before entering the arena, each participant had to swear:
+
+“I shall not harm the realm, nor its people.”
+
+Those who broke this oath faced instant exile.
+
+Hidden in the oath were fragments:
+
+UNI6{c0nduct_cl34n_pl4y}
+UNI6{tox1c_b3h4v10r}
+UNI6{f4k3_eth1cs}
+
+Which one holds truth? Only the worthy can tell.
+
+⚠️ Chapter IV – The Forbidden Arts
+
+The arena allowed creativity… but not destruction.
+
+Allowed arts:
+
+Crafting scripts
+Building exploits
+Learning from ancient archives (internet)
+
+Forbidden arts:
+
+Attacking the realm itself
+Flooding gates (DDoS)
+Breaking unintended paths
+
+Scattered warnings:
+
+UNI6{4ct1v1ty_r3str1ct10n}
+UNI6{dd0s_m4st3r}
+UNI6{brut3_f0rc3_king}
+🔐 Chapter V – The Language of Flags
+
+Many tried submitting answers… few succeeded.
+
+The scroll clearly whispered:
+
+UNI6{example_flag}
+
+But even a single misplaced character meant failure.
+
+Among ruins, inscriptions appeared:
+
+UNI6{fl4g_f0rm4t_v4l1d}
+UNI6{wr0ng_f0rm4t}
+UNI6{c4s3_br34k}
+🖥️ Chapter VI – The Realm Itself
+
+The arena was alive.
+
+Some foolish warriors tried scanning its veins, probing its defenses…
+
+They vanished.
+
+Only these echoes remained:
+
+UNI6{pl4tf0rm_s4f3}
+UNI6{p0rt_sc4nn3r}
+UNI6{unauth_acc3ss}
+🤝 Chapter VII – The Pact
+
+Teams worked together — but betrayal was forbidden.
+
+A rule carved in stone:
+
+“Trust only your circle.”
+
+Yet among the carvings:
+
+UNI6{t34m_1nt3gr1ty}
+UNI6{sh4r3d_s3cr3t}
+UNI6{m3rg3_4tt3mpt}
+⏱️ Chapter VIII – Time’s Curse
+
+The arena existed within time.
+
+Enter too late… or leave too early… and all progress is lost.
+
+Ancient timers marked the flow:
+
+UNI6{t1m3_c0ntr0l}
+UNI6{d34dl1n3_br34k}
+UNI6{t1m3_tr4v3l}
+🧾 Chapter IX – The Scoring Relic
+
+Points shifted like sand.
+
+The more people solved… the less valuable it became.
+
+But legends spoke of bonuses:
+
+🩸 “First Blood”
+
+Fragments found:
+
+UNI6{sc0r1ng_m3ch}
+UNI6{f1rst_bl00d}
+UNI6{p01nt_dr41n}
+🛑 Chapter X – The Fall
+
+Some tried to cheat the system.
+
+Their fate?
+
+Erased.
+
+All that remained were broken fragments:
+
+UNI6{d1sq4l1fy_tr1gg3r}
+UNI6{b4nn3d_us3r}
+UNI6{sh4d0w_pl4y}
+🌐 Chapter XI – The Uncontrollable
+
+Storms (internet issues) could disrupt warriors.
+
+The arena did not wait… but sometimes… it showed mercy.
+
+UNI6{1nfr4_st4b1l1ty}
+UNI6{s3rv3r_cr4sh}
+UNI6{l4g_sp1k3}
+🧑‍⚖️ Chapter XII – The Overseers
+
+Above all stood the Organizers.
+
+Their word was absolute.
+
+UNI6{0rg_r1ghts}
+UNI6{rul3_ch4ng3}
+UNI6{f1n4l_d3c1s10n}
+📢 Chapter XIII – The Signals
+
+Messages were sent through hidden channels:
+
+Discord… WhatsApp… Email…
+
+Miss them… and you miss everything.
+
+UNI6{c0mm_ch4nn3l}
+UNI6{m1ss3d_4nn0unc3}
+UNI6{f4k3_n0t1c3}
+🧪 Chapter XIV – The True Path
+
+Not all solutions were meant to be discovered.
+
+Some paths were traps.
+
+The wise reported… the foolish exploited.
+
+UNI6{1nt3nd3d_s0lv3}
+UNI6{byp4ss_m3th0d}
+UNI6{un1nt3nd3d_bug}
+🔍 Chapter XV – The Price of Knowledge
+
+Hints existed…
+
+But knowledge always had a cost.
+
+UNI6{h1nt_us4g3}
+UNI6{fr33_h1nt}
+UNI6{p01nt_l0ss}
+📤 Chapter XVI – The Aftermath
+
+Stories could be shared…
+
+But only after the war ended.
+
+UNI6{wr1t3up_l4t3r}
+UNI6{l34k3d_s0lut10n}
+UNI6{pr3m4tur3_sh4r3}
+🏆 Chapter XVII – The Reward
+
+Victory brought recognition.
+
+But only after verification.
+
+UNI6{pr1z3_d1str1b}
+UNI6{f4k3_w1nn3r}
+UNI6{unv3r1f13d}
+⚖️ Chapter XVIII – The Balance
+
+The arena demanded fairness.
+
+No shortcuts. No unfair gains.
+
+UNI6{f41r_pl4y_0nly}
+UNI6{ch34t_c0d3}
+UNI6{h1dd3n_4dv4nt4g3}
+📩 Chapter XIX – The Whisper
+
+If lost… ask.
+
+But never exploit.
+
+UNI6{h3lp_d3sk}
+UNI6{s1l3nt_bug}
+UNI6{3xpl01t_1t}
+🔒 Chapter XX – The Final Seal
+
+Your data… your identity…
+
+Protected.
+
+Or so they say.
+
+UNI6{d4t4_pr0t3ct}
+UNI6{l34k3d_d4t4}
+UNI6{sh4r3d_1nf0}
+🧩 Final Note
+
+Not every UNI6{...} you see is truth.
+
+Some are noise. Some are traps. Some are shadows.
+
+“The real flag is never the loudest…
+it hides where confusion is deepest.”

@@ -1,0 +1,2 @@
+Author: Janus300
+Last weekend was a red team exercise against our malware attack vector depth analysis tool. The details of how it works are trade secrets, all we really need is a just verbose enough report on how accurate it was, and what our false positive and false negatives rates were for each classification in growing order of importance. Just to be clear, our boss is picky, they want exactly a single leading zero and no trailing zeros for these values. They also said something about all values needing to be comma separated and all.

@@ -237,7 +237,7 @@ def get_challenge_name(line):
   args = re.sub(r'\(solved by \d+ team(s)?\)$', '', args, flags=re.IGNORECASE).strip()
   args = re.sub('^(misc|crypto|rev|web|pwn)$', '', args).strip()
   while True:
-    new_args = re.sub(r'(assembly|brainfuck|esolang|crypto|golf|misc|gambling|raku|bash|c#|scheme|c\+\+|pickle|julia)$', '', args).strip()
+    new_args = re.sub(r'(assembly|brainfuck|esolang|crypto|misc|gambling|raku|bash|c#|scheme|c\+\+|pickle|julia)$', '', args).strip()
     if new_args == args:
       break
     args = new_args
@@ -259,7 +259,9 @@ if __name__ == '__main__':
 
   # create challenge directory
   chall_content = get_clipboard().split('\n') if args.input == 'clipboard' else sys.stdin.readlines()
-  lines = '\n'.join([re.sub(r'(\d+[ \t]+points|\d+pts)', r'\n\1', l.rstrip()) for l in chall_content]).strip().split('\n')
+  chall_content = '\n'.join([re.sub(r'(\d+[ \t]+points|\d+pts)', r'\n\1', l.rstrip()) for l in chall_content]).strip()
+  chall_content = re.sub(r'\(solved by \d+ team(s)?\)', '\n', chall_content, flags=re.IGNORECASE).strip()
+  lines = chall_content.split('\n')
   chal_name = get_challenge_name(replace_special_characters(lines[0]))
 
   lines = '\n'.join(lines[1:]).strip().split('\n')
@@ -284,8 +286,8 @@ if __name__ == '__main__':
   lines = [l for l in lines if l not in attachments]
 
   # compress big files
-  for file_ext in ['pcap', 'pcapng', 'wav', 'mp3', 'mov', 'mp4', 'log', 'exe', 'qcow2', 'img']:
-    os.system(f"""find "{chal_name}" -type f -name "*.{file_ext}" | xargs -n 1 xz""")
+  for file_ext in ['pcap', 'pcapng', 'wav', 'mp3', 'mov', 'mp4', 'log', 'exe', 'qcow2', 'img', 'txt']:
+    os.system(f"""find "{chal_name}" -type f -name "*.{file_ext}" -exec xz {{}} \\;""")
 
   readme = ''
   if os.path.exists('%s/README.md' % chal_name):
