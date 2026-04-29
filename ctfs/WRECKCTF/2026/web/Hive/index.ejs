@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hive</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+               background: #09090b; color: #e4e4e7; }
+        .header { background: #18181b; border-bottom: 1px solid #27272a; padding: 14px 0; }
+        .header-inner { max-width: 720px; margin: 0 auto; padding: 0 20px;
+                        display: flex; align-items: center; gap: 10px; }
+        .logo { width: 28px; height: 28px; background: #f59e0b; border-radius: 6px;
+                display: flex; align-items: center; justify-content: center;
+                font-weight: 800; color: #18181b; font-size: 14px; }
+        .header h1 { font-size: 1.2rem; color: #e4e4e7; }
+        .container { max-width: 720px; margin: 0 auto; padding: 28px 20px; }
+        h2 { color: #a1a1aa; font-size: 0.75rem; text-transform: uppercase;
+             letter-spacing: 1.5px; margin-bottom: 12px; }
+        .card { background: #18181b; border: 1px solid #27272a; border-radius: 10px;
+                padding: 20px; margin-bottom: 16px; }
+        .ws-list { list-style: none; }
+        .ws-list li { margin: 6px 0; }
+        .ws-list a { color: #f59e0b; text-decoration: none; font-weight: 500; }
+        .ws-list a:hover { text-decoration: underline; }
+        .empty { color: #52525b; font-size: 0.9rem; }
+        label { display: block; color: #a1a1aa; font-size: 0.85rem; margin-bottom: 4px; }
+        input, textarea { width: 100%; padding: 9px 12px; background: #09090b;
+                          border: 1px solid #3f3f46; border-radius: 6px; color: #e4e4e7;
+                          font-family: inherit; font-size: 0.9rem; margin-bottom: 12px; }
+        input:focus, textarea:focus { outline: none; border-color: #f59e0b; }
+        textarea { min-height: 80px; resize: vertical; font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.82rem; }
+        button { padding: 9px 18px; background: #f59e0b; color: #18181b; border: none;
+                 border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 0.9rem; }
+        button:hover { background: #d97706; }
+        .msg { margin-top: 10px; padding: 10px; border-radius: 6px; font-size: 0.85rem; display: none; }
+        .msg.ok { background: #14532d; color: #86efac; display: block; }
+        .msg.err { background: #450a0a; color: #fca5a5; display: block; }
+    </style>
+</head>
+<body>
+    <div class="header"><div class="header-inner">
+        <div class="logo">H</div>
+        <h1>Hive</h1>
+    </div></div>
+    <div class="container">
+        <div class="card">
+            <h2>Create Workspace</h2>
+            <label>Workspace ID</label>
+            <input id="ws-id" placeholder="my-project">
+            <label>Settings (JSON)</label>
+            <textarea id="ws-settings">{"theme": "dark", "language": "en"}</textarea>
+            <button onclick="createWs()">Create</button>
+            <div id="msg" class="msg"></div>
+        </div>
+
+        <h2>Workspaces</h2>
+        <% if (workspaceIds.length === 0) { %>
+            <p class="empty">No workspaces yet. Create one above.</p>
+        <% } else { %>
+            <ul class="ws-list">
+                <% workspaceIds.forEach(function(wid) { %>
+                    <li><a href="/api/workspace/<%= wid %>"><%= wid %></a></li>
+                <% }); %>
+            </ul>
+        <% } %>
+    </div>
+    <script>
+    function createWs() {
+        var id = document.getElementById('ws-id').value.trim();
+        var raw = document.getElementById('ws-settings').value.trim();
+        var msg = document.getElementById('msg');
+        try { var settings = JSON.parse(raw); } catch(e) {
+            msg.className = 'msg err'; msg.textContent = 'Invalid JSON'; return;
+        }
+        fetch('/api/workspace', {
+            method: 'POST', headers: {'Content-Type':'application/json'},
+            body: JSON.stringify({id: id, settings: settings})
+        }).then(r=>r.json()).then(function(d) {
+            if (d.error) { msg.className='msg err'; msg.textContent=d.error; }
+            else { msg.className='msg ok'; msg.textContent='Created! Redirecting...';
+                   setTimeout(function(){ window.location.href='/api/workspace/'+id; }, 600); }
+        });
+    }
+    </script>
+</body>
+</html>

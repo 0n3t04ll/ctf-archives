@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hive &middot; <%= id %></title>
+    <meta charset="utf-8">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+               background: #09090b; color: #e4e4e7; }
+        .header { background: #18181b; border-bottom: 1px solid #27272a; padding: 14px 0; }
+        .header-inner { max-width: 720px; margin: 0 auto; padding: 0 20px;
+                        display: flex; align-items: center; gap: 10px; }
+        .logo { width: 28px; height: 28px; background: #f59e0b; border-radius: 6px;
+                display: flex; align-items: center; justify-content: center;
+                font-weight: 800; color: #18181b; font-size: 14px; }
+        .header h1 { font-size: 1.2rem; }
+        .container { max-width: 720px; margin: 0 auto; padding: 28px 20px; }
+        .breadcrumb { color: #71717a; font-size: 0.85rem; margin-bottom: 16px; }
+        .breadcrumb a { color: #f59e0b; text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        h2 { font-size: 1.3rem; margin-bottom: 16px; }
+        pre { background: #18181b; border: 1px solid #27272a; border-radius: 10px;
+              padding: 20px; overflow-x: auto; font-family: 'SF Mono', 'Fira Code', monospace;
+              font-size: 0.85rem; line-height: 1.5; color: #a1a1aa; }
+    </style>
+</head>
+<body>
+    <div class="header"><div class="header-inner">
+        <div class="logo">H</div>
+        <h1>Hive</h1>
+    </div></div>
+    <div class="container">
+        <div class="breadcrumb"><a href="/">Workspaces</a> / <%= id %></div>
+        <h2><%= id %></h2>
+        <pre><%= JSON.stringify(workspace, null, 2) %></pre>
+    </div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+Shivang B.
+
+An unauthorized rogue astronaut has tried to attack the Orion Spacecraft linked to the Artemis Program. To protect the mission and capsule, NASA Space Asset Protection (SAP) has triggered Directive 43, forcing the spacecraft to drop its simple symmetric based encryption and upgrade to a “Rijndael” based encryption for all further transmission and communication. You have intercepted a short burst of telemetry data. This was used to confirm that the spacecraft is back in Safe Mode and secure from attackers. Using the file, decrypt the message to find the flag and confirm system status.

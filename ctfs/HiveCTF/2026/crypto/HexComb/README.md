@@ -1,0 +1,1 @@
+The hive keeps its secret in layers. We pulled the secret 453r0006op2s823n2002305341n2124q and need to recover the plaintext. Can you figure out how to crack it? We know they hash their secrets wrapped in HiveCTF{}, maybe you'll want to know that.

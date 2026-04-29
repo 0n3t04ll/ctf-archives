@@ -1,0 +1,1 @@
+We recently had a chain of attacks at some of our honey production facilities, and we've hired you to do some investigation into what happened. We recovered this packet capture from one of the sites. Can you figure out what the attacker did at this first site?

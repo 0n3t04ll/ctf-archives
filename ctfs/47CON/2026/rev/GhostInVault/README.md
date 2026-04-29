@@ -1,0 +1,1 @@
+We intercepted an executable functioning as a digital vault, engineered. Our analysts have tried to extract the secret, but the binary actively defends itself: it lies, alters its behavior if monitored, and refuses to cooperate if you modify a single byte of its code.

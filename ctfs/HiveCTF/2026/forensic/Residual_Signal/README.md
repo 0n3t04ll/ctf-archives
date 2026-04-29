@@ -1,0 +1,1 @@
+During a routine network monitoring session, an analyst captured anomalous traffic and exported a frequency visualisation before the tool crashed. The raw capture was lost in the process — only this PNG export survived. Spectral analysis was inconclusive. The frequencies appear dead. Maybe you'll hear something they didn't.

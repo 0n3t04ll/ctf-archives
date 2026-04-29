@@ -1,0 +1,3 @@
+cyb3r_s1lva
+
+We have been asked to create a similar encryption standard to DES to work on lightweight IBM computer systems. In order to test its strength against potential adversaries, can you retrieve the original plaintext in the given file with the encryption steps? The key might be missing a letter or two ...

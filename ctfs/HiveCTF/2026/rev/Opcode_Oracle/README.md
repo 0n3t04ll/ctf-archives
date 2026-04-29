@@ -1,0 +1,1 @@
+A stripped artifact from an unfamiliar system has been recovered, but only as raw code and scattered data. No symbols, no guidance, just a silent validator hidden in the machine. Somewhere inside is one accepted input. Find it.

@@ -1,0 +1,1 @@
+Okay, so we made a mistake last time, but this time we encrypted our image so you can't get it even if you intercept it. It's a great deal for us; we made the key something super easy for us to remember so we can decrypt the images easily, but you don't know anything about us so you'll never guess it!

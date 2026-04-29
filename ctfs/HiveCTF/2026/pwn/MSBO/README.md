@@ -1,0 +1,1 @@
+Our team of top notch cyber researchers has finally achieved perfect military-grade security! In this demo, we present a 100%% memory-safe buffer overflow. Just in case, we also block all dangerous syscalls. No funny business.

@@ -1,0 +1,3 @@
+A legacy navigation unit was recovered from a long-abandoned research satellite. The engineers who built it had… unusual taste in music. According to archived logs, the system’s reference coordinate was not chosen randomly, it points to the exact place where a certain iconic 1987 music video was filmed. Unfortunately, the satellite’s guidance computer crashed before transmitting the final destination. The only surviving artifact from the memory dump is a mysterious file attached to this challenge. Your task is to reverse-engineer and investigate what lies there over open Internet (where changes occur before even it happens).
+
+Flag Format: IIITL{ }

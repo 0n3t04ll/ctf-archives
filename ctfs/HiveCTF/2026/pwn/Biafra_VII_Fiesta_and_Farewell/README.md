@@ -1,0 +1,1 @@
+We have just received a version of Blackbox, an ancient data storage and retrieval device, from the fisherman. He claims that while this device does not contain the secrets we seek, it should help us understand how to remotely operate our true target. We are now one step away from unlocking the secrets of the Civil War.

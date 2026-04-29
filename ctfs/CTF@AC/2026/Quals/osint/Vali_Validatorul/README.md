@@ -1,0 +1,10 @@
+RaduTek
+
+Author
+RaduTek image
+RaduTek
+There's a freak in our city who rides the bus a lot and seems to have an odd obsession with ticket validator machines, so much that they spammed the internet with videos about it. Figure out what transit line they ride the most.
+
+The flag is CTFAC{name:stop}, with the line name and the name of the most frequent stop.
+
+Example: CTFAC{Linia 1:Gara de Nord}

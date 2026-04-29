@@ -1,0 +1,1 @@
+This catagorey is KeyCrafter it will test your knowledge of locks. You will be given a photo and must recreate the proper key. Each level will be in increasing difficulty. The general format for the flag will be UDCTF{KeyType_XXXXX} with X being the key cuts. Have fun!

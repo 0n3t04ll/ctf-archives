@@ -59,7 +59,7 @@ def is_valid(line):
   if line.strip().lower().startswith('download the attachment'):
     return False
 
-  if line.strip().lower() in ['attachment', 'handouts', 'show tags', 'download attachments', 'link to open instance']:
+  if line.strip().lower() in ['attachment', 'handouts', 'show tags', 'download attachments', 'link to open instance', 'question composition', 'genre']:
     return False
 
   if 'Dear PersianCats' in line.strip():
@@ -155,13 +155,6 @@ def is_valid(line):
   if is_all_numeric:
     return False
 
-  if line.strip().lower() in [
-    'welcome', 'expert', 'beginner', 'web', 're', 'rev', 'reverse', 'reversing', 'pwn', 'crypto', 'misc', 'tags', 'description', 'description:', 'cry', 'pts', 'solves', 'description', 'warmup', 'easy', 'medium', 'hard', 'insane', 'forensics', 'forensic', 'score', 'cryptography', 'submit flag', 'binary', 'steganography', 'unrated', 'reverse engineering', 'task', 'information', 'insights', 'read this carrefully because sometimes the author might leave hints.', 'download files', 'play challenge', 'problem', 'previous submissions', 'download', 'admin bot', 'website', 'pwning',
-    'misc icon', 'crypto icon', 'pwn icon', 'reversing icon', 'web icon', 'steg', 'stego', 'introduction', 'for sale', 'miscellaneous',
-    'total solves', 'author', 'score：', 'overview'
-  ]:
-    return False
-
   if re.fullmatch("category (forensics|reverse|web|crypto|pwn)", line.strip().lower()):
     return False
 
@@ -235,12 +228,6 @@ def get_challenge_name(line):
   args = re.sub(r'\(\d+ pts\)', '', args, flags=re.IGNORECASE).strip()
   args = re.sub(r'\(\d+\)$', '', args, flags=re.IGNORECASE).strip()
   args = re.sub(r'\(solved by \d+ team(s)?\)$', '', args, flags=re.IGNORECASE).strip()
-  args = re.sub('^(misc|crypto|rev|web|pwn)$', '', args).strip()
-  while True:
-    new_args = re.sub(r'(assembly|brainfuck|esolang|crypto|misc|gambling|raku|bash|c#|scheme|c\+\+|pickle|julia)$', '', args).strip()
-    if new_args == args:
-      break
-    args = new_args
   args = args.split()
 
   tokens = []
@@ -261,6 +248,9 @@ if __name__ == '__main__':
   chall_content = get_clipboard().split('\n') if args.input == 'clipboard' else sys.stdin.readlines()
   chall_content = '\n'.join([re.sub(r'(\d+[ \t]+points|\d+pts)', r'\n\1', l.rstrip()) for l in chall_content]).strip()
   chall_content = re.sub(r'\(solved by \d+ team(s)?\)', '\n', chall_content, flags=re.IGNORECASE).strip()
+  chall_content = re.sub(r'difficulty\nLv\.\d', '\n', chall_content, flags=re.IGNORECASE).strip()
+  chall_content = re.sub(r'score\n\d+\.\d+', '\n', chall_content, flags=re.IGNORECASE).strip()
+  chall_content = re.sub(r'maximum number of submissions\n\d+ times', '\n', chall_content, flags=re.IGNORECASE).strip()
   lines = chall_content.split('\n')
   chal_name = get_challenge_name(replace_special_characters(lines[0]))
 

@@ -1,0 +1,1 @@
+A visiting hive scholar left behind only a worn notebook. Inside, a single page contained nothing but a strange sequence and four numbers. At the bottom of the page was scribbled, "By this art you may contemplate the variation of the 23 letters." I wonder what this could... wait, aren't there more of them than that?!

@@ -1,0 +1,3 @@
+Evan Su
+
+The world witnessed the space race in the 1960s, a battle between two superpowers to see who could reach the Moon first. Throughout the decade, both sides spied on each other, hoping to gain intel on the other’s progress. Our agents have uncovered this image behind enemy lines. There might be some good intel within. We think the key is one of the most important space projects that paved the way for us to get to the Moon. One of their missions was pretty scary, though. Thank goodness the crew knew how to handle the dizzying situation. That’s all the information I have. Good luck…

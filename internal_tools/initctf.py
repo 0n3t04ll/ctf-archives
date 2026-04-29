@@ -63,7 +63,7 @@ if __name__ == '__main__':
     ctf_name = 'UNKNOWN'
   ctf_year = datetime.date.today().year
   full_path = f'{ctf_name}/{ctf_year}'
-  full_title = ctf_year
+  full_title = str(ctf_year)
   title = soup.find_all('title')[0].text.lower()
   if 'teaser' in title or 'qualifier' in title or 'quals' in title or 'preliminary' in title or 'prequal' in title or 'qualification' in title or 'qualifying' in title:
     full_path += '/Quals'
@@ -72,13 +72,25 @@ if __name__ == '__main__':
     full_path += '/Finals'
     full_title += ' Finals'
 
-  soup = BeautifulSoup(open('../README.md').read(), 'html.parser')
+  soup = BeautifulSoup(open('README.md').read(), 'html.parser')
   found = False
-  for tr in soup.tbody.find_all('tr'):
+  tr_elements = soup.tbody.find_all('tr')
+  for tr in tr_elements:
     td = tr.find_all('td')[0]
     if td.has_attr('rowspan'):
       curr_ctf_name = td.a['href'].split('/')[1]
-      if ctf_name == curr_ctf_name:
+      if ctf_name < curr_ctf_name:
+        found = True
+        new_tr = BeautifulSoup(f'''
+          <tr>
+              <td rowspan=1><a href="ctfs/{ctf_name}">{ctf_name}</a></td>
+              <td><a href="ctfs/{full_path}">{full_title}</a></td>
+              <td><a href="https://ctftime.org/event/{event_id}/tasks/" target="_blank">CTFtime</a></td>
+          </tr>
+        ''', "html.parser")
+        tr.insert_before(new_tr.tr)
+        break
+      elif ctf_name == curr_ctf_name:
         found = True
         new_tr = BeautifulSoup(f'''
           <tr>
@@ -89,16 +101,24 @@ if __name__ == '__main__':
         ''', "html.parser")
         tr.insert_before(new_tr.tr)
         td.decompose()
-        open('../README.md', 'w').write(soup.prettify())
         break
 
-  assert found
+  if not found:
+    new_tr = BeautifulSoup(f'''
+      <tr>
+          <td rowspan=1><a href="ctfs/{ctf_name}">{ctf_name}</a></td>
+          <td><a href="ctfs/{full_path}">{full_title}</a></td>
+          <td><a href="https://ctftime.org/event/{event_id}/tasks/" target="_blank">CTFtime</a></td>
+      </tr>
+    ''', "html.parser")
+    tr_elements[-1].insert_after(new_tr.tr)
 
-  os.system(f'mkdir -p {full_path}')
-  for category in ['crypto', 'web', 'pwn', 'rev', 'misc', 'forensic', 'osint', 'net', 'steg', 'mobile', 'blockchain', 'hw', 'ppc', 'ai']:
-    os.system(f'mkdir {full_path}/{category}')
+  open('README.md', 'w').write(soup.prettify())
 
-  open(f'{ctf_name}/README.md', 'w').write(f'[CTFtime Page](https://ctftime.org/ctf/{ctf_id})\n')
-  open(f'{full_path}/README.md', 'w').write(f'[CTFtime Page](https://ctftime.org/event/{event_id})\n')
+  for category in ['crypto', 'web', 'pwn', 'rev', 'misc', 'forensic', 'osint', 'net', 'steg', 'mobile', 'blockchain', 'hw', 'ppc', 'ai', 'jail', 'recon']:
+    os.system(f'mkdir -p ctfs/{full_path}/{category}')
+
+  open(f'ctfs/{ctf_name}/README.md', 'w').write(f'[CTFtime Page](https://ctftime.org/ctf/{ctf_id})\n')
+  open(f'ctfs/{full_path}/README.md', 'w').write(f'[CTFtime Page](https://ctftime.org/event/{event_id})\n')
 
   print(full_path)

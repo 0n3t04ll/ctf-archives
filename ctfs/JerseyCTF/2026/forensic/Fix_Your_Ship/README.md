@@ -1,0 +1,1 @@
+Your ship has crashed landed and you need to fix the engine but the files to access the schematics have been corrupted and there hexadecimal bits have been changed, luckily you remember the first file is a png which should help open the ships schematics give clues on how to fix the other files.

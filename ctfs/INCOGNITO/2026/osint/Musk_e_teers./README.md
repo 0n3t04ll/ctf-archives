@@ -1,0 +1,3 @@
+A dormant online identity known as “ilovectf” has resurfaced during a routine investigation, leaving behind a scattered digital trail across multiple platforms. While the content appears ordinary at first glance, subtle patterns suggest deliberate layering of hidden information within internet. Analysts believe the creator embedded clues in unconventional formats, requiring observation and interpretation rather than brute force. One recovered hint reads, “Some messages aren’t meant to be seen—they’re meant to be revealed differently.” Your task is to follow this trail, uncover the concealed transitions between platforms and formats, and ultimately extract the hidden flag buried within the noise.
+
+flag format: IIITL{flag}

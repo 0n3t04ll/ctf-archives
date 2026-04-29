@@ -1,4 +1,5 @@
 #!/bin/bash
 
-cd $(`dirname $0`/initctf.py "$@")
+cd ctfs/$(`dirname $0`/initctf.py "$@")
 
+git --no-pager diff

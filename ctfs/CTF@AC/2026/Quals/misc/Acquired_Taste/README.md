@@ -1,0 +1,14 @@
+Author
+gR3nn image
+gR3nn
+they said nobody would understand it
+
+maybe they were right
+
+what you need was left in the recovered noise
+
+the older tracks by y0ung 3zm4r don’t hold what you seek, they only teach you how to read it
+
+his music was always an acquired taste
+
+Flag format: CTFAC{sha256}

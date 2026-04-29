@@ -1,0 +1,3 @@
+akimon658
+
+I've started using the dark SNS "Z"! That badge looks cool...

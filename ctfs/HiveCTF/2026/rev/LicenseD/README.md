@@ -1,0 +1,1 @@
+Our lead developer built a custom license validation system, then quit without warning. No documentation, no handover, no source code. Just the binary sitting on a server. Someone needs to find a valid license key.

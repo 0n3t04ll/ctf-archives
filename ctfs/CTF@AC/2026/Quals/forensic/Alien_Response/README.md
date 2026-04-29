@@ -1,0 +1,6 @@
+Author
+gR3nn image
+gR3nn
+We finally got an answer. Earlier today, our deep-space listening posts from Australia intercepted a massive burst of anomalous audio. It sounds like pure cosmic static, but we know there is something buried inside. Download the transmission and find out what they are trying to tell us. Good luck!
+
+Flag format: CTFAC{sha256}
