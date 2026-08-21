@@ -1,0 +1,1 @@
+We have a DNS resolver that we use for some of our internal services, but it has been acting up lately. Can you check on it and see if it's working? Maybe you can even get it to work again if it's broken.

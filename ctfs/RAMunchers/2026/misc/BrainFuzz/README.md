@@ -1,0 +1,1 @@
+We have observed strange behaviour from the Gibson lately. Recently, the Gibson has been generating images of itself and random blobs of data. Can you look into this and see if there is any hidden meaning?

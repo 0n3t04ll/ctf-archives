@@ -40,13 +40,17 @@ if __name__ == '__main__':
     m = re.fullmatch(r'/ctf/(\d+)', link.get('href'))
     if m:
       ctf_id = m.group(1)
-      ctf_name = ''
-      for t in link.text.strip().split():
-        if t.lower() in ['ctf', 'ctfs', 'online']:
-          break
-        ctf_name += t
 
       break
+
+  title = soup.find_all('title')[0].text.replace('CTFtime.org / ', '').replace('अस्त्र', 'Astra')
+  ctf_name = ''
+  for t in title.split():
+    if t.lower() in ['ctf', 'ctfs', 'online', 'quals', 'qualifying', 'teaser', 'qualifiers', 'qualifier', 'preliminary', 'prequal', 'qualification']:
+      break
+    if re.fullmatch(r'q\d', t.lower()):
+      break
+    ctf_name += t[0].upper() + t[1:]
 
   for meta in soup.find_all('meta'):
     if meta.get('property') != 'og:url':
@@ -56,11 +60,10 @@ if __name__ == '__main__':
 
     break
 
-
-  ctf_name = re.sub(r'[^0-9a-zA-Z_@+\.+]+', '', ctf_name.replace('Preliminary', '').replace('Qualifier', '').strip().replace('å', 'a').replace('$', 'S').replace('!', 'i'))
+  ctf_name = re.sub(r'[^0-9a-zA-Z_@+\.+]+', '', ctf_name.replace('Preliminary', '').replace('Qualifiers', '').replace('Qualifier', '').strip().replace('å', 'a').replace('$', 'S').replace('/', ''))
   ctf_name = re.sub(r'\d+$', '', ctf_name).strip('.')
-  if not ctf_name:
-    ctf_name = 'UNKNOWN'
+  assert ctf_name != ''
+
   ctf_year = datetime.date.today().year
   full_path = f'{ctf_name}/{ctf_year}'
   full_title = str(ctf_year)
@@ -71,6 +74,10 @@ if __name__ == '__main__':
   elif 'finals' in title:
     full_path += '/Finals'
     full_title += ' Finals'
+
+  if os.path.isdir(f'ctfs/{full_path}'):
+    print(full_path)
+    sys.exit(0)
 
   soup = BeautifulSoup(open('README.md').read(), 'html.parser')
   found = False

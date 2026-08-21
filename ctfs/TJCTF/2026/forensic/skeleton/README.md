@@ -1,0 +1,2 @@
+tmm
+I zipped up a picture of the flag, but I forgot the password. Luckily, I saved the zip2john hash. Can you recover the image?

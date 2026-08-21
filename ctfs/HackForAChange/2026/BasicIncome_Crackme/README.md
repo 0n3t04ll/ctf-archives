@@ -1,0 +1,1 @@
+A stripped field verification tool checks household eligibility for a basic income programme. Run it and it will ask you for a household ID. Enter the right one and it prints a voucher. The binary ships without source code or documentation. The correct input is not random — it is derived from constants baked into the binary at build time. The voucher is the flag.

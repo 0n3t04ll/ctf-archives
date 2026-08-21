@@ -1,0 +1,2 @@
+andrew
+our security monitor only ever tips us off about the parity of RSA decryptions. turns out "even or odd" isn't much of a secret. can you recover the message one bit at a time?

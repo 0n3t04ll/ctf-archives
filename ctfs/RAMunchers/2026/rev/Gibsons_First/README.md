@@ -1,0 +1,1 @@
+Early versions of the Gibson left a lot to be desired in terms of generated code quality. Unfortunately, it appears that this code is still being used to secure critical information. Can you hack in and recover this data?

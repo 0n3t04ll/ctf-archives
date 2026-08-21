@@ -1,0 +1,1 @@
+After mastering basic examples, the Gibson has appeared to have moved to more complicated examples, using less crutches to ease the path of exploitation. Can you to exploit this new sample we have recovered and see how the AI has evolved?

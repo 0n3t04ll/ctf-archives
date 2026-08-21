@@ -1,0 +1,1 @@
+The Gibson has challenged people all over the world. It has claimed to be able to do anything we people can do and more. So far, it seems to have been right. Can you find a loophole in the competition and gain a competative edge over the Gibson?

@@ -1,0 +1,1 @@
+Almost a year after Byteville’s Bank Secure Vault was encrypted by the ransomware group PhantomGroup, investigators have reopened the case. Your mission is to analyze the old ransomware traces, recover the decryption key, and restore the city’s locked historical records without paying the ransom.

@@ -1,0 +1,5 @@
+wywy213
+
+I built a maze using goto statements! Navigate through it successfully to get the flag.
+
+Note: the provided file contains a dummy flag.

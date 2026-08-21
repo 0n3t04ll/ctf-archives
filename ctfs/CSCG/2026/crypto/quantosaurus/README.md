@@ -1,0 +1,4 @@
+Description
+You're studying a transcript of the mating calls of the famous quantosaurus. As you obviously know, the quantosaurus was way ahead of their time with their communication skills: They actually already used a post-quantum secure communication protocol, over 100 million years ago! The protocol is known as RAWR, and may have been recently rediscovered. Anyway, you'd really love to know what the mating call of these quantosauri was. Unfortunately, even if you had a quantum computer (which you don't), you couldn't break the transcript of their communication :( However, you know today that meteors were ultimately the demise of these incredibly savyy dinosaurs... And you're wondering: if they didn't see the meteor coming, maybe they also didn't protect their communication protocol that well from cosmic rays?
+
+Flag format: dach2026{...}.

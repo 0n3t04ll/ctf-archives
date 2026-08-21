@@ -1,0 +1,5 @@
+576a5debdec404ec476c1823fc8b45d909040f2da92195624b77c92fcc9c232a18f2f71ee81281fde3d8fe5763a3e7db576a5debdec404ec476c1823fc8b45d909040f2da92195624b77c92fcc9c232a18f2f71ee81281fde3d8fe5763a3e7db
+
+type = hash
+
+flagformat: 0xV01D{firsttype_secondetype.......} flag example: 0xV01D{sha3_sha1_sha4_sha9}

@@ -1,0 +1,1 @@
+We built a next-generation scanner that visualizes threats. Upload your suspicious files, and our engine will analyze every pixel and extract the hidden malicious patterns. Are your files clean, or are they hiding something dark deep inside the layers?

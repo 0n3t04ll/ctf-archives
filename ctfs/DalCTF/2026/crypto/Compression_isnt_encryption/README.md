@@ -1,0 +1,3 @@
+Written by: kebab
+
+What could this binary mean? Seems to have a pretty variable length...

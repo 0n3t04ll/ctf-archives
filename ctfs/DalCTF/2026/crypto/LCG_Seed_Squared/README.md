@@ -1,0 +1,3 @@
+Written by: Shade the Avali
+
+I've been messing around with LCGs recently. I've forgotten the seed but I can remember I took something squared...

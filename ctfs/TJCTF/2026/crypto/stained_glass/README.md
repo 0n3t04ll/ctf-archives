@@ -1,0 +1,2 @@
+bridging
+three brushes painted over the window.

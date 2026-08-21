@@ -1,0 +1,1 @@
+The Gibson has decided to explore the concept of binary exploitation and how it can use this to increase it's influence over internet connected devices. We have managed to recover a binary it has been testing on. Can you exploit the vulnerability and gain an understanding of the Gibson's progress?

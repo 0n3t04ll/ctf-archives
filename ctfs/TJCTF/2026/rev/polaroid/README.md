@@ -1,0 +1,2 @@
+bridging
+this old polaroid won't develop. it needs a password, and the password is somewhere on the film.

@@ -1,0 +1,104 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+  <circle cx="256" cy="256" r="220"
+          fill="#0A0A0A"
+          stroke="#1F1F1F"
+          stroke-width="10"/>
+
+  <path d="
+    M256 90
+    L380 145
+    L355 310
+    Q256 420 157 310
+    L132 145
+    Z"
+    fill="#111111"
+    stroke="#EAEAEA"
+    stroke-width="6"
+    stroke-linejoin="round"/>
+
+  <path d="
+    M256 125
+    L340 165
+    L323 286
+    Q256 360 189 286
+    L172 165
+    Z"
+    fill="#050505"
+    stroke="#2A2A2A"
+    stroke-width="3"/>
+
+  <g transform="translate(0,8)">
+
+    <path d="
+      M256 165
+      Q320 182 320 235
+      L320 270
+      Q292 320 256 355
+      Q220 320 192 270
+      L192 235
+      Q192 182 256 165
+      Z"
+      fill="#EAEAEA"
+      stroke="#111"
+      stroke-width="5"/>
+
+    <path d="
+      M208 235
+      L304 235
+      L282 268
+      L230 268
+      Z"
+      fill="#111111"/>
+
+    <line x1="256" y1="178" x2="256" y2="355"
+          stroke="#111"
+          stroke-width="5"/>
+
+    <line x1="228" y1="220" x2="245" y2="220"
+          stroke="#111"
+          stroke-width="4"
+          stroke-linecap="round"/>
+
+    <line x1="267" y1="220" x2="284" y2="220"
+          stroke="#111"
+          stroke-width="4"
+          stroke-linecap="round"/>
+
+  </g>
+
+  <path d="
+    M132 200
+    L95 256
+    L132 312"
+    fill="none"
+    stroke="#EAEAEA"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+  <path d="
+    M380 200
+    L417 256
+    L380 312"
+    fill="none"
+    stroke="#EAEAEA"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+  <path d="
+    M210 390
+    Q256 420 302 390"
+    fill="none"
+    stroke="#EAEAEA"
+    stroke-width="4"
+    stroke-linecap="round"/>
+<!-- entropy vector matrix -->
+<!-- corrupted spline -->
+<!-- render instability -->
+
+<metadata>
+U2VjTGVhZnticmFuZF9sb2dvfQ==
+</metadata>
+</svg>

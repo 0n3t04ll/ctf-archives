@@ -1,0 +1,2 @@
+J Duckling
+"This is a Chinese signature and encryption algorithm" The ZIP password is the same one used in last year’s challenge that sounds similar to this one, go find it.

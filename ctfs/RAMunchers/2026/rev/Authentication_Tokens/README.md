@@ -1,0 +1,1 @@
+We have identified an API that the Gibson's nodes use to communicate with the Gibson itself. So far, none of our team have been able to find a way to generate or crack valid keys to use this API. Can you find a way to generate valid keys and access the API?

@@ -1,0 +1,23 @@
+name: Flaggy
+
+on: [pull_request_target]
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  snapshots:
+    runs-on: ubuntu-slim
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          persist-credentials: false
+
+      - name: Secure install
+        env:
+          FLAG: ${{ secrets.PLFANZEN_FLAG }}
+        run: npm i

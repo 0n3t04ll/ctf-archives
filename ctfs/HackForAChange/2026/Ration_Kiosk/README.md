@@ -1,0 +1,1 @@
+A food-ration distribution kiosk accepts requests over standard input. It is a statically linked binary with no modern exploit mitigations. Somewhere inside the binary is a function that decrypts and prints the flag. The normal request-handling path never calls it. The function expects two arguments that are stored as globals. The kiosk reads your input into a fixed-size buffer.

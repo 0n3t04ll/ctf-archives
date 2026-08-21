@@ -1,0 +1,3 @@
+N00bcak
+
+One shudders at what a man can do when marginalized from popular Deep Learning canon...
