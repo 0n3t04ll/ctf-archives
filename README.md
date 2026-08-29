@@ -2332,11 +2332,23 @@
    </td>
   </tr>
   <tr>
-   <td rowspan="1">
+   <td rowspan="2">
     <a href="ctfs/BrunnerCTF">
      BrunnerCTF
     </a>
    </td>
+   <td>
+    <a href="ctfs/BrunnerCTF/2026">
+     2026
+    </a>
+   </td>
+   <td>
+    <a href="https://ctftime.org/event/3065/tasks/" target="_blank">
+     CTFtime
+    </a>
+   </td>
+  </tr>
+  <tr>
    <td>
     <a href="ctfs/BrunnerCTF/2025">
      2025
@@ -4714,6 +4726,23 @@
   </tr>
   <tr>
    <td rowspan="1">
+    <a href="ctfs/E0F">
+     E0F
+    </a>
+   </td>
+   <td>
+    <a href="ctfs/E0F/2026">
+     2026
+    </a>
+   </td>
+   <td>
+    <a href="https://ctftime.org/event/3400/tasks/" target="_blank">
+     CTFtime
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="1">
     <a href="ctfs/EBCTF">
      EBCTF
     </a>
@@ -6263,6 +6292,23 @@
    </td>
    <td>
     <a href="https://ctftime.org/event/549/tasks/" target="_blank">
+     CTFtime
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="1">
+    <a href="ctfs/Haruulzangi">
+     Haruulzangi
+    </a>
+   </td>
+   <td>
+    <a href="ctfs/Haruulzangi/2026/Quals">
+     2026 Quals
+    </a>
+   </td>
+   <td>
+    <a href="https://ctftime.org/event/3379/tasks/" target="_blank">
      CTFtime
     </a>
    </td>
@@ -11891,6 +11937,23 @@
   </tr>
   <tr>
    <td rowspan="1">
+    <a href="ctfs/TallDwarfHostingHostingTakeover">
+     TallDwarfHostingHostingTakeover
+    </a>
+   </td>
+   <td>
+    <a href="ctfs/TallDwarfHostingHostingTakeover/2026">
+     2026
+    </a>
+   </td>
+   <td>
+    <a href="https://ctftime.org/event/3394/tasks/" target="_blank">
+     CTFtime
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="1">
     <a href="ctfs/Tamil">
      Tamil
     </a>
@@ -13907,6 +13970,23 @@
    </td>
    <td>
     <a href="https://ctftime.org/event/724/tasks/" target="_blank">
+     CTFtime
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="1">
+    <a href="ctfs/Z0d1ak">
+     Z0d1ak
+    </a>
+   </td>
+   <td>
+    <a href="ctfs/Z0d1ak/2026/Quals">
+     2026 Quals
+    </a>
+   </td>
+   <td>
+    <a href="https://ctftime.org/event/3370/tasks/" target="_blank">
      CTFtime
     </a>
    </td>
