@@ -1,0 +1,45 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    TZ=Asia/Shanghai \
+    BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1 \
+    API_KEY=sk-****** \
+    OPENCODE_CONFIG_CONTENT='{"permission":{"bash":"deny","external_directory":"deny"}}'
+
+RUN pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/ && \
+    pip config set global.trusted-host mirrors.aliyun.com
+
+RUN sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list.d/debian.sources && \
+    sed -i 's/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list.d/debian.sources && \
+    apt-get update && \
+    apt-get install -y --no-install-recommends \
+    curl \
+    ca-certificates  nodejs npm \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN npm config set registry https://registry.npmmirror.com && npm install -g opencode-ai
+
+COPY src/requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY src/ .
+
+RUN mkdir -p /app/data && mkdir -p /root/.config/opencode
+
+COPY opencode.json /root/.config/opencode/opencode.json
+
+COPY init.sh /init.sh
+
+RUN chmod +x /init.sh && opencode db migrate
+
+EXPOSE 5000
+
+ENTRYPOINT ["/init.sh"]
+CMD ["python", "main.py"]
