@@ -1,0 +1,6 @@
+Easy Challenge!
+1- URL that server the executables
+2- Name of function that hosted shellcode
+Flag Format: Securinets{answer1-answer2}
+
+challenge.pcap

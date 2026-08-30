@@ -1,0 +1,7 @@
+Trust in shares.
+
+nc 20.216.10.118 1338
+
+Author : Aptx
+
+yor_forger.sage

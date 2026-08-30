@@ -1,0 +1,8 @@
+I read that BLS Signature scheme is strongly unforgeable.
+I couldn't find any ressources on its implementation, so i did implemented it by myself to test it for our Authentication System.
+
+nc 20.216.10.118 1337
+
+Author : Aptx
+
+loid-forger.sage

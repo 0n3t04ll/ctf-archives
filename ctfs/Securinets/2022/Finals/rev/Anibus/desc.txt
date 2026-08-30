@@ -1,0 +1,4 @@
+Can you break my simple ransomware? Pass: novirus Note the challenge was tested on Windows 10 only and may not work probably on older versions
+Zip password: novirus
+
+Author : joezid
