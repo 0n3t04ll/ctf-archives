@@ -1,0 +1,1 @@
+alert() is enough for bug bounty but not for a ctf (again, there's a separate XSS bot running)

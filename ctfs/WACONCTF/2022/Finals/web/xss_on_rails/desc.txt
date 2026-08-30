@@ -1,0 +1,1 @@
+I tried my best to look like a rails application (there's a separate XSS bot running)

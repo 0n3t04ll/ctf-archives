@@ -1,0 +1,3 @@
+During the quals, it was proved that superunsafejit is, indeed "super unsafe". I am happy to present supersafejit, which is totally bug-free. This challenge is unexploitable, so I recommend you not to try this.
+
+Flag is in the format WACon{XXX...XXX} where X consists of printable characters only.

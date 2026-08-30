@@ -1,0 +1,1 @@
+You find out that someone get a flag information with this binary, but related servers are now closed. Luckily, you get an inbound packets related to it.
