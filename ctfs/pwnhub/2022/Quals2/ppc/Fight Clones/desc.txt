@@ -1,0 +1,44 @@
+description
+Neo 被 Smith 的分身们包围了！他需要击败他们！
+每一个 Smith 都有自己的攻击值和生命值。在受到攻击之前，他们都可以持续攻击 Neo。Neo 也有自己的攻击值和
+生命值，虽然比 Smith 高得多，但是 Neo 一次也只能攻击一个 Smith（是的他没有 AOE）。Neo 需要找到一个最
+优的攻击策略，以保证自己生命值被减为零之前击倒所有 Smith。
+Neo 的生命值是确定的，Oracle 之前告诉过他。但是他需要知道自己的攻击值是否能够确保打赢 Smith 们。你能帮
+Neo 计算出他所需要的最小攻击值么？
+Neo 和 Smith 们是 实时战斗制（非回合制），即 Neo 和 Smith 们可以同时攻击对方，只不过 Neo 一个时间只能
+打一个 Smith，而 Smith 们可以群殴 Neo（不用考虑碰撞体积的问题）。
+可以假定 Neo 和 Smith 们每单位时间只能击打对手一次。例如，某个 Smith 生命值为 20，而 Neo 攻击值为15，
+那 Neo 也需要消耗两个单位的时间来消灭该 Smith，同时意味着有 10 单位的攻击力被浪费掉了。
+Smith 一旦受到 Neo 的攻击，就会停止击打 Neo。例如 Neo 和 Smith 某一个时刻同时攻击对方，Neo 则不会受
+到伤害。
+Time Limit: 5000MS
+Memory Limit: 256MBinput
+第一行输入两个整数 N、H (1 <= N <= 1000, 1 <= H <= 1000000)，表示总共有 N 个 Smith，以及 Neo 的生命值为 H。
+接下来 N 行，表示 N 个 Smith 的属性，每行格式为 A H，其中
+A 为该 Smith 的攻击值 (1 <= A <= 1000)。
+H 为该 Smith 的生命值 (1 <= H <= 1000)。output
+输出一个整数，表示所需要的最小攻击值。如果无法保证击败 Smith 们则输出 -1。Sample Input1
+5 11
+1 1
+1 1
+1 1
+1 1
+1 1Sample Output1
+1Sample Input2
+5 10
+1 1
+1 1
+1 1
+1 1
+1 1Sample Output2
+-1Sample Input3
+3 5
+1 1
+2 2
+3 3Sample Output3
+3Sample Input4
+3 4
+1 1
+2 2
+3 3Sample Output4
+-1
