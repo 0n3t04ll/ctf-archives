@@ -1,0 +1,5 @@
+sign in. The flag is drawn in your input
+
+附件下载 提取码（GAME）
+
+Hint:flag格式为FLAG{}

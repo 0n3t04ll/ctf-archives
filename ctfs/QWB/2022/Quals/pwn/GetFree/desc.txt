@@ -1,0 +1,7 @@
+nc 121.40.196.158 19999
+
+附件下载 提取码（GAME）
+
+hint1:qemu在arch linux 6月最新源环境下编译，GetFree为堆漏洞
+hint2:请先攻击用户态程序
+hint3:ObjectStack在free时会释放后续object及chunk，并重新计算chunk大小

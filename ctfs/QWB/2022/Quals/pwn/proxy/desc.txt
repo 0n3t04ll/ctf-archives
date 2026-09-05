@@ -1,0 +1,7 @@
+题目内容：我可能用了个有毛病的socks5代理（连接提供IP端口使用socks5代理）
+
+附件下载 提取码（GAME）
+
+hint1:线程超过8个之后，不同线程之间的堆是可以互相影响的。
+hint2:https://introspelliam.github.io/2017/09/10/pwn/Linux%E5%A0%86%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86%E6%B7%B1%E5%85%A5%E5%88%86%E6%9E%90%E4%B8%8A/
+hint3:巧妙设计线程，令使用同一个arena的前一个线程覆盖后一个线程的tcache_perthread_struct；各个arena之间通过指针组织成链表，可以完成libc地址的leak
