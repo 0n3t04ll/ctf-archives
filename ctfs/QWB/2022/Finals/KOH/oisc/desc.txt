@@ -1,0 +1,2 @@
+Upload your shellcode and print the flag at `/flag` to stdout. The shorter your shellcode, the higher rank you get.
+172.20.5.51  3344
