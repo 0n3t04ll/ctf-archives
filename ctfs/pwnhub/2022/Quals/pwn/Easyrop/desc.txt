@@ -1,0 +1,6 @@
+我可能是本次比赛最简单的题目了，没有显示绝对不因为我没跑起来，纯粹是因为我偷懒没有写输出，嗷呜~
+
+libc: GNU C Library (Ubuntu GLIBC 2.27-3ubuntu1.5) stable release version 2.27
+md5sum: 69982365f0e41b1e9be7816e71dd08d2
+
+libc-2.27.so

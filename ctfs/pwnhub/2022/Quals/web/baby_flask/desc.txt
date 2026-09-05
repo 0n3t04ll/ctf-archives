@@ -1,0 +1,2 @@
+flask还能干嘛，就是干嘛~
+flag 位置 /var/tmp/flag
