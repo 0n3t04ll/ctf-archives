@@ -1,0 +1,4 @@
+by simen
+Miscellaneous
+hardware
+I programmed a dot matrix display to print the flag. Can you check that I am sending the right commands?

@@ -1,0 +1,4 @@
+by simen
+Miscellaneous
+hardware
+I am tired of classic CTF flag checkers running in software. These are so slow with all the overhead due to non-specialised hardware and software. I made a hardware accelerated version in Verilog.

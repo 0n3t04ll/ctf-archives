@@ -1,0 +1,4 @@
+by hoover
+Reverse Engineering
+erlang
+We hot patched the validator during business hours. Nothing crashed, which is a good sign.

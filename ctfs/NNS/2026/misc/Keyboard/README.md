@@ -1,0 +1,4 @@
+by simen
+Miscellaneous
+hardware
+I thought I was writing confidentially on my USB keyboard, but it seems like someone has been analysing my bus.

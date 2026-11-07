@@ -1,0 +1,6 @@
+by hoover
+Cryptography
+zk
+In the ashes of a ceremony held long ago, you found a secret that was not hidden nearly well enough
+
+Use it to convince the Groth16 verifier that you are authorized to approve a huge mint!

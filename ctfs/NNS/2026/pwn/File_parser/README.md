@@ -1,0 +1,6 @@
+by Kriz
+Binary Exploitation
+I wrote this custom file format parser in C! a friend of mine said something about a "boffer underflow" or something, but thankfully i implemented security measures to ensure that no one can submit illegitimate files anyway
+
+Note
+The flag is located at /flag.txt

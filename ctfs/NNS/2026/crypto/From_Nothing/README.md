@@ -1,0 +1,3 @@
+by Zukane
+Cryptography
+the wise seek not what is present, but what is absent

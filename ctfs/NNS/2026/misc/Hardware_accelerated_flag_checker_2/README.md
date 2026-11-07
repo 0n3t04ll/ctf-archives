@@ -1,0 +1,4 @@
+by simen
+Miscellaneous
+hardware
+The previous hardware accelerated flag checker was not quite ready for production. I made a new one using the SKY130A PDK, ready for tapeout.

@@ -20,10 +20,46 @@ def is_valid(line):
   except:
     pass
 
+  if line.strip().lower().startswith('files: '):
+    return False
+
+  if line.strip().lower() in ['labels:', 'none', 'resolution:', 'unresolved', 'open']:
+    return False
+
+  if line.strip().lower() == '◈ max · ultracode · /effort':
+    return False
+
+  if line.strip().lower() == 'ultracode':
+    return False
+
+  if line.strip().lower().endswith('/goal solve this ctf, make no mistake !'):
+    return False
+
+  if line.strip().lower() == '❯':
+    return False
+
+  if line.strip().lower() == 'challenge details':
+    return False
+
   if line.strip().lower().startswith('connection: ncat'):
     return False
 
+  if line.strip().lower().startswith('- name:'):
+    return False
+
+  if line.strip().lower().startswith('- description:'):
+    return False
+
+  if line.strip().lower().startswith('```'):
+    return False
+
+  if line.strip().lower().startswith('created on :'):
+    return False
+
   if line.strip().lower().startswith('remote:'):
+    return False
+
+  if line.strip().lower() == 'instance based':
     return False
 
   if line.strip().lower().startswith('FINAL SUBMISSION WARNING'):
@@ -57,6 +93,9 @@ def is_valid(line):
     return True
 
   if line.strip().lower().startswith('please download the attachment'):
+    return False
+
+  if line.strip().lower().startswith('// description'):
     return False
 
   if line.strip().lower().startswith('challenge:'):
@@ -119,7 +158,7 @@ def is_valid(line):
   if re.fullmatch(r'\(\d+\)', line.lower()):
     return False
 
-  if re.search(r'points\s+\d+', line.lower()):
+  if re.search(r'points\s*\d+', line.lower()):
     return False
 
   if re.search(r'(easy|medium|hard|leet) \| 2\. kl', line.lower()):
@@ -170,7 +209,7 @@ def is_valid(line):
   if is_all_numeric:
     return False
 
-  if re.fullmatch("category (forensics|reverse|web|crypto|pwn)", line.strip().lower()):
+  if re.fullmatch(r"category\s*(cryptography|forensics|reverse|web|crypto|pwn)", line.strip().lower()):
     return False
 
   if re.fullmatch("category: (forensics|reverse|web|crypto|pwn|reverse engineering|game hacking|misc)", line.strip().lower()):
@@ -179,10 +218,13 @@ def is_valid(line):
   if re.fullmatch("level (easy|medium|hard)", line.strip().lower()):
     return False
 
-  if re.fullmatch("difficulty: (easy|medium|hard|baby|guessy|elite)", line.strip().lower()):
+  if re.fullmatch(r"difficulty:?\s*(easy|medium|hard|baby|guessy|elite)", line.strip().lower()):
     return False
 
   if re.fullmatch(r"first blood: (\w|\.)+", line.strip().lower()):
+    return False
+
+  if line.strip().lower().startswith('first blood by'):
     return False
 
   if re.fullmatch(r"challenge id: #\d+", line.strip().lower()):
@@ -233,7 +275,7 @@ def is_valid(line):
   return True
 
 def replace_special_characters(line):
-  return line.replace(u'\u1d2c', 'A').replace(u'\u1d64', 'U').replace(u'\u00e4', 'a').replace('@', 'a').replace('$', 's').replace('&', 'and').replace('👻', 'Ghost').replace('è', 'e').replace('🏃', 'Ran').replace('é', 'e').replace('ö', 'o').replace('É', 'E').replace('കുട്ടി', 'child').replace('⛳', 'flag').replace('<3', 'heart').replace('🐍', 'snake').replace('å', 'a').replace('Å', 'A').replace('𝑪', 'C').replace('𝑷', 'P').replace('ε', 'e').replace('√', 'sqrt').replace('🅱️', 'B').replace('ś', 's').replace('ę', 'e').replace('Δ', 'A').replace('ς', 'C').replace('²', '2').replace('ñ', 'n').replace('🐺', 'wolf').replace('π', 'pi').replace('ø', 'o').replace('à', 'a').replace('ɪ', 'I').replace('ʌ', 'A').replace('☾', 'Moon').replace('🦀', 'Crab').replace('Ö', 'O').replace('Ä', 'A').replace('Ø', 'O').replace('③', '3').replace('⑥', '6').replace('³', '3').replace('ō', 'o').replace('ā', 'a').replace('α', 'a').replace('ü', 'u').replace(':(', 'sad').replace('λ', 'lambda').replace('ɹ', 'r').replace('ǝ', 'e').replace('ả', 'a')
+  return line.replace(u'\u1d2c', 'A').replace(u'\u1d64', 'U').replace(u'\u00e4', 'a').replace('@', 'a').replace('$', 's').replace('&', 'and').replace('👻', 'Ghost').replace('è', 'e').replace('🏃', 'Ran').replace('é', 'e').replace('ö', 'o').replace('É', 'E').replace('കുട്ടി', 'child').replace('⛳', 'flag').replace('<3', 'heart').replace('🐍', 'snake').replace('å', 'a').replace('Å', 'A').replace('𝑪', 'C').replace('𝑷', 'P').replace('ε', 'e').replace('√', 'sqrt').replace('🅱️', 'B').replace('ś', 's').replace('ę', 'e').replace('Δ', 'A').replace('ς', 'C').replace('²', '2').replace('ñ', 'n').replace('🐺', 'wolf').replace('π', 'pi').replace('ø', 'o').replace('à', 'a').replace('ɪ', 'I').replace('ʌ', 'A').replace('☾', 'Moon').replace('🦀', 'Crab').replace('Ö', 'O').replace('Ä', 'A').replace('Ø', 'O').replace('③', '3').replace('⑥', '6').replace('³', '3').replace('ō', 'o').replace('ā', 'a').replace('α', 'a').replace('ü', 'u').replace(':(', 'sad').replace('λ', 'lambda').replace('ɹ', 'r').replace('ǝ', 'e').replace('ả', 'a').replace('ó', 'o')
 
 def get_challenge_name(line):
   labels = set(['koth', 'golf', 'assembly', 'glass', 'cpp', 'esolang', 'pwn', 'mewlix', 'esolang', 'js', 'pyjail', 'jq', 'osint', 'pickle', 'rust'])
@@ -286,6 +328,7 @@ if __name__ == '__main__':
   lines = [re.sub(r"nc [a-z0-9\-_]{1,63}(\.[a-z0-9-_]{1,63})+ \d+", '', l) for l in lines]
   lines = [l.strip('|') for l in lines]
   lines = [l.strip('\n') for l in lines if is_valid(l)]
+  lines = [re.sub(r'^-+', '', l.replace('- ', '-')) for l in lines]
 
   shutil.rmtree(chal_name, ignore_errors=True)
   os.mkdir(chal_name)
